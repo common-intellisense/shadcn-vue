@@ -1,0 +1,51 @@
+{
+  "name": "SidebarMenuButton",
+  "props": {
+    "tooltip": {
+      "type": "string | Component",
+      "default": "",
+      "description": "Tooltip text",
+      "description_zh": "提示文本",
+      "value": ""
+    },
+    "variant": {
+      "type": "default / outline",
+      "default": "default",
+      "description": "The variant of the button",
+      "description_zh": "按钮的变体",
+      "value": ""
+    },
+    "size": {
+      "type": "default / sm / lg",
+      "default": "default",
+      "description": "The size of the button",
+      "description_zh": "按钮的大小",
+      "value": ""
+    },
+    "isActive": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Indicates if the button is active",
+      "description_zh": "指示按钮是否处于活动状态",
+      "value": ""
+    },
+    "as": {
+      "type": "a / button / div / form / h2 / h3 / img / input / label / li / nav / ol / p / span / svg / ul / template / ({} & string) / Component",
+      "default": "button",
+      "description": "The HTML element or Vue component to render as the root element.",
+      "description_zh": "要渲染为根元素的 HTML 元素或 Vue 组件。",
+      "value": ""
+    },
+    "as-child": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Render as child element",
+      "description_zh": "渲染为子元素",
+      "value": ""
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sidebar.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html"
+}

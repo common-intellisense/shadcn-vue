@@ -1,0 +1,29 @@
+{
+  "name": "SidebarProvider",
+  "props": {
+    "defaultOpen": {
+      "type": "boolean",
+      "default": "true",
+      "description": "Whether the sidebar is open by default",
+      "description_zh": "侧边栏是否默认打开",
+      "value": ""
+    },
+    "open": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Whether the sidebar is open",
+      "description_zh": "侧边栏是否打开",
+      "value": ""
+    }
+  },
+  "events": [
+    {
+      "name": "update:open",
+      "description": "Emitted when the sidebar is opened or closed",
+      "description_zh": "侧边栏打开或关闭时触发"
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sidebar.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html"
+}

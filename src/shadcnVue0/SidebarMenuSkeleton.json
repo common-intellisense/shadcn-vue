@@ -1,0 +1,16 @@
+{
+  "name": "SidebarMenuSkeleton",
+  "props": {
+    "showIcon": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Show icon",
+      "description_zh": "显示图标",
+      "value": ""
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sidebar.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html"
+}

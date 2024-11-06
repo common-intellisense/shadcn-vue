@@ -1,0 +1,30 @@
+{
+  "name": "Sidebar",
+  "props": {
+    "side": {
+      "type": "left / right",
+      "default": "left",
+      "description": "Sidebar position",
+      "description_zh": "侧边栏位置",
+      "value": ""
+    },
+    "variant": {
+      "type": "sidebar / floating / inset",
+      "default": "sidebar",
+      "description": "Sidebar variant",
+      "description_zh": "侧边栏变体",
+      "value": ""
+    },
+    "collapsible": {
+      "type": "offcanvas / icon / none",
+      "default": "offcanvas",
+      "description": "Sidebar collapsible",
+      "description_zh": "侧边栏可折叠",
+      "value": ""
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sidebar.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html"
+}
