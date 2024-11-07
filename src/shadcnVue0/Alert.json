@@ -1,0 +1,16 @@
+{
+  "name": "Alert",
+  "props": {
+    "variant": {
+      "default": "default",
+      "value": "",
+      "type": "default / destructive",
+      "description": "The variant of the alert.",
+      "description_zh": "警报的变体。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.radix-vue.com/components/alert.html",
+  "link_zh": "https://www.radix-vue.com/components/alert.html"
+}

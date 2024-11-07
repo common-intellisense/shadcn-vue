@@ -1,6 +1,8 @@
 import AccordionContent from './AccordionContent.json'
 import AccordionItem from './AccordionItem.json'
 import AccordionTrigger from './AccordionTrigger.json'
+import Alert from './Alert.json'
+import AlertDescription from './AlertDescription.json'
 import AlertDialogAction from './AlertDialogAction.json'
 import AlertDialogCancel from './AlertDialogCancel.json'
 import AlertDialogContent from './AlertDialogContent.json'
@@ -10,6 +12,7 @@ import AlertDialogPortal from './AlertDialogPortal.json'
 import AlertDialogRoot from './AlertDialogRoot.json'
 import AlertDialogTitle from './AlertDialogTitle.json'
 import AlertDialogTrigger from './AlertDialogTrigger.json'
+import AlertTitle from './AlertTitle.json'
 import AspectRatio from './AspectRatio.json'
 import AvatarFallback from './AvatarFallback.json'
 import AvatarImage from './AvatarImage.json'
@@ -272,6 +275,9 @@ export function getPropsMap() {
     AccordionContent,
     AccordionItem,
     AccordionTrigger,
+    Alert,
+    AlertDescription,
+    AlertTitle,
     AlertDialogAction,
     AlertDialogCancel,
     AlertDialogContent,
@@ -543,6 +549,9 @@ export function getComponentMap() {
     [AccordionContent, '手风琴 内容', '<AccordionContent></AccordionContent>'],
     [AccordionItem, '手风琴 项目', '<AccordionItem></AccordionItem>'],
     [AccordionTrigger, '手风琴 触发', '<AccordionTrigger></AccordionTrigger>'],
+    [Alert, '显示标注以引起用户注意', '<Alert></Alert>'],
+    [AlertDescription, '显示标注以引起用户注意', '<AlertDescription></AlertDescription>'],
+    [AlertTitle, '显示标注以引起用户注意', '<AlertTitle></AlertTitle>'],
     [AlertDialogAction, '警报对话框', '<AlertDialogAction></AlertDialogAction>'],
     [AlertDialogCancel, '警报对话框', '<AlertDialogCancel></AlertDialogCancel>'],
     [AlertDialogContent, '警报对话框', '<AlertDialogContent></AlertDialogContent>'],
