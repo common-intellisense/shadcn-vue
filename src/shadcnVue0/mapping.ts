@@ -30,6 +30,7 @@ import Avatar from './Avatar.json'
 import AvatarFallback from './AvatarFallback.json'
 import AvatarImage from './AvatarImage.json'
 import Badge from './Badge.json'
+import BarChart from './BarChart.json'
 import Breadcrumb from './Breadcrumb.json'
 import BreadcrumbEllipsis from './BreadcrumbEllipsis.json'
 import BreadcrumbItem from './BreadcrumbItem.json'
@@ -151,6 +152,7 @@ import DialogPortal from './DialogPortal.json'
 import DialogRoot from './DialogRoot.json'
 import DialogTitle from './DialogTitle.json'
 import DialogTrigger from './DialogTrigger.json'
+import DonutChart from './DonutChart.json'
 import DropdownMenuArrow from './DropdownMenuArrow.json'
 import DropdownMenuCheckboxItem from './DropdownMenuCheckboxItem.json'
 import DropdownMenuContent from './DropdownMenuContent.json'
@@ -177,6 +179,7 @@ import HoverCardPortal from './HoverCardPortal.json'
 import HoverCardRoot from './HoverCardRoot.json'
 import HoverCardTrigger from './HoverCardTrigger.json'
 import Label from './Label.json'
+import LineChart from './LineChart.json'
 import MenubarArrow from './MenubarArrow.json'
 import MenubarCheckboxItem from './MenubarCheckboxItem.json'
 import MenubarContent from './MenubarContent.json'
@@ -339,6 +342,7 @@ export function getPropsMap() {
     AvatarFallback,
     AvatarImage,
     Badge,
+    BarChart,
     Breadcrumb,
     BreadcrumbEllipsis,
     BreadcrumbItem,
@@ -391,12 +395,14 @@ export function getPropsMap() {
     DialogRoot,
     DialogTitle,
     DialogTrigger,
+    DonutChart,
     HoverCardArrow,
     HoverCardContent,
     HoverCardPortal,
     HoverCardRoot,
     HoverCardTrigger,
     Label,
+    LineChart,
     MenubarRadioItem,
     MenubarArrow,
     MenubarCheckboxItem,
@@ -650,6 +656,7 @@ export function getComponentMap() {
     [Avatar, '图像元素', '<Avatar></Avatar>'],
     [AvatarImage, '图像元素', '<AvatarImage></AvatarImage>'],
     [Badge, '显示徽章或看起来像徽章的组件。', '<Badge></Badge>'],
+    [BarChart, '条形图', '<BarChart></BarChart>'],
     [Breadcrumb, '显示当前页面的位置', '<Breadcrumb></Breadcrumb>'],
     [BreadcrumbEllipsis, '显示当前页面的位置', '<BreadcrumbEllipsis></BreadcrumbEllipsis>'],
     [BreadcrumbItem, '显示当前页面的位置', '<BreadcrumbItem></BreadcrumbItem>'],
@@ -701,6 +708,7 @@ export function getComponentMap() {
     [DialogRoot, '对话', '<DialogRoot></DialogRoot>'],
     [DialogTitle, '对话', '<DialogTitle></DialogTitle>'],
     [DialogTrigger, '对话', '<DialogTrigger></DialogTrigger>'],
+    [DonutChart, '圆环图', '<DonutChart></DonutChart>'],
     [DropdownMenuContent, '下拉菜单', '<DropdownMenuContent></DropdownMenuContent>'],
     [DropdownMenuRoot, '下拉菜单', '<DropdownMenuRoot></DropdownMenuRoot>'],
     [DropdownMenuTrigger, '下拉菜单', '<DropdownMenuTrigger></DropdownMenuTrigger>'],
@@ -720,6 +728,7 @@ export function getComponentMap() {
     [HoverCardRoot, '悬浮卡', '<HoverCardRoot></HoverCardRoot>'],
     [HoverCardTrigger, '悬浮卡', '<HoverCardTrigger></HoverCardTrigger>'],
     [Label, '标签', '<Label></Label>'],
+    [LineChart, '线图', '<LineChart></LineChart>'],
     [MenubarRadioItem, '菜单栏', '<MenubarRadioItem></MenubarRadioItem>'],
     [MenubarArrow, '菜单栏', '<MenubarArrow></MenubarArrow>'],
     [MenubarCheckboxItem, '菜单栏', '<MenubarCheckboxItem></MenubarCheckboxItem>'],

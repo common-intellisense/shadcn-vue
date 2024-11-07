@@ -1,0 +1,143 @@
+{
+  "name": "LineChart",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "customTooltip": {
+      "type": "Component",
+      "description": "Render custom tooltip component.",
+      "description_zh": "渲染自定义工具提示组件。"
+    },
+    "type": {
+      "default": "grouped",
+      "value": "",
+      "type": "stacked | grouped",
+      "description": "Change the type of the chart",
+      "description_zh": "更改图表的类型"
+    },
+    "roundedCorners": {
+      "default": 0,
+      "value": "",
+      "type": "number",
+      "description": "Rounded bar corners",
+      "description_zh": "圆角条形图"
+    },
+    "data": {
+      "type": "T[]",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "The source data, in which each entry is a dictionary.",
+      "description_zh": "源数据，其中每个条目都是一个字典。"
+    },
+    "categories": {
+      "type": "KeyOf<T>[]",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "Select the categories from your data. Used to populate the legend and tooltip.",
+      "description_zh": "从数据中选择类别。用于填充图例和工具提示。"
+    },
+    "index": {
+      "type": "KeyOf<T>",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "Sets the key to map the data to the axis.",
+      "description_zh": "设置将数据映射到轴的键。"
+    },
+    "colors": {
+      "type": "string[]",
+      "default": "",
+      "value": "",
+      "description": "Change the default colors.",
+      "description_zh": "更改默认颜色。"
+    },
+    "margin": {
+      "type": "{\n  left?: number;\n  right?: number;\n  top?: number;\n  bottom?: number;\n}",
+      "default": "{ top: 0, bottom: 0, left: 0, right: 0 }",
+      "value": "",
+      "description": "Margin of each the container.",
+      "description_zh": "容器的边距。"
+    },
+    "filterOpacity": {
+      "type": "number",
+      "default": 0.2,
+      "value": "",
+      "description": "Change the opacity of the non-selected field.",
+      "description_zh": "更改未选择字段的不透明度。"
+    },
+    "xFormatter": {
+      "type": "(tick: number | Date, i: number, ticks: number[] | Date[]) => string",
+      "default": "",
+      "value": "",
+      "description": "Function to format X label.",
+      "description_zh": "格式化 X 标签的函数。"
+    },
+    "yFormatter": {
+      "type": "(tick: number | Date, i: number, ticks: number[] | Date[]) => string",
+      "default": "",
+      "value": "",
+      "description": "Function to format Y label.",
+      "description_zh": "格式化 Y 标签的函数。"
+    },
+    "showXAxis": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of the X axis.",
+      "description_zh": "控制 X 轴的可见性。"
+    },
+    "showYAxis": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of the Y axis.",
+      "description_zh": "控制 Y 轴的可见性。"
+    },
+    "showTooltip": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of tooltip.",
+      "description_zh": "控制工具提示的可见性。"
+    },
+    "showLegend": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of legend.",
+      "description_zh": "控制图例的可见性。"
+    },
+    "showGridLine": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of gridline.",
+      "description_zh": "控制网格线的可见性。"
+    }
+  },
+  "events": [
+    {
+      "name": "legendItemClick",
+      "params": "[d: BulletLegendItemInterface, i: number]",
+      "description": "Fires when the user clicks on the legend.",
+      "description_zh": "当用户单击图例时触发。"
+    }
+  ],
+  "methods": [],
+  "link": "https://www.radix-vue.com/components/dialog.html",
+  "link_zh": "https://www.radix-vue.com/components/dialog.html"
+}
