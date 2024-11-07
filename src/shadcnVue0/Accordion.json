@@ -1,5 +1,5 @@
 {
-  "name": "AccordionRoot",
+  "name": "Accordion",
   "props": {
     "as": {
       "default": "div",
@@ -77,7 +77,6 @@
   "events": [],
   "methods": [],
   "suggestions": [
-    "AccordionItem"
   ],
   "link": "https://www.radix-vue.com/components/accordion.html",
   "link_zh": "https://www.radix-vue.com/components/accordion.html"

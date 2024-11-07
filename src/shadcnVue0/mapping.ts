@@ -1,7 +1,5 @@
 import AccordionContent from './AccordionContent.json'
-import AccordionHeader from './AccordionHeader.json'
 import AccordionItem from './AccordionItem.json'
-import AccordionRoot from './AccordionRoot.json'
 import AccordionTrigger from './AccordionTrigger.json'
 import AlertDialogAction from './AlertDialogAction.json'
 import AlertDialogCancel from './AlertDialogCancel.json'
@@ -272,9 +270,7 @@ import VisuallyHidden from './VisuallyHidden.json'
 export function getPropsMap() {
   return [
     AccordionContent,
-    AccordionHeader,
     AccordionItem,
-    AccordionRoot,
     AccordionTrigger,
     AlertDialogAction,
     AlertDialogCancel,
@@ -545,9 +541,7 @@ export function getPropsMap() {
 export function getComponentMap() {
   return [
     [AccordionContent, '手风琴 内容', '<AccordionContent></AccordionContent>'],
-    [AccordionHeader, '手风琴 页眉', '<AccordionHeader></AccordionHeader>'],
     [AccordionItem, '手风琴 项目', '<AccordionItem></AccordionItem>'],
-    [AccordionRoot, '手风琴 根', '<AccordionRoot></AccordionRoot>'],
     [AccordionTrigger, '手风琴 触发', '<AccordionTrigger></AccordionTrigger>'],
     [AlertDialogAction, '警报对话框', '<AlertDialogAction></AlertDialogAction>'],
     [AlertDialogCancel, '警报对话框', '<AlertDialogCancel></AlertDialogCancel>'],

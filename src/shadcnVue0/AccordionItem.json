@@ -28,6 +28,20 @@
       "type": "string",
       "description": "A unique value for the item.",
       "description_zh": "项的唯一值。"
+    },
+    "defaultOpen": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "The open state of the collapsible when it is initially rendered. <br> Use when you do not need to control its open state.",
+      "description_zh": "折叠时的初始渲染状态。 <br> 在不需要控制其打开状态时使用。"
+    },
+    "open": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "The controlled open state of the collapsible. Must be binded with v-model.",
+      "description_zh": "折叠的受控打开状态。必须与 v-model 绑定。"
     }
   },
   "events": [],
