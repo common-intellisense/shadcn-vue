@@ -1,0 +1,12 @@
+{
+  "name": "ContextMenuShortcut",
+  "props": {},
+  "events": [],
+  "methods": [],
+  "suggestions": [
+    "ContextMenuSubTrigger",
+    "ContextMenuPortal"
+  ],
+  "link": "https://www.radix-vue.com/components/context-menu.html",
+  "link_zh": "https://www.radix-vue.com/components/context-menu.html"
+}

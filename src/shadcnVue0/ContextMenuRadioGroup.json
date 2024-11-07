@@ -20,10 +20,26 @@
       "value": "",
       "type": "string",
       "description": "The value of the selected item in the group.",
-      "description_zh": "组中所选项的值。"
+      "description_zh": "组中所选项的值。",
+      "required": true
+    },
+    "onValueChange": {
+      "default": "",
+      "value": "",
+      "type": "(value: string) => void",
+      "description": "Event handler called when the selected item changes.",
+      "description_zh": "所选项更改时调用的事件处理程序。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "(payload: string) => void",
+      "description": "Event handler called when the selected item changes.",
+      "description_zh": "所选项更改时调用的事件处理程序。",
+      "value": ""
+    }
+  ],
   "methods": [],
   "suggestions": [
     "ContextMenuRadioItem"

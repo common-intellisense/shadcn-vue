@@ -94,18 +94,17 @@ import CommandList from './CommandList.json'
 import CommandSeparator from './CommandSeparator.json'
 import CommandShortcut from './CommandShortcut.json'
 import ConfigProvider from './ConfigProvider.json'
-import ContextMenuArrow from './ContextMenuArrow.json'
+import ContextMenu from './ContextMenu.json'
 import ContextMenuCheckboxItem from './ContextMenuCheckboxItem.json'
 import ContextMenuContent from './ContextMenuContent.json'
 import ContextMenuGroup from './ContextMenuGroup.json'
 import ContextMenuItem from './ContextMenuItem.json'
-import ContextMenuItemIndicator from './ContextMenuItemIndicator.json'
 import ContextMenuLabel from './ContextMenuLabel.json'
 import ContextMenuPortal from './ContextMenuPortal.json'
 import ContextMenuRadioGroup from './ContextMenuRadioGroup.json'
 import ContextMenuRadioItem from './ContextMenuRadioItem.json'
-import ContextMenuRoot from './ContextMenuRoot.json'
 import ContextMenuSeparator from './ContextMenuSeparator.json'
+import ContextMenuShortcut from './ContextMenuShortcut.json'
 import ContextMenuSub from './ContextMenuSub.json'
 import ContextMenuSubContent from './ContextMenuSubContent.json'
 import ContextMenuSubTrigger from './ContextMenuSubTrigger.json'
@@ -387,17 +386,16 @@ export function getPropsMap() {
     CommandList,
     CommandSeparator,
     CommandShortcut,
-    ContextMenuArrow,
     ContextMenuCheckboxItem,
     ContextMenuContent,
     ContextMenuGroup,
     ContextMenuItem,
-    ContextMenuItemIndicator,
+    ContextMenuShortcut,
     ContextMenuLabel,
     ContextMenuPortal,
     ContextMenuRadioGroup,
     ContextMenuRadioItem,
-    ContextMenuRoot,
+    ContextMenu,
     ContextMenuSeparator,
     ContextMenuSub,
     ContextMenuSubContent,
@@ -708,17 +706,16 @@ export function getComponentMap() {
     [CommandList, '命令', '<CommandList></CommandList>'],
     [CommandSeparator, '命令', '<CommandSeparator></CommandSeparator>'],
     [CommandShortcut, '命令', '<CommandShortcut></CommandShortcut>'],
-    [ContextMenuArrow, '上下文菜单', '<ContextMenuArrow></ContextMenuArrow>'],
     [ContextMenuCheckboxItem, '上下文菜单', '<ContextMenuCheckboxItem></ContextMenuCheckboxItem>'],
     [ContextMenuContent, '上下文菜单', '<ContextMenuContent></ContextMenuContent>'],
     [ContextMenuGroup, '上下文菜单', '<ContextMenuGroup></ContextMenuGroup>'],
     [ContextMenuItem, '上下文菜单', '<ContextMenuItem></ContextMenuItem>'],
-    [ContextMenuItemIndicator, '上下文菜单', '<ContextMenuItemIndicator></ContextMenuItemIndicator>'],
+    [ContextMenuShortcut, '上下文菜单', '<ContextMenuShortcut></ContextMenuShortcut>'],
     [ContextMenuLabel, '上下文菜单', '<ContextMenuLabel></ContextMenuLabel>'],
     [ContextMenuPortal, '上下文菜单', '<ContextMenuPortal></ContextMenuPortal>'],
     [ContextMenuRadioGroup, '上下文菜单', '<ContextMenuRadioGroup></ContextMenuRadioGroup>'],
     [ContextMenuRadioItem, '上下文菜单', '<ContextMenuRadioItem></ContextMenuRadioItem>'],
-    [ContextMenuRoot, '上下文菜单', '<ContextMenuRoot></ContextMenuRoot>'],
+    [ContextMenu, '上下文菜单', '<ContextMenu></ContextMenu>'],
     [ContextMenuSeparator, '上下文菜单', '<ContextMenuSeparator></ContextMenuSeparator>'],
     [ContextMenuSub, '上下文菜单', '<ContextMenuSub></ContextMenuSub>'],
     [ContextMenuSubContent, '上下文菜单', '<ContextMenuSubContent></ContextMenuSubContent>'],

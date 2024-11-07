@@ -44,6 +44,13 @@
       "description": "Event handler called when the user selects an item (via mouse or keyboard). Calling event.preventDefault in this handler will prevent the context menu from closing when selecting that item.",
       "description_zh": "当用户选择项（通过鼠标或键盘）时调用的事件处理程序。在此处理程序中调用 event.preventDefault 将防止在选择该项时关闭上下文菜单。",
       "value": ""
+    },
+    {
+      "name": "update:checked",
+      "params": "[payload: boolean]",
+      "description": "Event handler called when the checked state changes.",
+      "description_zh": "检查状态更改时调用的事件处理程序。",
+      "value": ""
     }
   ],
   "methods": [],

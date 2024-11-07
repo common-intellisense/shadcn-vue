@@ -2,19 +2,29 @@
   "name": "ContextMenuPortal",
   "props": {
     "to": {
-      "default": "body",
+      "default": "",
       "value": "",
       "type": "string | HTMLElement",
-      "description": "Vue native teleport component props. (to)",
-      "description_zh": "Vue 原生传送组件 props。（到）"
+      "description": "Vue native teleport component prop `:to`",
+      "description_zh": "Vue 原生 teleport 组件属性 `:to`"
+    },
+    "disabled": {
+      "default": "false",
+      "value": false,
+      "type": "boolean",
+      "description": "Disable teleport and render the component inline",
+      "description_zh": "禁用 teleport 并内联渲染组件"
+    },
+    "forceMount": {
+      "default": "false",
+      "value": false,
+      "type": "boolean",
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with Vue animation libraries.",
+      "description_zh": "在需要更多控制时用于强制挂载。 在使用 Vue 动画库控制动画时很有用。"
     }
   },
   "events": [],
   "methods": [],
-  "suggestions": [
-    "ContextMenuContent",
-    "ContextMenuSubContent"
-  ],
   "link": "https://www.radix-vue.com/components/context-menu.html",
   "link_zh": "https://www.radix-vue.com/components/context-menu.html"
 }

@@ -8,15 +8,23 @@
       "description": "The open state of the submenu when it is initially rendered. Use when you do not need to control its open state.",
       "description_zh": "子菜单最初呈现时的打开状态。在不需要控制其打开状态时使用。"
     },
-    "open": {
+    ":open": {
       "default": "",
       "value": "",
       "type": "boolean",
-      "description": "The controlled open state of the submenu. Must be used in conjunction with onOpenChange.",
-      "description_zh": "子菜单的受控打开状态。必须与 onOpenChange 结合使用。"
+      "description": "The controlled open state of the menu. Can be used as `v-model:open`.",
+      "description_zh": "菜单的受控打开状态。可以用作 `v-model:open`。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "params": "(open: boolean) => void",
+      "description": "Event handler called when the open state of the submenu changes.",
+      "description_zh": "当子菜单的打开状态更改时调用的事件处理程序。",
+      "value": ""
+    }
+  ],
   "methods": [],
   "suggestions": [
     "ContextMenuSubTrigger",
