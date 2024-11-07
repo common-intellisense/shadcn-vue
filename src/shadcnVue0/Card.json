@@ -1,0 +1,14 @@
+{
+  "name": "Card",
+  "props": {},
+  "events": [],
+  "methods": [],
+  "slots": [],
+  "suggestions": [
+    "CardHeader",
+    "CardContent",
+    "CardFooter"
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/card.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/card.html"
+}

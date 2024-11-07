@@ -49,6 +49,12 @@ import CalendarHeader from './CalendarHeader.json'
 import CalendarHeading from './CalendarHeading.json'
 import CalendarNextButton from './CalendarNextButton.json'
 import CalendarPrevButton from './CalendarPrevButton.json'
+import Card from './Card.json'
+import CardContent from './CardContent.json'
+import CardDescription from './CardDescription.json'
+import CardFooter from './CardFooter.json'
+import CardHeader from './CardHeader.json'
+import CardTitle from './CardTitle.json'
 import CheckboxIndicator from './CheckboxIndicator.json'
 import CheckboxRoot from './CheckboxRoot.json'
 import CollapsibleContent from './CollapsibleContent.json'
@@ -516,6 +522,12 @@ export function getPropsMap() {
     CalendarHeading,
     CalendarNextButton,
     CalendarPrevButton,
+    Card,
+    CardContent,
+    CardDescription,
+    CardFooter,
+    CardHeader,
+    CardTitle,
     Calendar,
     DateFieldAnchor,
     DateFieldInput,
@@ -810,6 +822,12 @@ export function getComponentMap() {
     [CalendarHeading, '显示日期和星期几,促进与日期相关的交互.', '<CalendarHeading></CalendarHeading>'],
     [CalendarNextButton, '显示日期和星期几,促进与日期相关的交互.', '<CalendarNextButton></CalendarNextButton>'],
     [CalendarPrevButton, '显示日期和星期几,促进与日期相关的交互.', '<CalendarPrevButton></CalendarPrevButton>'],
+    [Card, '卡片', '<Card></Card>'],
+    [CardContent, '卡片', '<CardContent></CardContent>'],
+    [CardDescription, '卡片', '<CardDescription></CardDescription>'],
+    [CardFooter, '卡片', '<CardFooter></CardFooter>'],
+    [CardHeader, '卡片', '<CardHeader></CardHeader>'],
+    [CardTitle, '卡片', '<CardTitle></CardTitle>'],
     [Calendar, '显示日期和星期几,促进与日期相关的交互.', '<Calendar></Calendar>'],
     [DateFieldAnchor, '使用户能够在指定字段中输入特定日期.', '<DateFieldAnchor></DateFieldAnchor>'],
     [DateFieldInput, '使用户能够在指定字段中输入特定日期.', '<DateFieldInput></DateFieldInput>'],
