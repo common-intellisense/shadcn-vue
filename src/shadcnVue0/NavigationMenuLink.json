@@ -30,7 +30,14 @@
       "description_zh": "当用户选择链接（通过鼠标或键盘）时调用的事件处理程序。在此处理程序中调用 event.preventDefault 将防止在选择该链接时关闭导航菜单。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "select",
+      "params": "[payload: CustomEvent<{ originalEvent: Event; }>]",
+      "description": "Event handler called when the user selects a link.",
+      "description_zh": "当用户选择链接时调用的事件处理程序."
+    }
+  ],
   "methods": [],
   "link": "https://www.radix-vue.com/components/navigation-menu.html#root",
   "link_zh": "https://www.radix-vue.com/components/navigation-menu.html#root"

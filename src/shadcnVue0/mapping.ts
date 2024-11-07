@@ -218,13 +218,12 @@ import MenubarSub from './MenubarSub.json'
 import MenubarSubContent from './MenubarSubContent.json'
 import MenubarSubTrigger from './MenubarSubTrigger.json'
 import MenubarTrigger from './MenubarTrigger.json'
+import NavigationMenu from './NavigationMenu.json'
 import NavigationMenuContent from './NavigationMenuContent.json'
 import NavigationMenuIndicator from './NavigationMenuIndicator.json'
 import NavigationMenuItem from './NavigationMenuItem.json'
 import NavigationMenuLink from './NavigationMenuLink.json'
 import NavigationMenuList from './NavigationMenuList.json'
-import NavigationMenuRoot from './NavigationMenuRoot.json'
-import NavigationMenuSub from './NavigationMenuSub.json'
 import NavigationMenuTrigger from './NavigationMenuTrigger.json'
 import NavigationMenuViewport from './NavigationMenuViewport.json'
 import PaginationList from './PaginationList.json'
@@ -461,8 +460,7 @@ export function getPropsMap() {
     NavigationMenuItem,
     NavigationMenuLink,
     NavigationMenuList,
-    NavigationMenuRoot,
-    NavigationMenuSub,
+    NavigationMenu,
     NavigationMenuTrigger,
     NavigationMenuViewport,
     PaginationList,
@@ -807,8 +805,7 @@ export function getComponentMap() {
     [NavigationMenuItem, '导航菜单', '<NavigationMenuItem></NavigationMenuItem>'],
     [NavigationMenuLink, '导航菜单', '<NavigationMenuLink></NavigationMenuLink>'],
     [NavigationMenuList, '导航菜单', '<NavigationMenuList></NavigationMenuList>'],
-    [NavigationMenuRoot, '导航菜单', '<NavigationMenuRoot></NavigationMenuRoot>'],
-    [NavigationMenuSub, '导航菜单', '<NavigationMenuSub></NavigationMenuSub>'],
+    [NavigationMenu, '导航菜单', '<NavigationMenu></NavigationMenu>'],
     [NavigationMenuTrigger, '导航菜单', '<NavigationMenuTrigger></NavigationMenuTrigger>'],
     [NavigationMenuViewport, '导航菜单', '<NavigationMenuViewport></NavigationMenuViewport>'],
     [PaginationList, '分页', '<PaginationList></PaginationList>'],
