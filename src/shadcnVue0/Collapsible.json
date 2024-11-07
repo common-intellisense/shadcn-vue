@@ -1,5 +1,5 @@
 {
-  "name": "CollapsibleRoot",
+  "name": "Collapsible",
   "props": {
     "as": {
       "default": "div",
@@ -38,7 +38,13 @@
       "description_zh": "如果为 true，则阻止用户与可折叠对象交互。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "description": "Event handler called when the open state of the collapsible changes.",
+      "description_zh": "当可折叠对象的打开状态发生变化时触发。"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "CollapsibleTrigger",

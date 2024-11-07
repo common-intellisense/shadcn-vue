@@ -19,8 +19,8 @@
       "default": "",
       "value": "",
       "type": "boolean",
-      "description": "",
-      "description_zh": ""
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with Vue animation libraries",
+      "description_zh": "在需要更多控制时用于强制挂载。在使用 Vue 动画库控制动画时很有用"
     }
   },
   "events": [],

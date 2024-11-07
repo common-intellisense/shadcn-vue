@@ -67,8 +67,8 @@ import ChartLegend from './ChartLegend.json'
 import ChartSingleTooltip from './ChartSingleTooltip.json'
 import ChartTooltip from './ChartTooltip.json'
 import Checkbox from './Checkbox.json'
+import Collapsible from './Collapsible.json'
 import CollapsibleContent from './CollapsibleContent.json'
-import CollapsibleRoot from './CollapsibleRoot.json'
 import CollapsibleTrigger from './CollapsibleTrigger.json'
 import ComboboxAnchor from './ComboboxAnchor.json'
 import ComboboxArrow from './ComboboxArrow.json'
@@ -353,7 +353,7 @@ export function getPropsMap() {
     Avatar,
     Checkbox,
     CollapsibleContent,
-    CollapsibleRoot,
+    Collapsible,
     CollapsibleTrigger,
     ComboboxAnchor,
     ComboboxArrow,
@@ -665,7 +665,7 @@ export function getComponentMap() {
     [Button, '按钮', '<Button></Button>'],
     [Checkbox, '复选框', '<Checkbox></Checkbox>'],
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],
-    [CollapsibleRoot, '折叠面板', '<CollapsibleRoot></CollapsibleRoot>'],
+    [Collapsible, '折叠面板', '<Collapsible></Collapsible>'],
     [CollapsibleTrigger, '折叠面板', '<CollapsibleTrigger></CollapsibleTrigger>'],
     [ComboboxAnchor, '组合框', '<ComboboxAnchor></ComboboxAnchor>'],
     [ComboboxArrow, '组合框', '<ComboboxArrow></ComboboxArrow>'],
