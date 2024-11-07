@@ -36,6 +36,7 @@ import BreadcrumbLink from './BreadcrumbLink.json'
 import BreadcrumbList from './BreadcrumbList.json'
 import BreadcrumbPage from './BreadcrumbPage.json'
 import BreadcrumbSeparator from './BreadcrumbSeparator.json'
+import Button from './Button.json'
 import CalendarCell from './CalendarCell.json'
 import CalendarCellTrigger from './CalendarCellTrigger.json'
 import CalendarGrid from './CalendarGrid.json'
@@ -328,6 +329,7 @@ export function getPropsMap() {
     BreadcrumbList,
     BreadcrumbPage,
     BreadcrumbSeparator,
+    Button,
     Avatar,
     CheckboxIndicator,
     CheckboxRoot,
@@ -622,6 +624,7 @@ export function getComponentMap() {
     [BreadcrumbList, '显示当前页面的位置', '<BreadcrumbList></BreadcrumbList>'],
     [BreadcrumbPage, '显示当前页面的位置', '<BreadcrumbPage></BreadcrumbPage>'],
     [BreadcrumbSeparator, '显示当前页面的位置', '<BreadcrumbSeparator></BreadcrumbSeparator>'],
+    [Button, '按钮', '<Button></Button>'],
     [CheckboxIndicator, '复选框', '<CheckboxIndicator></CheckboxIndicator>'],
     [CheckboxRoot, '复选框', '<CheckboxRoot></CheckboxRoot>'],
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],
