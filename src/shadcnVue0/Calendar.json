@@ -1,5 +1,5 @@
 {
-  "name": "CalendarRoot",
+  "name": "Calendar",
   "props": {
     "as": {
       "default": "div",
@@ -99,12 +99,13 @@
       "description": "The minimum date that can be selected\n",
       "description_zh": "可以选择的最短日期"
     },
-    "modelValue": {
+    ":v-model": {
       "default": "",
       "value": "",
       "type": "DateValue | DateValue[]",
       "description": "The controlled checked state of the calendar. Can be bound as v-model.\n",
-      "description_zh": "日历的受控检查状态。可以绑定为 V 模型。"
+      "description_zh": "日历的受控检查状态。可以绑定为 V 模型。",
+      "required": true
     },
     "multiple": {
       "default": "false",
@@ -158,21 +159,35 @@
     "weekStartsOn": {
       "default": "0",
       "value": "",
-      "type": "0 | 1 | 2 | 3 | 4 | 5 | 6",
+      "type": "0 / 1 / 2 / 3 / 4 / 5 / 6",
       "description": "The day of the week to start the calendar on\n",
       "description_zh": "开始日历的星期几"
+    },
+    ":nextPage": {
+      "default": "",
+      "value": "",
+      "type": "(placeholder: DateValue) => DateValue",
+      "description": "A function that returns the next page of the calendar. It receives the current placeholder as an argument inside the component.",
+      "description_zh": "返回日历的下一页的函数。它在组件内部接收当前占位符作为参数。"
+    },
+    ":prevPage": {
+      "default": "",
+      "value": "",
+      "type": "(placeholder: DateValue) => DateValue",
+      "description": "A function that returns the previous page of the calendar. It receives the current placeholder as an argument inside the component.",
+      "description_zh": "返回日历的上一页的函数。它在组件内部接收当前占位符作为参数。"
     }
   },
   "events": [
     {
-      "name": "modelValue",
+      "name": "update:modelValue",
       "description": "Event handler called whenever the model value changes\n",
       "description_zh": "每当模型值更改时调用的事件处理程序",
       "params": "[date: DateValue]",
       "value": ""
     },
     {
-      "name": "placeholder",
+      "name": "update:placeholder",
       "description": "Event handler called whenever the placeholder value changes\n",
       "description_zh": "每当占位符值更改时调用的事件处理程序",
       "params": "[date: DateValue]",

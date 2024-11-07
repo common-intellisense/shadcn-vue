@@ -1,5 +1,5 @@
 {
-  "name": "CalendarNext",
+  "name": "CalendarPrevButton",
   "props": {
     "as": {
       "default": "button",
@@ -19,13 +19,20 @@
       "default": "month",
       "value": "",
       "type": "month | year",
-      "description": "The calendar unit to go forward\n",
-      "description_zh": "要前进的日历单位"
+      "description": "The calendar unit to go back\n",
+      "description_zh": "要返回的日历单位"
+    },
+    ":prevPage": {
+      "default": "",
+      "value": "",
+      "type": "(placeholder: DateValue) => DateValue",
+      "description": "A function that returns the previous page of the calendar. It receives the current placeholder as an argument inside the component.",
+      "description_zh": "返回日历的上一页的函数。它在组件内部接收当前占位符作为参数。"
     }
   },
   "events": [],
   "methods": [],
   "slots": [],
-  "link": "https://www.radix-vue.com/components/calendar.html#nextbutton",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#nextbutton"
+  "link": "https://www.radix-vue.com/components/calendar.html#prev-button",
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#prev-button"
 }

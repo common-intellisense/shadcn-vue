@@ -37,6 +37,7 @@ import BreadcrumbList from './BreadcrumbList.json'
 import BreadcrumbPage from './BreadcrumbPage.json'
 import BreadcrumbSeparator from './BreadcrumbSeparator.json'
 import Button from './Button.json'
+import Calendar from './Calendar.json'
 import CalendarCell from './CalendarCell.json'
 import CalendarCellTrigger from './CalendarCellTrigger.json'
 import CalendarGrid from './CalendarGrid.json'
@@ -46,9 +47,8 @@ import CalendarGridRow from './CalendarGridRow.json'
 import CalendarHeadCell from './CalendarHeadCell.json'
 import CalendarHeader from './CalendarHeader.json'
 import CalendarHeading from './CalendarHeading.json'
-import CalendarNext from './CalendarNext.json'
-import CalendarPrev from './CalendarPrev.json'
-import CalendarRoot from './CalendarRoot.json'
+import CalendarNextButton from './CalendarNextButton.json'
+import CalendarPrevButton from './CalendarPrevButton.json'
 import CheckboxIndicator from './CheckboxIndicator.json'
 import CheckboxRoot from './CheckboxRoot.json'
 import CollapsibleContent from './CollapsibleContent.json'
@@ -514,9 +514,9 @@ export function getPropsMap() {
     CalendarHeadCell,
     CalendarHeader,
     CalendarHeading,
-    CalendarNext,
-    CalendarPrev,
-    CalendarRoot,
+    CalendarNextButton,
+    CalendarPrevButton,
+    Calendar,
     DateFieldAnchor,
     DateFieldInput,
     DateFieldRoot,
@@ -808,9 +808,9 @@ export function getComponentMap() {
     [CalendarHeadCell, '显示日期和星期几,促进与日期相关的交互.', '<CalendarHeadCell></CalendarHeadCell>'],
     [CalendarHeader, '显示日期和星期几,促进与日期相关的交互.', '<CalendarHeader></CalendarHeader>'],
     [CalendarHeading, '显示日期和星期几,促进与日期相关的交互.', '<CalendarHeading></CalendarHeading>'],
-    [CalendarNext, '显示日期和星期几,促进与日期相关的交互.', '<CalendarNext></CalendarNext>'],
-    [CalendarPrev, '显示日期和星期几,促进与日期相关的交互.', '<CalendarPrev></CalendarPrev>'],
-    [CalendarRoot, '显示日期和星期几,促进与日期相关的交互.', '<CalendarRoot></CalendarRoot>'],
+    [CalendarNextButton, '显示日期和星期几,促进与日期相关的交互.', '<CalendarNextButton></CalendarNextButton>'],
+    [CalendarPrevButton, '显示日期和星期几,促进与日期相关的交互.', '<CalendarPrevButton></CalendarPrevButton>'],
+    [Calendar, '显示日期和星期几,促进与日期相关的交互.', '<Calendar></Calendar>'],
     [DateFieldAnchor, '使用户能够在指定字段中输入特定日期.', '<DateFieldAnchor></DateFieldAnchor>'],
     [DateFieldInput, '使用户能够在指定字段中输入特定日期.', '<DateFieldInput></DateFieldInput>'],
     [DateFieldRoot, '使用户能够在指定字段中输入特定日期.', '<DateFieldRoot></DateFieldRoot>'],
