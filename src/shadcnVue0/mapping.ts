@@ -60,6 +60,10 @@ import CarouselContent from './CarouselContent.json'
 import CarouselItem from './CarouselItem.json'
 import CarouselNext from './CarouselNext.json'
 import CarouselPrevious from './CarouselPrevious.json'
+import ChartCrosshair from './ChartCrosshair.json'
+import ChartLegend from './ChartLegend.json'
+import ChartSingleTooltip from './ChartSingleTooltip.json'
+import ChartTooltip from './ChartTooltip.json'
 import CheckboxIndicator from './CheckboxIndicator.json'
 import CheckboxRoot from './CheckboxRoot.json'
 import CollapsibleContent from './CollapsibleContent.json'
@@ -538,6 +542,10 @@ export function getPropsMap() {
     CarouselItem,
     CarouselNext,
     CarouselPrevious,
+    ChartCrosshair,
+    ChartLegend,
+    ChartSingleTooltip,
+    ChartTooltip,
     Calendar,
     DateFieldAnchor,
     DateFieldInput,
@@ -843,6 +851,10 @@ export function getComponentMap() {
     [CarouselItem, '轮播', '<CarouselItem></CarouselItem>'],
     [CarouselNext, '轮播', '<CarouselNext></CarouselNext>'],
     [CarouselPrevious, '轮播', '<CarouselPrevious></CarouselPrevious>'],
+    [ChartCrosshair, '图表', '<ChartCrosshair></ChartCrosshair>'],
+    [ChartLegend, '图表', '<ChartLegend></ChartLegend>'],
+    [ChartSingleTooltip, '图表', '<ChartSingleTooltip></ChartSingleTooltip>'],
+    [ChartTooltip, '图表', '<ChartTooltip></ChartTooltip>'],
     [Calendar, '显示日期和星期几,促进与日期相关的交互.', '<Calendar></Calendar>'],
     [DateFieldAnchor, '使用户能够在指定字段中输入特定日期.', '<DateFieldAnchor></DateFieldAnchor>'],
     [DateFieldInput, '使用户能够在指定字段中输入特定日期.', '<DateFieldInput></DateFieldInput>'],

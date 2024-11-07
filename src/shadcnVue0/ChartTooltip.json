@@ -1,0 +1,21 @@
+{
+  "name": "ChartTooltip",
+  "props": {
+    "title": {
+      "type": "string",
+      "description": "The title of the tooltip.",
+      "description_zh": "工具提示的标题。",
+      "required": false
+    },
+    "data": {
+      "type": "{\n  name: string\n  color: string\n  value: any\n}[]",
+      "description": "The data for the tooltip.",
+      "description_zh": "工具提示的数据。",
+      "required": true
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/charts.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/charts.html"
+}

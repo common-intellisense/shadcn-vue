@@ -1,0 +1,74 @@
+{
+  "name": "ChartLegend",
+  "props": {
+    "items": {
+      "type": "BulletLegendItemInterface[]",
+      "description": "The items for the bullet legend.",
+      "description_zh": "子弹图例的项目。",
+      "required": true
+    }
+  },
+  "typeDetail": {
+    "BulletLegendItemInterface": [
+      {
+        "name": "name",
+        "description": "名称",
+        "type": "string | number"
+      },
+      {
+        "name": "color",
+        "description": "颜色",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "className",
+        "description": "类名",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "shape",
+        "description": "形状",
+        "type": "BulletShape",
+        "optional": true
+      },
+      {
+        "name": "inactive",
+        "description": "不活跃",
+        "type": "boolean",
+        "optional": true
+      },
+      {
+        "name": "hidden",
+        "description": "隐藏",
+        "type": "boolean",
+        "optional": true
+      },
+      {
+        "name": "pointer",
+        "description": "指针",
+        "type": "boolean",
+        "optional": true
+      }
+    ]
+  },
+  "events": [
+    {
+      "name": "legendItemClick",
+      "params": "[d: BulletLegendItemInterface, i: number]",
+      "description": "Click event.",
+      "description_zh": "点击事件。"
+    },
+    {
+      "name": "update:items",
+      "params": "[payload: BulletLegendItemInterface[]]",
+      "description": "Update event.",
+      "description_zh": "更新事件。"
+
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/charts.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/charts.html"
+}

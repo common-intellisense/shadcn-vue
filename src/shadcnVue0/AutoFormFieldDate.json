@@ -24,7 +24,7 @@
       "description_zh": "字段是否为必填项。"
     },
     "config": {
-      "default": null,
+      "default": "",
       "value": "",
       "type": "ConfigItem",
       "description": "The configuration for the field.",

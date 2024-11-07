@@ -1,0 +1,96 @@
+{
+  "name": "ChartSingleTooltip",
+  "props": {
+    "colors": {
+      "type": "string[]",
+      "default": "[]",
+      "description": "The colors of the crosshair lines.",
+      "description_zh": "十字准星线的颜色。",
+      "required": true
+    },
+    "selector": {
+      "type": "string",
+      "default": "",
+      "description": "The CSS selector for the tooltip.",
+      "description_zh": "工具提示的CSS选择器。",
+      "required": true
+    },
+    "index": {
+      "type": "string",
+      "default": "",
+      "description": "The index of the tooltip.",
+      "description_zh": "工具提示的索引。",
+      "required": true
+    },
+    "items": {
+      "type": "BulletLegendItemInterface[]",
+      "default": "[]",
+      "description": "The items for the bullet legend.",
+      "description_zh": "项目符号图例的项目。",
+      "required": false
+    },
+    "valueFormatter": {
+      "type": "(tick: number, i?: number, ticks?: number[]) => string",
+      "default": "",
+      "description": "Function to format the value.",
+      "description_zh": "格式化值的函数。",
+      "required": false
+    },
+    "customTooltip": {
+      "type": "Component",
+      "default": "",
+      "description": "Custom tooltip component.",
+      "description_zh": "自定义工具提示组件。",
+      "required": false
+    }
+  },
+  "typeDetail": {
+    "BulletLegendItemInterface": [
+      {
+        "name": "name",
+        "description": "名称",
+        "type": "string | number"
+      },
+      {
+        "name": "color",
+        "description": "颜色",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "className",
+        "description": "类名",
+        "type": "string",
+        "optional": true
+      },
+      {
+        "name": "shape",
+        "description": "形状",
+        "type": "BulletShape",
+        "optional": true
+      },
+      {
+        "name": "inactive",
+        "description": "不活跃",
+        "type": "boolean",
+        "optional": true
+      },
+      {
+        "name": "hidden",
+        "description": "隐藏",
+        "type": "boolean",
+        "optional": true
+      },
+      {
+        "name": "pointer",
+        "description": "指针",
+        "type": "boolean",
+        "optional": true
+      }
+    ]
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/charts.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/charts.html"
+}
