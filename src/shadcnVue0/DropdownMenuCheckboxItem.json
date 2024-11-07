@@ -44,6 +44,13 @@
       "name": "select",
       "params": "(event: Event) => void",
       "value": ""
+    },
+    {
+      "description": "Event handler called when the checked state of the item changes.",
+      "description_zh": "当项目的检查状态更改时调用事件处理程序。",
+      "name": "update:checked",
+      "params": "[payload: boolean]",
+      "value": ""
     }
   ],
   "methods": [],

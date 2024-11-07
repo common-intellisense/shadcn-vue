@@ -171,18 +171,17 @@ import DrawerOverlay from './DrawerOverlay.json'
 import DrawerPortal from './DrawerPortal.json'
 import DrawerTitle from './DrawerTitle.json'
 import DrawerTrigger from './DrawerTrigger.json'
-import DropdownMenuArrow from './DropdownMenuArrow.json'
+import DropdownMenu from './DropdownMenu.json'
 import DropdownMenuCheckboxItem from './DropdownMenuCheckboxItem.json'
 import DropdownMenuContent from './DropdownMenuContent.json'
 import DropdownMenuGroup from './DropdownMenuGroup.json'
 import DropdownMenuItem from './DropdownMenuItem.json'
-import DropdownMenuItemIndicator from './DropdownMenuItemIndicator.json'
 import DropdownMenuLabel from './DropdownMenuLabel.json'
 import DropdownMenuPortal from './DropdownMenuPortal.json'
 import DropdownMenuRadioGroup from './DropdownMenuRadioGroup.json'
 import DropdownMenuRadioItem from './DropdownMenuRadioItem.json'
-import DropdownMenuRoot from './DropdownMenuRoot.json'
 import DropdownMenuSeparator from './DropdownMenuSeparator.json'
+import DropdownMenuShortcut from './DropdownMenuShortcut.json'
 import DropdownMenuTrigger from './DropdownMenuTrigger.json'
 import EditableArea from './EditableArea.json'
 import EditableCancelTrigger from './EditableCancelTrigger.json'
@@ -552,11 +551,11 @@ export function getPropsMap() {
     DropdownMenuRoot,
     DropdownMenuTrigger,
     DropdownMenuPortal,
-    DropdownMenuArrow,
+    DropdownMenu,
     DropdownMenuCheckboxItem,
     DropdownMenuGroup,
     DropdownMenuItem,
-    DropdownMenuItemIndicator,
+    DropdownMenuShortcut,
     DropdownMenuLabel,
     DropdownMenuRadioGroup,
     DropdownMenuRadioItem,
@@ -767,11 +766,11 @@ export function getComponentMap() {
     [DropdownMenuRoot, '下拉菜单', '<DropdownMenuRoot></DropdownMenuRoot>'],
     [DropdownMenuTrigger, '下拉菜单', '<DropdownMenuTrigger></DropdownMenuTrigger>'],
     [DropdownMenuPortal, '下拉菜单', '<DropdownMenuPortal></DropdownMenuPortal>'],
-    [DropdownMenuArrow, '下拉菜单', '<DropdownMenuArrow></DropdownMenuArrow>'],
+    [DropdownMenu, '下拉菜单', '<DropdownMenu></DropdownMenu>'],
     [DropdownMenuCheckboxItem, '下拉菜单', '<DropdownMenuCheckboxItem></DropdownMenuCheckboxItem>'],
     [DropdownMenuGroup, '下拉菜单', '<DropdownMenuGroup></DropdownMenuGroup>'],
     [DropdownMenuItem, '下拉菜单', '<DropdownMenuItem></DropdownMenuItem>'],
-    [DropdownMenuItemIndicator, '下拉菜单', '<DropdownMenuItemIndicator></DropdownMenuItemIndicator>'],
+    [DropdownMenuShortcut, '下拉菜单', '<DropdownMenuShortcut></DropdownMenuShortcut>'],
     [DropdownMenuLabel, '下拉菜单', '<DropdownMenuLabel></DropdownMenuLabel>'],
     [DropdownMenuRadioGroup, '下拉菜单', '<DropdownMenuRadioGroup></DropdownMenuRadioGroup>'],
     [DropdownMenuRadioItem, '下拉菜单', '<DropdownMenuRadioItem></DropdownMenuRadioItem>'],

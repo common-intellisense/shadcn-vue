@@ -1,5 +1,5 @@
 {
-  "name": "DropdownMenuRoot",
+  "name": "DropdownMenu",
   "props": {
     "defaultOpen": {
       "default": "",
@@ -34,7 +34,15 @@
       "description_zh": "子菜单的阅读方向（如果适用）。如果省略，则全局继承自 DirectionProvider 或采用 LTR（从左到右）读取模式。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "description": "Event handler called when the dropdown menu is opened or closed.",
+      "description_zh": "当打开或关闭下拉菜单时调用事件处理程序。",
+      "name": "update:open",
+      "params": "[payload: boolean]",
+      "value": ""
+    }
+  ],
   "methods": [],
   "suggestions": [
     "DropdownMenuTrigger",

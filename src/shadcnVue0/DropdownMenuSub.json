@@ -1,7 +1,7 @@
 {
   "name": "DropdownMenuSub",
   "props": {
-    "open": {
+    ":open": {
       "default": "",
       "value": "",
       "type": "boolean",
@@ -16,7 +16,14 @@
       "description_zh": "子菜单最初呈现时的打开状态。在不需要控制其打开状态时使用。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "params": "[payload: boolean]",
+      "description": "Event handler called when the open state of the submenu changes.",
+      "description_zh": "当子菜单的打开状态更改时调用的事件处理程序。"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "DropdownMenuSubTrigger",
