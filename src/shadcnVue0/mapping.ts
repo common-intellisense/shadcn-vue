@@ -13,6 +13,7 @@ import AlertDialogHeader from './AlertDialogHeader.json'
 import AlertDialogTitle from './AlertDialogTitle.json'
 import AlertDialogTrigger from './AlertDialogTrigger.json'
 import AlertTitle from './AlertTitle.json'
+import AreaChart from './AreaChart.json'
 import AspectRatio from './AspectRatio.json'
 import AutoForm from './AutoForm.json'
 import AutoFormField from './AutoFormField.json'
@@ -313,6 +314,7 @@ export function getPropsMap() {
     Alert,
     AlertDescription,
     AlertTitle,
+    AreaChart,
     AlertDialogAction,
     AlertDialogCancel,
     AlertDialogContent,
@@ -622,6 +624,7 @@ export function getComponentMap() {
     [Alert, '显示标注以引起用户注意', '<Alert></Alert>'],
     [AlertDescription, '显示标注以引起用户注意', '<AlertDescription></AlertDescription>'],
     [AlertTitle, '显示标注以引起用户注意', '<AlertTitle></AlertTitle>'],
+    [AreaChart, '区域图表', '<AreaChart></AreaChart>'],
     [AlertDialogAction, '警报对话框', '<AlertDialogAction></AlertDialogAction>'],
     [AlertDialogCancel, '警报对话框', '<AlertDialogCancel></AlertDialogCancel>'],
     [AlertDialogContent, '警报对话框', '<AlertDialogContent></AlertDialogContent>'],

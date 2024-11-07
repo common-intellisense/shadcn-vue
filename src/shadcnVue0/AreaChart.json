@@ -1,0 +1,139 @@
+{
+  "name": "AreaChart",
+  "props": {
+    "as": {
+      "default": "button",
+      "value": "",
+      "type": "AsTag | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild\n",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "customTooltip": {
+      "default": "",
+      "value": "",
+      "type": "Component",
+      "description": "Render custom tooltip component.",
+      "description_zh": "渲染自定义工具提示组件。"
+    },
+    "curveType": {
+      "default": "",
+      "value": "",
+      "type": "CurveType",
+      "description": "Type of curve",
+      "description_zh": "曲线类型"
+    },
+    "showGradiant": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of gradient.",
+      "description_zh": "控制渐变的可见性。"
+    },
+    "data": {
+      "type": "T[]",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "The source data, in which each entry is a dictionary.",
+      "description_zh": "源数据，其中每个条目都是一个字典。"
+    },
+    "categories": {
+      "type": "KeyOf<T>[]",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "Select the categories from your data. Used to populate the legend and tooltip.",
+      "description_zh": "从数据中选择类别。用于填充图例和工具提示。"
+    },
+    "index": {
+      "type": "KeyOf<T>",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "Sets the key to map the data to the axis.",
+      "description_zh": "设置将数据映射到轴的键。"
+    },
+    "colors": {
+      "type": "string[]",
+      "default": "",
+      "value": "",
+      "description": "Change the default colors.",
+      "description_zh": "更改默认颜色。"
+    },
+    "margin": {
+      "type": "{\n  left?: number;\n  right?: number;\n  top?: number;\n  bottom?: number;\n}",
+      "default": "",
+      "value": "",
+      "description": "Margin of each the container.",
+      "description_zh": "容器的边距。"
+    },
+    "filterOpacity": {
+      "type": "number",
+      "default": 0.2,
+      "value": "",
+      "description": "Change the opacity of the non-selected field.",
+      "description_zh": "更改未选择字段的不透明度。"
+    },
+    "xFormatter": {
+      "type": "(tick: number | Date, i: number, ticks: number[] | Date[]) => string",
+      "default": "",
+      "value": "",
+      "description": "Function to format X label.",
+      "description_zh": "格式化 X 标签的函数。"
+    },
+    "yFormatter": {
+      "type": "(tick: number | Date, i: number, ticks: number[] | Date[]) => string",
+      "default": "",
+      "value": "",
+      "description": "Function to format Y label.",
+      "description_zh": "格式化 Y 标签的函数。"
+    },
+    "showXAxis": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of the X axis.",
+      "description_zh": "控制 X 轴的可见性。"
+    },
+    "showYAxis": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of the Y axis.",
+      "description_zh": "控制 Y 轴的可见性。"
+    },
+    "showTooltip": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of tooltip.",
+      "description_zh": "控制工具提示的可见性。"
+    },
+    "showLegend": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of legend.",
+      "description_zh": "控制图例的可见性。"
+    },
+    "showGridLine": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Controls the visibility of gridline.",
+      "description_zh": "控制网格线的可见性。"
+    }
+  },
+  "events": [
+    {
+      "name": "legendItemClick",
+      "params": "[d: BulletLegendItemInterface, i: number]",
+      "description": "Fires when the user clicks on the legend.",
+      "description_zh": "当用户单击图例时触发。"
+    }
+  ],
+  "methods": [],
+  "slots": [],
+  "link": "https://www.shadcn-vue.com/docs/charts.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/charts.html"
+}
