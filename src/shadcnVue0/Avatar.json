@@ -1,0 +1,27 @@
+{
+  "name": "Avatar",
+  "props": {
+    "size": {
+      "default": "sm",
+      "value": "",
+      "type": "sm / base / lg",
+      "description": "The size of the avatar.",
+      "description_zh": "头像的大小。"
+    },
+    "shape": {
+      "default": "circle",
+      "value": "",
+      "type": "circle / square",
+      "description": "The shape of the avatar.",
+      "description_zh": "头像的形状。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "suggestions": [
+    "AvatarImage",
+    "AvatarFallback"
+  ],
+  "link": "https://www.radix-vue.com/components/avatar.html",
+  "link_zh": "https://www.radix-vue.com/components/avatar.html"
+}
