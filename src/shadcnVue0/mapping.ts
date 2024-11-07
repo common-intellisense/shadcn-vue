@@ -84,6 +84,15 @@ import ComboboxRoot from './ComboboxRoot.json'
 import ComboboxSeparator from './ComboboxSeparator.json'
 import ComboboxTrigger from './ComboboxTrigger.json'
 import ComboboxViewport from './ComboboxViewport.json'
+import Command from './Command.json'
+import CommandDialog from './CommandDialog.json'
+import CommandEmpty from './CommandEmpty.json'
+import CommandGroup from './CommandGroup.json'
+import CommandInput from './CommandInput.json'
+import CommandItem from './CommandItem.json'
+import CommandList from './CommandList.json'
+import CommandSeparator from './CommandSeparator.json'
+import CommandShortcut from './CommandShortcut.json'
 import ConfigProvider from './ConfigProvider.json'
 import ContextMenuArrow from './ContextMenuArrow.json'
 import ContextMenuCheckboxItem from './ContextMenuCheckboxItem.json'
@@ -369,6 +378,15 @@ export function getPropsMap() {
     ComboboxSeparator,
     ComboboxTrigger,
     ComboboxViewport,
+    Command,
+    CommandDialog,
+    CommandEmpty,
+    CommandGroup,
+    CommandInput,
+    CommandItem,
+    CommandList,
+    CommandSeparator,
+    CommandShortcut,
     ContextMenuArrow,
     ContextMenuCheckboxItem,
     ContextMenuContent,
@@ -681,6 +699,15 @@ export function getComponentMap() {
     [ComboboxSeparator, '组合框', '<ComboboxSeparator></ComboboxSeparator>'],
     [ComboboxTrigger, '组合框', '<ComboboxTrigger></ComboboxTrigger>'],
     [ComboboxViewport, '组合框', '<ComboboxViewport></ComboboxViewport>'],
+    [Command, '命令', '<Command></Command>'],
+    [CommandDialog, '命令', '<CommandDialog></CommandDialog>'],
+    [CommandEmpty, '命令', '<CommandEmpty></CommandEmpty>'],
+    [CommandGroup, '命令', '<CommandGroup></CommandGroup>'],
+    [CommandInput, '命令', '<CommandInput></CommandInput>'],
+    [CommandItem, '命令', '<CommandItem></CommandItem>'],
+    [CommandList, '命令', '<CommandList></CommandList>'],
+    [CommandSeparator, '命令', '<CommandSeparator></CommandSeparator>'],
+    [CommandShortcut, '命令', '<CommandShortcut></CommandShortcut>'],
     [ContextMenuArrow, '上下文菜单', '<ContextMenuArrow></ContextMenuArrow>'],
     [ContextMenuCheckboxItem, '上下文菜单', '<ContextMenuCheckboxItem></ContextMenuCheckboxItem>'],
     [ContextMenuContent, '上下文菜单', '<ContextMenuContent></ContextMenuContent>'],
