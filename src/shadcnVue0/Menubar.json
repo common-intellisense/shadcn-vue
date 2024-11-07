@@ -1,5 +1,5 @@
 {
-  "name": "MenubarRoot",
+  "name": "Menubar",
   "props": {
     "defaultValue": {
       "default": "",
@@ -48,7 +48,14 @@
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[value: boolean]",
+      "description": "Fires when the value of the menu changes.",
+      "description_zh": "当菜单的值更改时触发。"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "MenubarMenu"

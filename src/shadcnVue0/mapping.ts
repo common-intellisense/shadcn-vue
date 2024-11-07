@@ -203,19 +203,17 @@ import HoverCardTrigger from './HoverCardTrigger.json'
 import Input from './Input.json'
 import Label from './Label.json'
 import LineChart from './LineChart.json'
-import MenubarArrow from './MenubarArrow.json'
+import Menubar from './Menubar.json'
 import MenubarCheckboxItem from './MenubarCheckboxItem.json'
 import MenubarContent from './MenubarContent.json'
 import MenubarGroup from './MenubarGroup.json'
 import MenubarItem from './MenubarItem.json'
-import MenubarItemIndicator from './MenubarItemIndicator.json'
 import MenubarLabel from './MenubarLabel.json'
 import MenubarMenu from './MenubarMenu.json'
-import MenubarPortal from './MenubarPortal.json'
 import MenubarRadioGroup from './MenubarRadioGroup.json'
 import MenubarRadioItem from './MenubarRadioItem.json'
-import MenubarRoot from './MenubarRoot.json'
 import MenubarSeparator from './MenubarSeparator.json'
+import MenubarShortcut from './MenubarShortcut.json'
 import MenubarSub from './MenubarSub.json'
 import MenubarSubContent from './MenubarSubContent.json'
 import MenubarSubTrigger from './MenubarSubTrigger.json'
@@ -444,17 +442,15 @@ export function getPropsMap() {
     Label,
     LineChart,
     MenubarRadioItem,
-    MenubarArrow,
+    MenubarShortcut,
     MenubarCheckboxItem,
     MenubarContent,
     MenubarGroup,
     MenubarItem,
-    MenubarItemIndicator,
     MenubarLabel,
     MenubarMenu,
-    MenubarPortal,
     MenubarRadioGroup,
-    MenubarRoot,
+    Menubar,
     MenubarSeparator,
     MenubarSub,
     MenubarSubContent,
@@ -792,17 +788,15 @@ export function getComponentMap() {
     [Label, '标签', '<Label></Label>'],
     [LineChart, '线图', '<LineChart></LineChart>'],
     [MenubarRadioItem, '菜单栏', '<MenubarRadioItem></MenubarRadioItem>'],
-    [MenubarArrow, '菜单栏', '<MenubarArrow></MenubarArrow>'],
+    [MenubarShortcut, '菜单栏', '<MenubarShortcut></MenubarShortcut>'],
     [MenubarCheckboxItem, '菜单栏', '<MenubarCheckboxItem></MenubarCheckboxItem>'],
     [MenubarContent, '菜单栏', '<MenubarContent></MenubarContent>'],
     [MenubarGroup, '菜单栏', '<MenubarGroup></MenubarGroup>'],
     [MenubarItem, '菜单栏', '<MenubarItem></MenubarItem>'],
-    [MenubarItemIndicator, '菜单栏', '<MenubarItemIndicator></MenubarItemIndicator>'],
     [MenubarLabel, '菜单栏', '<MenubarLabel></MenubarLabel>'],
     [MenubarMenu, '菜单栏', '<MenubarMenu></MenubarMenu>'],
-    [MenubarPortal, '菜单栏', '<MenubarPortal></MenubarPortal>'],
     [MenubarRadioGroup, '菜单栏', '<MenubarRadioGroup></MenubarRadioGroup>'],
-    [MenubarRoot, '菜单栏', '<MenubarRoot></MenubarRoot>'],
+    [Menubar, '菜单栏', '<Menubar></Menubar>'],
     [MenubarSeparator, '菜单栏', '<MenubarSeparator></MenubarSeparator>'],
     [MenubarSub, '菜单栏', '<MenubarSub></MenubarSub>'],
     [MenubarSubContent, '菜单栏', '<MenubarSubContent></MenubarSubContent>'],

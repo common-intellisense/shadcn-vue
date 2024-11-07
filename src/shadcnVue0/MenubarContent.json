@@ -16,7 +16,7 @@
       "description_zh": "用于在需要更多控制时强制安装。在使用 Vue.js 动画库控制动画时很有用。它继承自 {' '} MenubarPortal。"
     },
     "side": {
-      "default": "\"bottom\"",
+      "default": "bottom",
       "value": [
         "start",
         "center",
@@ -27,14 +27,14 @@
       "description_zh": "打开时要呈现的触发器的首选侧。当发生冲突并启用 avoidCollisions 时，将反转。"
     },
     ":sideOffset": {
-      "default": "0",
+      "default": "8",
       "value": "",
       "type": "number",
       "description": "The distance in pixels from the trigger.",
       "description_zh": "与触发器的距离（以像素为单位）。"
     },
     "align": {
-      "default": "center",
+      "default": "start",
       "value": [
         "start",
         "center",
@@ -45,7 +45,7 @@
       "description_zh": "与触发器的首选对齐方式。发生碰撞时可能会发生变化。"
     },
     ":alignOffset": {
-      "default": "0",
+      "default": "-4",
       "value": "",
       "type": "number",
       "description": "An offset in pixels from the \"start\" or{' '} \"end\" alignment options.",

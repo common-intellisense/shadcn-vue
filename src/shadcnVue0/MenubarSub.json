@@ -16,7 +16,14 @@
       "description_zh": "子菜单的受控打开状态。必须与 onOpenChange 结合使用。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "params": "[payload: boolean]",
+      "description": "Callback when the open state of the submenu changes.",
+      "description_zh": "子菜单的打开状态发生变化时的回调."
+    }
+  ],
   "methods": [],
   "suggestions": [
     "MenubarSubTrigger",

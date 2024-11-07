@@ -14,6 +14,13 @@
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, prevents the user from interacting with item.",
+      "description_zh": "当 `true` 时,防止用户与项目交互."
     }
   },
   "events": [],

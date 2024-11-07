@@ -23,7 +23,14 @@
       "description_zh": "组中所选项的值。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[payload: string]",
+      "description": "Fires when the value of the selected item changes.",
+      "description_zh": "当所选项的值更改时触发."
+    }
+  ],
   "methods": [],
   "suggestions": [
     "MenubarRadioItem"

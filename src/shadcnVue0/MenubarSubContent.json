@@ -117,6 +117,27 @@
       "description": "Event handler called when an interaction (pointer or focus event) happens outside the bounds of the component. It can be prevented by calling event.preventDefault.",
       "description_zh": "当交互（指针或焦点事件）发生在组件边界之外时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
       "value": ""
+    },
+    {
+      "name": "openAutoFocus",
+      "params": "(event: Event) => void",
+      "description": "Event handler called when auto-focusing on open. It can be prevented by calling event.preventDefault.",
+      "description_zh": "在打开时自动聚焦时调用的事件处理程序.可以通过调用 event.preventDefault 来防止它.",
+      "value": ""
+    },
+    {
+      "name": "closeAutoFocus",
+      "params": "(event: Event) => void",
+      "description": "Event handler called when auto-focusing on close. It can be prevented by calling event.preventDefault.",
+      "description_zh": "在关闭时自动聚焦时调用的事件处理程序.可以通过调用 event.preventDefault 来防止它.",
+      "value": ""
+    },
+    {
+      "name": "entryFocus",
+      "params": "(event: Event) => void",
+      "description": "Event handler called when the entry gains focus. It can be prevented by calling event.preventDefault.",
+      "description_zh": "当条目获得焦点时调用的事件处理程序.可以通过调用 event.preventDefault 来防止它.",
+      "value": ""
     }
   ],
   "methods": [],

@@ -44,6 +44,13 @@
       "description": "Event handler called when the user selects an item (via mouse or keyboard). Calling event.preventDefault in this handler will prevent the menunar from closing when selecting that item.",
       "description_zh": "当用户选择项（通过鼠标或键盘）时调用的事件处理程序。在此处理程序中调用 event.preventDefault 将防止在选择该项时关闭菜单。",
       "value": ""
+    },
+    {
+      "name": "update:checked",
+      "params": "[payload: boolean];",
+      "description": "Event handler called when the checked state of the item changes.",
+      "description_zh": "当项目的检查状态更改时调用的事件处理程序.",
+      "value": ""
     }
   ],
   "methods": [],
