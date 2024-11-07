@@ -1,0 +1,80 @@
+{
+  "name": "Carousel",
+  "props": {
+    "opts": {
+      "default": "",
+      "value": "",
+      "type": "CarouselOptions",
+      "description": "Options to customize the carousel behavior.",
+      "description_zh": "自定义轮播行为的选项。"
+    },
+    "plugins": {
+      "default": "",
+      "value": "",
+      "type": "CarouselPlugin",
+      "description": "Plugins to extend the carousel functionality.",
+      "description_zh": "扩展轮播功能的插件。"
+    },
+    "orientation": {
+      "default": "horizontal",
+      "value": "",
+      "type": "horizontal / vertical",
+      "description": "The orientation of the carousel, either horizontal or vertical.",
+      "description_zh": "轮播的方向，可以是水平或垂直。"
+    }
+  },
+  "events": [
+    {
+      "name": "init-api",
+      "params": "(payload: UnwrapRefCarouselApi) => void",
+      "description": "Emitted when the active slide changes.",
+      "description_zh": "当活动幻灯片更改时发出。"
+    }
+  ],
+  "methods": [
+    {
+      "name": "canScrollNext",
+      "params": "() => boolean",
+      "description": "Check if the carousel can scroll to the next slide.",
+      "description_zh": "检查轮播是否可以滚动到下一张幻灯片。"
+    },
+    {
+      "name": "canScrollPrev",
+      "params": "() => boolean",
+      "description": "Check if the carousel can scroll to the previous slide.",
+      "description_zh": "检查轮播是否可以滚动到上一张幻灯片。"
+    },
+    {
+      "name": "carouselApi",
+      "params": "() => CarouselApi",
+      "description": "Get the carousel API instance.",
+      "description_zh": "获取轮播 API 实例。"
+    },
+    {
+      "name": "carouselRef",
+      "params": "() => Ref<HTMLElement>",
+      "description": "Get the reference to the carousel element.",
+      "description_zh": "获取轮播元素的引用。"
+    },
+    {
+      "name": "orientation",
+      "params": "() => 'horizontal' | 'vertical'",
+      "description": "Get the current orientation of the carousel.",
+      "description_zh": "获取轮播的当前方向。"
+    },
+    {
+      "name": "scrollNext",
+      "params": "() => void",
+      "description": "Scroll to the next slide.",
+      "description_zh": "滚动到下一张幻灯片。"
+    },
+    {
+      "name": "scrollPrev",
+      "params": "() => void",
+      "description": "Scroll to the previous slide.",
+      "description_zh": "滚动到上一张幻灯片。"
+    }
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/carousel.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/carousel.html"
+}

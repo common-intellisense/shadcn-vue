@@ -55,6 +55,11 @@ import CardDescription from './CardDescription.json'
 import CardFooter from './CardFooter.json'
 import CardHeader from './CardHeader.json'
 import CardTitle from './CardTitle.json'
+import Carousel from './Carousel.json'
+import CarouselContent from './CarouselContent.json'
+import CarouselItem from './CarouselItem.json'
+import CarouselNext from './CarouselNext.json'
+import CarouselPrevious from './CarouselPrevious.json'
 import CheckboxIndicator from './CheckboxIndicator.json'
 import CheckboxRoot from './CheckboxRoot.json'
 import CollapsibleContent from './CollapsibleContent.json'
@@ -528,6 +533,11 @@ export function getPropsMap() {
     CardFooter,
     CardHeader,
     CardTitle,
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
     Calendar,
     DateFieldAnchor,
     DateFieldInput,
@@ -828,6 +838,11 @@ export function getComponentMap() {
     [CardFooter, '卡片', '<CardFooter></CardFooter>'],
     [CardHeader, '卡片', '<CardHeader></CardHeader>'],
     [CardTitle, '卡片', '<CardTitle></CardTitle>'],
+    [Carousel, '轮播', '<Carousel></Carousel>'],
+    [CarouselContent, '轮播', '<CarouselContent></CarouselContent>'],
+    [CarouselItem, '轮播', '<CarouselItem></CarouselItem>'],
+    [CarouselNext, '轮播', '<CarouselNext></CarouselNext>'],
+    [CarouselPrevious, '轮播', '<CarouselPrevious></CarouselPrevious>'],
     [Calendar, '显示日期和星期几,促进与日期相关的交互.', '<Calendar></Calendar>'],
     [DateFieldAnchor, '使用户能够在指定字段中输入特定日期.', '<DateFieldAnchor></DateFieldAnchor>'],
     [DateFieldInput, '使用户能够在指定字段中输入特定日期.', '<DateFieldInput></DateFieldInput>'],
