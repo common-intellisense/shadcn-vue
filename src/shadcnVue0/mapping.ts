@@ -161,6 +161,16 @@ import DialogScrollContent from './DialogScrollContent.json'
 import DialogTitle from './DialogTitle.json'
 import DialogTrigger from './DialogTrigger.json'
 import DonutChart from './DonutChart.json'
+import Drawer from './Drawer.json'
+import DrawerClose from './DrawerClose.json'
+import DrawerContent from './DrawerContent.json'
+import DrawerDescription from './DrawerDescription.json'
+import DrawerFooter from './DrawerFooter.json'
+import DrawerHeader from './DrawerHeader.json'
+import DrawerOverlay from './DrawerOverlay.json'
+import DrawerPortal from './DrawerPortal.json'
+import DrawerTitle from './DrawerTitle.json'
+import DrawerTrigger from './DrawerTrigger.json'
 import DropdownMenuArrow from './DropdownMenuArrow.json'
 import DropdownMenuCheckboxItem from './DropdownMenuCheckboxItem.json'
 import DropdownMenuContent from './DropdownMenuContent.json'
@@ -412,6 +422,16 @@ export function getPropsMap() {
     DialogTitle,
     DialogTrigger,
     DonutChart,
+    Drawer,
+    DrawerContent,
+    DrawerDescription,
+    DrawerFooter,
+    DrawerHeader,
+    DrawerOverlay,
+    DrawerTitle,
+    DrawerClose,
+    DrawerPortal,
+    DrawerTrigger,
     HoverCardArrow,
     HoverCardContent,
     HoverCardPortal,
@@ -733,6 +753,16 @@ export function getComponentMap() {
     [DialogTitle, '对话', '<DialogTitle></DialogTitle>'],
     [DialogTrigger, '对话', '<DialogTrigger></DialogTrigger>'],
     [DonutChart, '圆环图', '<DonutChart></DonutChart>'],
+    [Drawer, '抽屉', '<Drawer></Drawer>'],
+    [DrawerContent, '抽屉', '<DrawerContent></DrawerContent>'],
+    [DrawerDescription, '抽屉', '<DrawerDescription></DrawerDescription>'],
+    [DrawerFooter, '抽屉', '<DrawerFooter></DrawerFooter>'],
+    [DrawerHeader, '抽屉', '<DrawerHeader></DrawerHeader>'],
+    [DrawerOverlay, '抽屉', '<DrawerOverlay></DrawerOverlay>'],
+    [DrawerTitle, '抽屉', '<DrawerTitle></DrawerTitle>'],
+    [DrawerClose, '抽屉', '<DrawerClose></DrawerClose>'],
+    [DrawerPortal, '抽屉', '<DrawerPortal></DrawerPortal>'],
+    [DrawerTrigger, '抽屉', '<DrawerTrigger></DrawerTrigger>'],
     [DropdownMenuContent, '下拉菜单', '<DropdownMenuContent></DropdownMenuContent>'],
     [DropdownMenuRoot, '下拉菜单', '<DropdownMenuRoot></DropdownMenuRoot>'],
     [DropdownMenuTrigger, '下拉菜单', '<DropdownMenuTrigger></DropdownMenuTrigger>'],

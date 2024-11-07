@@ -1,0 +1,35 @@
+{
+  "name": "DrawerPortal",
+  "props": {
+    "to": {
+      "default": "",
+      "value": "",
+      "type": "string | HTMLElement",
+      "description": "Vue native teleport component prop `:to`",
+      "description_zh": "Vue 原生 teleport 组件属性 `:to`",
+      "link": "https://vuejs.org/guide/built-ins/teleport.html#basic-usage"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Disable teleport and render the component inline",
+      "description_zh": "禁用 teleport 并内联渲染组件",
+      "link": "https://vuejs.org/guide/built-ins/teleport.html#disabling-teleport"
+    },
+    "forceMount": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with Vue animation libraries.",
+      "description_zh": "在需要更多控制时用于强制挂载。 在使用 Vue 动画库控制动画时很有用。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "suggestions": [
+    "HoverCardArrow"
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/drawer.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/drawer.html"
+}

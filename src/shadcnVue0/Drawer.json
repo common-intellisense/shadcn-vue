@@ -1,0 +1,134 @@
+{
+  "name": "Drawer",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "activeSnapPoint": {
+      "default": "",
+      "value": "",
+      "type": "number | string | null",
+      "description": "The active snap point for the drawer.",
+      "description_zh": "抽屉的活动捕捉点。"
+    },
+    "closeThreshold": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The threshold at which the drawer should close.",
+      "description_zh": "抽屉应关闭的阈值。"
+    },
+    "shouldScaleBackground": {
+      "default": "true",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the background should scale when the drawer is open.",
+      "description_zh": "抽屉打开时背景是否应缩放。"
+    },
+    "scrollLockTimeout": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The timeout for scroll lock.",
+      "description_zh": "滚动锁定的超时时间。"
+    },
+    "fixed": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer is fixed.",
+      "description_zh": "抽屉是否固定。"
+    },
+    "dismissible": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer can be dismissed.",
+      "description_zh": "抽屉是否可以关闭。"
+    },
+    "modal": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer is modal.",
+      "description_zh": "抽屉是否为模态。"
+    },
+    "open": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer is open.",
+      "description_zh": "抽屉是否打开。"
+    },
+    "defaultOpen": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer is open by default.",
+      "description_zh": "抽屉是否默认打开。"
+    },
+    "nested": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the drawer is nested.",
+      "description_zh": "抽屉是否嵌套。"
+    },
+    "direction": {
+      "default": "",
+      "value": "",
+      "type": "DrawerDirection",
+      "description": "The direction in which the drawer opens.",
+      "description_zh": "抽屉打开的方向。"
+    }
+  },
+  "events": [
+    {
+      "name": "close",
+      "description": "Emitted when the drawer closes.",
+      "description_zh": "抽屉关闭时发出。",
+      "parameters": "(e: 'close'): void;"
+    },
+    {
+      "name": "drag",
+      "description": "Emitted when the drawer is dragged.",
+      "description_zh": "抽屉被拖动时发出。",
+      "parameters": "(e: 'drag', percentageDragged: number): void;"
+    },
+    {
+      "name": "release",
+      "description": "Emitted when the drawer is released.",
+      "description_zh": "抽屉被释放时发出。",
+      "parameters": "(e: 'release', open: boolean): void;"
+    },
+    {
+      "name": "update:open",
+      "description": "Emitted when the open state of the drawer is updated.",
+      "description_zh": "抽屉的打开状态更新时发出。",
+      "parameters": "(e: 'update:open', open: boolean): void;"
+    },
+    {
+      "name": "update:activeSnapPoint",
+      "description": "Emitted when the active snap point of the drawer is updated.",
+      "description_zh": "抽屉的活动捕捉点更新时发出。",
+      "parameters": "(e: 'update:activeSnapPoint', val: string | number): void;"
+    }
+  ],
+  "methods": [],
+  "suggestions": [
+    "HoverCardArrow"
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/drawer.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/drawer.html"
+}
