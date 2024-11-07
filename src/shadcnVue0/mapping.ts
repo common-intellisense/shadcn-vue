@@ -66,8 +66,7 @@ import ChartCrosshair from './ChartCrosshair.json'
 import ChartLegend from './ChartLegend.json'
 import ChartSingleTooltip from './ChartSingleTooltip.json'
 import ChartTooltip from './ChartTooltip.json'
-import CheckboxIndicator from './CheckboxIndicator.json'
-import CheckboxRoot from './CheckboxRoot.json'
+import Checkbox from './Checkbox.json'
 import CollapsibleContent from './CollapsibleContent.json'
 import CollapsibleRoot from './CollapsibleRoot.json'
 import CollapsibleTrigger from './CollapsibleTrigger.json'
@@ -352,8 +351,7 @@ export function getPropsMap() {
     BreadcrumbSeparator,
     Button,
     Avatar,
-    CheckboxIndicator,
-    CheckboxRoot,
+    Checkbox,
     CollapsibleContent,
     CollapsibleRoot,
     CollapsibleTrigger,
@@ -665,8 +663,7 @@ export function getComponentMap() {
     [BreadcrumbPage, '显示当前页面的位置', '<BreadcrumbPage></BreadcrumbPage>'],
     [BreadcrumbSeparator, '显示当前页面的位置', '<BreadcrumbSeparator></BreadcrumbSeparator>'],
     [Button, '按钮', '<Button></Button>'],
-    [CheckboxIndicator, '复选框', '<CheckboxIndicator></CheckboxIndicator>'],
-    [CheckboxRoot, '复选框', '<CheckboxRoot></CheckboxRoot>'],
+    [Checkbox, '复选框', '<Checkbox></Checkbox>'],
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],
     [CollapsibleRoot, '折叠面板', '<CollapsibleRoot></CollapsibleRoot>'],
     [CollapsibleTrigger, '折叠面板', '<CollapsibleTrigger></CollapsibleTrigger>'],
