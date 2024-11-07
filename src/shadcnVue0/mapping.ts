@@ -29,6 +29,13 @@ import Avatar from './Avatar.json'
 import AvatarFallback from './AvatarFallback.json'
 import AvatarImage from './AvatarImage.json'
 import Badge from './Badge.json'
+import Breadcrumb from './Breadcrumb.json'
+import BreadcrumbEllipsis from './BreadcrumbEllipsis.json'
+import BreadcrumbItem from './BreadcrumbItem.json'
+import BreadcrumbLink from './BreadcrumbLink.json'
+import BreadcrumbList from './BreadcrumbList.json'
+import BreadcrumbPage from './BreadcrumbPage.json'
+import BreadcrumbSeparator from './BreadcrumbSeparator.json'
 import CalendarCell from './CalendarCell.json'
 import CalendarCellTrigger from './CalendarCellTrigger.json'
 import CalendarGrid from './CalendarGrid.json'
@@ -314,6 +321,13 @@ export function getPropsMap() {
     AvatarFallback,
     AvatarImage,
     Badge,
+    Breadcrumb,
+    BreadcrumbEllipsis,
+    BreadcrumbItem,
+    BreadcrumbLink,
+    BreadcrumbList,
+    BreadcrumbPage,
+    BreadcrumbSeparator,
     Avatar,
     CheckboxIndicator,
     CheckboxRoot,
@@ -601,6 +615,13 @@ export function getComponentMap() {
     [Avatar, '图像元素', '<Avatar></Avatar>'],
     [AvatarImage, '图像元素', '<AvatarImage></AvatarImage>'],
     [Badge, '显示徽章或看起来像徽章的组件。', '<Badge></Badge>'],
+    [Breadcrumb, '显示当前页面的位置', '<Breadcrumb></Breadcrumb>'],
+    [BreadcrumbEllipsis, '显示当前页面的位置', '<BreadcrumbEllipsis></BreadcrumbEllipsis>'],
+    [BreadcrumbItem, '显示当前页面的位置', '<BreadcrumbItem></BreadcrumbItem>'],
+    [BreadcrumbLink, '显示当前页面的位置', '<BreadcrumbLink></BreadcrumbLink>'],
+    [BreadcrumbList, '显示当前页面的位置', '<BreadcrumbList></BreadcrumbList>'],
+    [BreadcrumbPage, '显示当前页面的位置', '<BreadcrumbPage></BreadcrumbPage>'],
+    [BreadcrumbSeparator, '显示当前页面的位置', '<BreadcrumbSeparator></BreadcrumbSeparator>'],
     [CheckboxIndicator, '复选框', '<CheckboxIndicator></CheckboxIndicator>'],
     [CheckboxRoot, '复选框', '<CheckboxRoot></CheckboxRoot>'],
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],
