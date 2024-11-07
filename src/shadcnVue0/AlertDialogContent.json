@@ -26,23 +26,44 @@
   "events": [
     {
       "name": "openAutoFocus",
-      "description": "",
+      "description": "Event handler called when auto-focusing on open.\n Can be prevented.",
       "params": "(event: Event) => void",
-      "description_zh": "",
+      "description_zh": "在打开时自动聚焦时调用的事件处理程序。\n 可以被阻止。",
       "value": ""
     },
     {
       "name": "closeAutoFocus",
-      "description": "",
+      "description": "Event handler called when auto-focusing on close.\n Can be prevented.",
       "params": "(event: Event) => void",
-      "description_zh": "",
+      "description_zh": "在关闭时自动聚焦时调用的事件处理程序。\n 可以被阻止。",
       "value": ""
     },
     {
       "name": "escapeKeyDown",
-      "description": "",
+      "description": "Event handler called when the escape key is down.\n Can be prevented.",
       "params": "(event: KeyboardEvent) => void",
-      "description_zh": "",
+      "description_zh": "按下 escape 键时调用的事件处理程序。\n 可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "pointerDownOutside",
+      "description": "Event handler called when a `pointerdown` event happens outside of the `DismissableLayer`.\n Can be prevented.",
+      "params": "(event: PointerDownOutsideEvent) => void",
+      "description_zh": "在 `DismissableLayer` 之外发生 `pointerdown` 事件时调用的事件处理程序。\n 可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "focusOutside",
+      "description": "Event handler called when the focus moves outside of the `DismissableLayer`.\n Can be prevented.",
+      "params": "(event: FocusOutsideEvent) => void",
+      "description_zh": "当焦点移出 `DismissableLayer` 时调用的事件处理程序。\n 可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "interactOutside",
+      "description": "Event handler called when an interaction happens outside the `DismissableLayer`.\n Specifically, when a `pointerdown` event happens outside or focus moves outside of it.\n Can be prevented.",
+      "params": "(event: PointerDownOutsideEvent | FocusOutsideEvent) => void",
+      "description_zh": "在 `DismissableLayer` 之外发生交互时调用的事件处理程序。\n 具体来说，当 `pointerdown` 事件发生在外部或焦点移出时。\n 可以被阻止。",
       "value": ""
     }
   ],

@@ -1,0 +1,36 @@
+{
+  "name": "AlertDialogHeader",
+  "props": {},
+  "events": [
+    {
+      "name": "openAutoFocus",
+      "description": "",
+      "params": "(event: Event) => void",
+      "description_zh": "",
+      "value": ""
+    },
+    {
+      "name": "closeAutoFocus",
+      "description": "",
+      "params": "(event: Event) => void",
+      "description_zh": "",
+      "value": ""
+    },
+    {
+      "name": "escapeKeyDown",
+      "description": "",
+      "params": "(event: KeyboardEvent) => void",
+      "description_zh": "",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "suggestions": [
+    "AlertDialogTitle",
+    "AlertDialogDescription",
+    "AlertDialogCancel",
+    "AlertDialogAction"
+  ],
+  "link": "https://www.radix-vue.com/components/alert-dialog.html",
+  "link_zh": "https://www.radix-vue.com/components/alert-dialog.html"
+}

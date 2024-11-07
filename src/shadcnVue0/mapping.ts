@@ -7,9 +7,9 @@ import AlertDialogAction from './AlertDialogAction.json'
 import AlertDialogCancel from './AlertDialogCancel.json'
 import AlertDialogContent from './AlertDialogContent.json'
 import AlertDialogDescription from './AlertDialogDescription.json'
-import AlertDialogOverlay from './AlertDialogOverlay.json'
-import AlertDialogPortal from './AlertDialogPortal.json'
-import AlertDialogRoot from './AlertDialogRoot.json'
+import AlertDialog from './AlertDialog.json'
+import AlertDialogFooter from './AlertDialogFooter.json'
+import AlertDialogHeader from './AlertDialogHeader.json'
 import AlertDialogTitle from './AlertDialogTitle.json'
 import AlertDialogTrigger from './AlertDialogTrigger.json'
 import AlertTitle from './AlertTitle.json'
@@ -282,9 +282,9 @@ export function getPropsMap() {
     AlertDialogCancel,
     AlertDialogContent,
     AlertDialogDescription,
-    AlertDialogOverlay,
-    AlertDialogPortal,
-    AlertDialogRoot,
+    AlertDialog,
+    AlertDialogFooter,
+    AlertDialogHeader,
     AlertDialogTitle,
     AlertDialogTrigger,
     AspectRatio,
@@ -556,9 +556,9 @@ export function getComponentMap() {
     [AlertDialogCancel, '警报对话框', '<AlertDialogCancel></AlertDialogCancel>'],
     [AlertDialogContent, '警报对话框', '<AlertDialogContent></AlertDialogContent>'],
     [AlertDialogDescription, '警报对话框', '<AlertDialogDescription></AlertDialogDescription>'],
-    [AlertDialogOverlay, '警报对话框', '<AlertDialogOverlay></AlertDialogOverlay>'],
-    [AlertDialogPortal, '警报对话框', '<AlertDialogPortal></AlertDialogPortal>'],
-    [AlertDialogRoot, '警报对话框', '<AlertDialogRoot></AlertDialogRoot>'],
+    [AlertDialog, '警报对话框', '<AlertDialog></AlertDialog>'],
+    [AlertDialogFooter, '警报对话框', '<AlertDialogFooter></AlertDialogFooter>'],
+    [AlertDialogHeader, '警报对话框', '<AlertDialogHeader></AlertDialogHeader>'],
     [AlertDialogTitle, '警报对话框', '<AlertDialogTitle></AlertDialogTitle>'],
     [AlertDialogTrigger, '警报对话框', '<AlertDialogTrigger></AlertDialogTrigger>'],
     [AspectRatio, '纵横比', '<AspectRatio></AspectRatio>'],
