@@ -200,6 +200,7 @@ import FormMessage from './FormMessage.json'
 import HoverCard from './HoverCard.json'
 import HoverCardContent from './HoverCardContent.json'
 import HoverCardTrigger from './HoverCardTrigger.json'
+import Input from './Input.json'
 import Label from './Label.json'
 import LineChart from './LineChart.json'
 import MenubarArrow from './MenubarArrow.json'
@@ -436,11 +437,10 @@ export function getPropsMap() {
     DrawerClose,
     DrawerPortal,
     DrawerTrigger,
-    HoverCardArrow,
     HoverCardContent,
-    HoverCardPortal,
     HoverCard,
     HoverCardTrigger,
+    Input,
     Label,
     LineChart,
     MenubarRadioItem,
@@ -785,11 +785,10 @@ export function getComponentMap() {
     [DropdownMenuRadioGroup, '下拉菜单', '<DropdownMenuRadioGroup></DropdownMenuRadioGroup>'],
     [DropdownMenuRadioItem, '下拉菜单', '<DropdownMenuRadioItem></DropdownMenuRadioItem>'],
     [DropdownMenuSeparator, '下拉菜单', '<DropdownMenuSeparator></DropdownMenuSeparator>'],
-    [HoverCardArrow, '悬浮卡', '<HoverCardArrow></HoverCardArrow>'],
     [HoverCardContent, '悬浮卡', '<HoverCardContent></HoverCardContent>'],
-    [HoverCardPortal, '悬浮卡', '<HoverCardPortal></HoverCardPortal>'],
     [HoverCard, '悬浮卡', '<HoverCard></HoverCard>'],
     [HoverCardTrigger, '悬浮卡', '<HoverCardTrigger></HoverCardTrigger>'],
+    [Input, '输入', '<Input></Input>'],
     [Label, '标签', '<Label></Label>'],
     [LineChart, '线图', '<LineChart></LineChart>'],
     [MenubarRadioItem, '菜单栏', '<MenubarRadioItem></MenubarRadioItem>'],

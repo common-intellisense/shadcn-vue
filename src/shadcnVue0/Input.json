@@ -1,0 +1,30 @@
+{
+  "name": "Input",
+  "props": {
+    "defaultValue": {
+      "default": "",
+      "value": "",
+      "type": "string | number",
+      "description": "The default value of the input.",
+      "description_zh": "输入的默认值。"
+    },
+    ":v-model": {
+      "default": "",
+      "value": "",
+      "type": "string | number",
+      "description": "The value of the input for v-model binding.",
+      "description_zh": "用于 v-model 绑定的输入值。"
+    }
+  },
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "(e: 'update:modelValue', payload: string | number): void",
+      "description": "Fires when the value of the input changes.",
+      "description_zh": "当输入值更改时触发。"
+    }
+  ],
+  "methods": [],
+  "link": "https://www.radix-vue.com/components/dialog.html",
+  "link_zh": "https://www.radix-vue.com/components/dialog.html"
+}
