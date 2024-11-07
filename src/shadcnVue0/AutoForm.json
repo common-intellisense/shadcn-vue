@@ -1,0 +1,45 @@
+{
+  "name": "AutoForm",
+  "props": {
+    "schema": {
+      "default": "trigger",
+      "value": "",
+      "type": "ZodObjectOrWrapped",
+      "description": "The schema to validate the form.",
+      "description_zh": "用于验证表单的模式。",
+      "required": true
+    },
+    "form": {
+      "default": "",
+      "value": "",
+      "type": "FormContext<GenericObject>",
+      "description": "The form context to use.",
+      "description_zh": "要使用的表单上下文。"
+    },
+    "fieldConfig": {
+      "default": "",
+      "value": "",
+      "type": "Config<z.infer<T>>",
+      "description": "The field configuration.",
+      "description_zh": "字段配置。"
+    },
+    "dependencies": {
+      "default": "",
+      "value": "",
+      "type": "Dependency<z.infer<T>>[]",
+      "description": "The dependencies to watch for.",
+      "description_zh": "要监视的依赖项。"
+    }
+  },
+  "events": [
+    {
+      "name": "submit",
+      "params": "[event: z.infer<T>]",
+      "description": "Emitted when the form is submitted.",
+      "description_zh": "当表单提交时发出。"
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+}

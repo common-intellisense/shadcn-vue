@@ -1,0 +1,45 @@
+{
+  "name": "AutoFormFieldArray",
+  "props": {
+    "fieldName": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The name of the field.",
+      "description_zh": "字段的名称。",
+      "required": true
+    },
+    "required": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the field is required.",
+      "description_zh": "字段是否必填。"
+    },
+    "config": {
+      "default": "",
+      "value": "",
+      "type": "Config<T>",
+      "description": "The field configuration.",
+      "description_zh": "字段配置。"
+    },
+    "schema": {
+      "default": "",
+      "value": "",
+      "type": "z.ZodArray<T>",
+      "description": "The schema to validate the form.",
+      "description_zh": "用于验证表单的模式。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the field is disabled.",
+      "description_zh": "字段是否禁用。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+}

@@ -3,17 +3,28 @@ import AccordionItem from './AccordionItem.json'
 import AccordionTrigger from './AccordionTrigger.json'
 import Alert from './Alert.json'
 import AlertDescription from './AlertDescription.json'
+import AlertDialog from './AlertDialog.json'
 import AlertDialogAction from './AlertDialogAction.json'
 import AlertDialogCancel from './AlertDialogCancel.json'
 import AlertDialogContent from './AlertDialogContent.json'
 import AlertDialogDescription from './AlertDialogDescription.json'
-import AlertDialog from './AlertDialog.json'
 import AlertDialogFooter from './AlertDialogFooter.json'
 import AlertDialogHeader from './AlertDialogHeader.json'
 import AlertDialogTitle from './AlertDialogTitle.json'
 import AlertDialogTrigger from './AlertDialogTrigger.json'
 import AlertTitle from './AlertTitle.json'
 import AspectRatio from './AspectRatio.json'
+import AutoForm from './AutoForm.json'
+import AutoFormField from './AutoFormField.json'
+import AutoFormFieldArray from './AutoFormFieldArray.json'
+import AutoFormFieldBoolean from './AutoFormFieldBoolean.json'
+import AutoFormFieldDate from './AutoFormFieldDate.json'
+import AutoFormFieldEnum from './AutoFormFieldEnum.json'
+import AutoFormFieldFile from './AutoFormFieldFile.json'
+import AutoFormFieldInput from './AutoFormFieldInput.json'
+import AutoFormFieldNumber from './AutoFormFieldNumber.json'
+import AutoFormFieldObject from './AutoFormFieldObject.json'
+import AutoFormLabel from './AutoFormLabel.json'
 import AvatarFallback from './AvatarFallback.json'
 import AvatarImage from './AvatarImage.json'
 import AvatarRoot from './AvatarRoot.json'
@@ -288,6 +299,17 @@ export function getPropsMap() {
     AlertDialogTitle,
     AlertDialogTrigger,
     AspectRatio,
+    AutoForm,
+    AutoFormField,
+    AutoFormFieldArray,
+    AutoFormFieldBoolean,
+    AutoFormFieldDate,
+    AutoFormFieldEnum,
+    AutoFormFieldFile,
+    AutoFormFieldInput,
+    AutoFormFieldNumber,
+    AutoFormFieldObject,
+    AutoFormLabel,
     AvatarFallback,
     AvatarImage,
     AvatarRoot,
@@ -562,6 +584,17 @@ export function getComponentMap() {
     [AlertDialogTitle, '警报对话框', '<AlertDialogTitle></AlertDialogTitle>'],
     [AlertDialogTrigger, '警报对话框', '<AlertDialogTrigger></AlertDialogTrigger>'],
     [AspectRatio, '纵横比', '<AspectRatio></AspectRatio>'],
+    [AutoForm, '从 Zod 模式自动生成表单。', '<AutoForm></AutoForm>'],
+    [AutoFormField, '从 Zod 模式自动生成表单。', '<AutoFormField></AutoFormField>'],
+    [AutoFormFieldArray, '从 Zod 模式自动生成表单。', '<AutoFormFieldArray></AutoFormFieldArray>'],
+    [AutoFormFieldBoolean, '从 Zod 模式自动生成表单。', '<AutoFormFieldBoolean></AutoFormFieldBoolean>'],
+    [AutoFormFieldDate, '从 Zod 模式自动生成表单。', '<AutoFormFieldDate></AutoFormFieldDate>'],
+    [AutoFormFieldEnum, '从 Zod 模式自动生成表单。', '<AutoFormFieldEnum></AutoFormFieldEnum>'],
+    [AutoFormFieldFile, '从 Zod 模式自动生成表单。', '<AutoFormFieldFile></AutoFormFieldFile>'],
+    [AutoFormFieldInput, '从 Zod 模式自动生成表单。', '<AutoFormFieldInput></AutoFormFieldInput>'],
+    [AutoFormFieldNumber, '从 Zod 模式自动生成表单。', '<AutoFormFieldNumber></AutoFormFieldNumber>'],
+    [AutoFormFieldObject, '从 Zod 模式自动生成表单。', '<AutoFormFieldObject></AutoFormFieldObject>'],
+    [AutoFormLabel, '从 Zod 模式自动生成表单。', '<AutoFormLabel></AutoFormLabel>'],
     [AvatarFallback, '图像元素', '<AvatarFallback></AvatarFallback>'],
     [AvatarImage, '图像元素', '<AvatarImage></AvatarImage>'],
     [AvatarRoot, '图像元素', '<AvatarRoot></AvatarRoot>'],

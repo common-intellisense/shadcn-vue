@@ -1,0 +1,32 @@
+{
+  "name": "AutoFormField",
+  "props": {
+    "fieldName": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The name of the field.",
+      "description_zh": "字段的名称。",
+      "required": true
+    },
+    "shape": {
+      "default": "false",
+      "value": "",
+      "type": "{\n  type: string\n  default?: any\n  required?: boolean\n  options?: string[]\n  schema?: ZodAny\n}",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。",
+      "required": true
+    },
+    "config": {
+      "default": "",
+      "value": "",
+      "type": "ConfigItem | Config<U>",
+      "description": "The field configuration.",
+      "description_zh": "字段配置。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+}

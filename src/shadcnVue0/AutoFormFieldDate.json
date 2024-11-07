@@ -1,0 +1,45 @@
+{
+  "name": "AutoFormFieldDate",
+  "props": {
+    "fieldName": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The name of the field.",
+      "description_zh": "字段的名称。",
+      "required": true
+    },
+    "label": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The label for the field.",
+      "description_zh": "字段的标签。"
+    },
+    "required": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the field is required.",
+      "description_zh": "字段是否为必填项。"
+    },
+    "config": {
+      "default": null,
+      "value": "",
+      "type": "ConfigItem",
+      "description": "The configuration for the field.",
+      "description_zh": "字段的配置。"
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the field is disabled.",
+      "description_zh": "字段是否被禁用。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "AutoFormLabel",
+  "props": {
+    "required": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Whether the field is required.",
+      "description_zh": "字段是否为必填项。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+}
