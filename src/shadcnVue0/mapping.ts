@@ -28,6 +28,7 @@ import AutoFormLabel from './AutoFormLabel.json'
 import Avatar from './Avatar.json'
 import AvatarFallback from './AvatarFallback.json'
 import AvatarImage from './AvatarImage.json'
+import Badge from './Badge.json'
 import CalendarCell from './CalendarCell.json'
 import CalendarCellTrigger from './CalendarCellTrigger.json'
 import CalendarGrid from './CalendarGrid.json'
@@ -312,6 +313,7 @@ export function getPropsMap() {
     AutoFormLabel,
     AvatarFallback,
     AvatarImage,
+    Badge,
     Avatar,
     CheckboxIndicator,
     CheckboxRoot,
@@ -596,8 +598,9 @@ export function getComponentMap() {
     [AutoFormFieldObject, '从 Zod 模式自动生成表单。', '<AutoFormFieldObject></AutoFormFieldObject>'],
     [AutoFormLabel, '从 Zod 模式自动生成表单。', '<AutoFormLabel></AutoFormLabel>'],
     [AvatarFallback, '图像元素', '<AvatarFallback></AvatarFallback>'],
-    [AvatarImage, '图像元素', '<AvatarImage></AvatarImage>'],
     [Avatar, '图像元素', '<Avatar></Avatar>'],
+    [AvatarImage, '图像元素', '<AvatarImage></AvatarImage>'],
+    [Badge, '显示徽章或看起来像徽章的组件。', '<Badge></Badge>'],
     [CheckboxIndicator, '复选框', '<CheckboxIndicator></CheckboxIndicator>'],
     [CheckboxRoot, '复选框', '<CheckboxRoot></CheckboxRoot>'],
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],

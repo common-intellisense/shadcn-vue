@@ -1,0 +1,20 @@
+{
+  "name": "Badge",
+  "props": {
+    "variant": {
+      "default": "default",
+      "value": "",
+      "type": "default / secondary / destructive / outline",
+      "description": "The variant of the badge.",
+      "description_zh": "徽章的变体。"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "suggestions": [
+    "AvatarImage",
+    "AvatarFallback"
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/badge.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/badge.html"
+}
