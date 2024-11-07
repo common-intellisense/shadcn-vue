@@ -1,0 +1,64 @@
+{
+  "name": "Form",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "validationSchema": {
+      "type": "object",
+      "default": "",
+      "description": "The schema used for validation",
+      "description_zh": "用于验证的模式"
+    },
+    "initialValues": {
+      "type": "object",
+      "default": "",
+      "description": "The initial values of the form",
+      "description_zh": "表单的初始值"
+    },
+    "initialErrors": {
+      "type": "object",
+      "default": "",
+      "description": "The initial errors of the form",
+      "description_zh": "表单的初始错误"
+    },
+    "initialTouched": {
+      "type": "object",
+      "default": "",
+      "description": "The initial touched fields of the form",
+      "description_zh": "表单的初始触摸字段"
+    },
+    "validateOnMount": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Whether to validate the form on mount",
+      "description_zh": "是否在挂载时验证表单"
+    },
+    "onSubmit": {
+      "type": "function",
+      "default": "",
+      "description": "The function to call when the form is submitted",
+      "description_zh": "表单提交时调用的函数"
+    },
+    "onInvalidSubmit": {
+      "type": "function",
+      "default": "",
+      "description": "The function to call when the form submission is invalid",
+      "description_zh": "表单提交无效时调用的函数"
+    },
+    "keepValues": {
+      "type": "boolean",
+      "default": "false",
+      "description": "Whether to keep the form values after submission",
+      "description_zh": "是否在提交后保留表单值"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/form.html"
+}

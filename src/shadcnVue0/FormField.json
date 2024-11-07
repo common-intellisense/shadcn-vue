@@ -1,0 +1,122 @@
+{
+  "name": "FormField",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "",
+      "value": "",
+      "description": "The name of the form field",
+      "description_zh": "表单字段的名称"
+    },
+    "rules": {
+      "type": "RuleExpression<unknown>",
+      "default": "",
+      "value": "",
+      "description": "Validation rules for the form field",
+      "description_zh": "表单字段的验证规则"
+    },
+    "validateOnMount": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to validate the field on mount",
+      "description_zh": "是否在挂载时验证字段"
+    },
+    "validateOnBlur": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to validate the field on blur",
+      "description_zh": "是否在失去焦点时验证字段"
+    },
+    "validateOnChange": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to validate the field on change",
+      "description_zh": "是否在更改时验证字段"
+    },
+    "validateOnInput": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to validate the field on input",
+      "description_zh": "是否在输入时验证字段"
+    },
+    "validateOnModelUpdate": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to validate the field on model update",
+      "description_zh": "是否在模型更新时验证字段"
+    },
+    "bails": {
+      "type": "boolean",
+      "default": true,
+      "value": "",
+      "description": "Whether to stop validation on the first error",
+      "description_zh": "是否在第一个错误时停止验证"
+    },
+    "label": {
+      "type": "string",
+      "default": "",
+      "value": "",
+      "description": "The label for the form field",
+      "description_zh": "表单字段的标签"
+    },
+    "uncheckedValue": {
+      "type": "any",
+      "default": "",
+      "value": "",
+      "description": "The value when the field is unchecked",
+      "description_zh": "字段未选中时的值"
+    },
+    "modelValue": {
+      "type": "any",
+      "default": "symbol",
+      "value": "",
+      "description": "The model value of the form field",
+      "description_zh": "表单字段的模型值"
+    },
+    "modelModifiers": {
+      "type": "any",
+      "default": {},
+      "value": "",
+      "description": "Modifiers for the model value",
+      "description_zh": "模型值的修饰符"
+    },
+    "onUpdate:modelValue": {
+      "type": "(e: any) => unknown",
+      "default": "",
+      "value": "",
+      "description": "Event handler for model value updates",
+      "description_zh": "模型值更新的事件处理程序"
+    },
+    "standalone": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether the field is standalone",
+      "description_zh": "字段是否是独立的"
+    },
+    "keepValue": {
+      "type": "boolean",
+      "default": false,
+      "value": "",
+      "description": "Whether to keep the value when the field is removed",
+      "description_zh": "字段被移除时是否保留值"
+    }
+  },
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/form.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/form.html"
+}

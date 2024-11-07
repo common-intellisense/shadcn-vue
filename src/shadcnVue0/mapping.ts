@@ -190,6 +190,13 @@ import EditableInput from './EditableInput.json'
 import EditablePreview from './EditablePreview.json'
 import EditableRoot from './EditableRoot.json'
 import EditableSubmitTrigger from './EditableSubmitTrigger.json'
+import Form from './Form.json'
+import FormControl from './FormControl.json'
+import FormDescription from './FormDescription.json'
+import FormField from './FormField.json'
+import FormItem from './FormItem.json'
+import FormLabel from './FormLabel.json'
+import FormMessage from './FormMessage.json'
 import HoverCardArrow from './HoverCardArrow.json'
 import HoverCardContent from './HoverCardContent.json'
 import HoverCardPortal from './HoverCardPortal.json'
@@ -548,7 +555,6 @@ export function getPropsMap() {
     VisuallyHidden,
     Primitive,
     DropdownMenuContent,
-    DropdownMenuRoot,
     DropdownMenuTrigger,
     DropdownMenuPortal,
     DropdownMenu,
@@ -639,6 +645,13 @@ export function getPropsMap() {
     EditablePreview,
     EditableRoot,
     EditableSubmitTrigger,
+    FormControl,
+    FormDescription,
+    FormItem,
+    FormLabel,
+    FormMessage,
+    FormField,
+    Form,
     RangeCalendarCell,
     RangeCalendarCellTrigger,
     RangeCalendarGrid,
@@ -763,7 +776,6 @@ export function getComponentMap() {
     [DrawerPortal, '抽屉', '<DrawerPortal></DrawerPortal>'],
     [DrawerTrigger, '抽屉', '<DrawerTrigger></DrawerTrigger>'],
     [DropdownMenuContent, '下拉菜单', '<DropdownMenuContent></DropdownMenuContent>'],
-    [DropdownMenuRoot, '下拉菜单', '<DropdownMenuRoot></DropdownMenuRoot>'],
     [DropdownMenuTrigger, '下拉菜单', '<DropdownMenuTrigger></DropdownMenuTrigger>'],
     [DropdownMenuPortal, '下拉菜单', '<DropdownMenuPortal></DropdownMenuPortal>'],
     [DropdownMenu, '下拉菜单', '<DropdownMenu></DropdownMenu>'],
@@ -970,6 +982,13 @@ export function getComponentMap() {
     [EditablePreview, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditablePreview></EditablePreview>'],
     [EditableRoot, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableRoot></EditableRoot>'],
     [EditableSubmitTrigger, '显示用于编辑单行文本的输入字段,在加载时呈现为静态文本.当触发编辑交互时,它会转换为文本输入字段', '<EditableSubmitTrigger></EditableSubmitTrigger>'],
+    [Form, '表单', '<Form></Form>'],
+    [FormControl, '表单', '<FormControl></FormControl>'],
+    [FormDescription, '表单', '<FormDescription></FormDescription>'],
+    [FormField, '表单', '<FormField></FormField>'],
+    [FormItem, '表单', '<FormItem></FormItem>'],
+    [FormLabel, '表单', '<FormLabel></FormLabel>'],
+    [FormMessage, '表单', '<FormMessage></FormMessage>'],
     [RangeCalendarCell, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarCell></RangeCalendarCell>'],
     [RangeCalendarCellTrigger, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarCellTrigger></RangeCalendarCellTrigger>'],
     [RangeCalendarGrid, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarGrid></RangeCalendarGrid>'],
