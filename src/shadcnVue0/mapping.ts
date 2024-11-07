@@ -197,10 +197,8 @@ import FormField from './FormField.json'
 import FormItem from './FormItem.json'
 import FormLabel from './FormLabel.json'
 import FormMessage from './FormMessage.json'
-import HoverCardArrow from './HoverCardArrow.json'
+import HoverCard from './HoverCard.json'
 import HoverCardContent from './HoverCardContent.json'
-import HoverCardPortal from './HoverCardPortal.json'
-import HoverCardRoot from './HoverCardRoot.json'
 import HoverCardTrigger from './HoverCardTrigger.json'
 import Label from './Label.json'
 import LineChart from './LineChart.json'
@@ -441,7 +439,7 @@ export function getPropsMap() {
     HoverCardArrow,
     HoverCardContent,
     HoverCardPortal,
-    HoverCardRoot,
+    HoverCard,
     HoverCardTrigger,
     Label,
     LineChart,
@@ -790,7 +788,7 @@ export function getComponentMap() {
     [HoverCardArrow, '悬浮卡', '<HoverCardArrow></HoverCardArrow>'],
     [HoverCardContent, '悬浮卡', '<HoverCardContent></HoverCardContent>'],
     [HoverCardPortal, '悬浮卡', '<HoverCardPortal></HoverCardPortal>'],
-    [HoverCardRoot, '悬浮卡', '<HoverCardRoot></HoverCardRoot>'],
+    [HoverCard, '悬浮卡', '<HoverCard></HoverCard>'],
     [HoverCardTrigger, '悬浮卡', '<HoverCardTrigger></HoverCardTrigger>'],
     [Label, '标签', '<Label></Label>'],
     [LineChart, '线图', '<LineChart></LineChart>'],

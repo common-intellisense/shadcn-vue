@@ -1,5 +1,5 @@
 {
-  "name": "HoverCardRoot",
+  "name": "HoverCard",
   "props": {
     "defaultOpen": {
       "default": "",
@@ -31,7 +31,14 @@
       "description_zh": "从鼠标离开触发器或内容到悬停卡关闭的持续时间。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "params": "[value: boolean]",
+      "description": "Emitted when the open state changes.",
+      "description_zh": "打开状态发生变化时发出。"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "HoverCardTrigger",
