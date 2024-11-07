@@ -58,6 +58,20 @@
       "description": "Event handler called when an interaction (pointer or focus event) happens outside the bounds of the component. It can be prevented by calling event.preventDefault.",
       "description_zh": "当交互（指针或焦点事件）发生在组件边界之外时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
       "value": ""
+    },
+    {
+      "name": "focusOutside",
+      "params": "(event: FocusEvent) => void",
+      "description": "Event handler called when a focus event occurs outside the bounds of the component. It can be prevented by calling event.preventDefault.",
+      "description_zh": "当焦点事件发生在组件边界之外时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
+      "value": ""
+    },
+    {
+      "name": "interactInside",
+      "params": "(event: FocusEvent | MouseEvent | TouchEvent) => void",
+      "description": "Event handler called when an interaction (pointer or focus event) happens inside the bounds of the component. It can be prevented by calling event.preventDefault.",
+      "description_zh": "当交互（指针或焦点事件）发生在组件边界之内时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
+      "value": ""
     }
   ],
   "methods": [],

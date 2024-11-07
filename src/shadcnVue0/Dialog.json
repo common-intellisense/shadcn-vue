@@ -1,5 +1,5 @@
 {
-  "name": "DialogRoot",
+  "name": "Dialog",
   "props": {
     "defaultOpen": {
       "default": "",
@@ -23,7 +23,14 @@
       "description_zh": "对话框的模式 设置为 true 时，将禁用与外部元素的交互，并且只有对话框内容对屏幕阅读器可见。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:open",
+      "params": "[payload: boolean]",
+      "description": "Fires when the open state of the dialog changes.",
+      "description_zh": "当对话框的打开状态发生变化时触发。"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "DialogTrigger",

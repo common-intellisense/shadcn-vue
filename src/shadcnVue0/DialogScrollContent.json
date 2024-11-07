@@ -1,0 +1,87 @@
+{
+  "name": "DialogScrollContent",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "AsTag | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild\n",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.\nRead our Composition guide for more details.\n",
+      "description_zh": "更改作为子级传递的元素的默认渲染元素，合并其道具和行为。\n请阅读我们的作文指南，了解更多详情。"
+    },
+    "forceMount": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "Used to force mounting when more control is needed. Useful when controlling animation with Vue animation libraries.",
+      "description_zh": "在需要更多控制时用于强制挂载。 在使用 Vue 动画库控制动画时很有用。"
+    },
+    "trapFocus": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, focus cannot escape the `Content` via keyboard, pointer, or a programmatic focus.",
+      "description_zh": "当 `true` 时，焦点无法通过键盘、指针或程序化焦点逃离 `Content`。"
+    },
+    "disableOutsidePointerEvents": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, hover/focus/click interactions will be disabled on elements outside the `DismissableLayer`. Users will need to click twice on outside elements to interact with them: once to close the `DismissableLayer`, and again to trigger the element.",
+      "description_zh": "当 `true` 时，悬停/聚焦/点击交互将在 `DismissableLayer` 之外的元素上被禁用。 用户需要在外部元素上点击两次才能与它们交互：一次关闭 `DismissableLayer`，一次触发元素。"
+    }
+  },
+  "events": [
+    {
+      "name": "openAutoFocus",
+      "params": "(event: Event) => void",
+      "description": "Event handler called when focus moves into the component after opening. It can be prevented by calling event.preventDefault.",
+      "description_zh": "当焦点在打开后移动到组件中时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
+      "value": ""
+    },
+    {
+      "name": "closeAutoFocus",
+      "params": "(event: Event) => void",
+      "description": "Event handler called when focus moves out of the component before closing. It can be prevented by calling event.preventDefault.",
+      "description_zh": "当焦点在关闭前移出组件时调用的事件处理程序。可以通过调用 event.preventDefault 来防止它。",
+      "value": ""
+    },
+    {
+      "name": "escapeKeyDown",
+      "params": "(event: KeyboardEvent) => void",
+      "description": "Event handler called when the escape key is down. Can be prevented.",
+      "description_zh": "按下 escape 键时调用的事件处理程序。可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "pointerDownOutside",
+      "params": "(event: PointerDownOutsideEvent) => void",
+      "description": "Event handler called when a `pointerdown` event happens outside of the `DismissableLayer`. Can be prevented.",
+      "description_zh": "`pointerdown` 事件发生在 `DismissableLayer` 之外时调用的事件处理程序。可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "focusOutside",
+      "params": "(event: FocusOutsideEvent) => void",
+      "description": "Event handler called when the focus moves outside of the `DismissableLayer`. Can be prevented.",
+      "description_zh": "当焦点移出 `DismissableLayer` 时调用的事件处理程序。可以被阻止。",
+      "value": ""
+    },
+    {
+      "name": "interactOutside",
+      "params": "(event: PointerDownOutsideEvent | FocusOutsideEvent) => void",
+      "description": "Event handler called when an interaction happens outside the `DismissableLayer`. Specifically, when a `pointerdown` event happens outside or focus moves outside of it. Can be prevented.",
+      "description_zh": "当交互发生在 `DismissableLayer` 之外时调用的事件处理程序。具体来说，当 `pointerdown` 事件发生在外部或焦点移出时。可以被阻止。",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/dialog.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/dialog.html"
+}

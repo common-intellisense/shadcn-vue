@@ -151,12 +151,13 @@ import DateRangePickerNext from './DateRangePickerNext.json'
 import DateRangePickerPrev from './DateRangePickerPrev.json'
 import DateRangePickerRoot from './DateRangePickerRoot.json'
 import DateRangePickerTrigger from './DateRangePickerTrigger.json'
+import Dialog from './Dialog.json'
 import DialogClose from './DialogClose.json'
 import DialogContent from './DialogContent.json'
 import DialogDescription from './DialogDescription.json'
-import DialogOverlay from './DialogOverlay.json'
-import DialogPortal from './DialogPortal.json'
-import DialogRoot from './DialogRoot.json'
+import DialogFooter from './DialogFooter.json'
+import DialogHeader from './DialogHeader.json'
+import DialogScrollContent from './DialogScrollContent.json'
 import DialogTitle from './DialogTitle.json'
 import DialogTrigger from './DialogTrigger.json'
 import DonutChart from './DonutChart.json'
@@ -404,9 +405,10 @@ export function getPropsMap() {
     DialogClose,
     DialogContent,
     DialogDescription,
-    DialogOverlay,
-    DialogPortal,
-    DialogRoot,
+    DialogFooter,
+    DialogHeader,
+    DialogScrollContent,
+    Dialog,
     DialogTitle,
     DialogTrigger,
     DonutChart,
@@ -724,9 +726,10 @@ export function getComponentMap() {
     [DialogClose, '对话', '<DialogClose></DialogClose>'],
     [DialogContent, '对话', '<DialogContent></DialogContent>'],
     [DialogDescription, '对话', '<DialogDescription></DialogDescription>'],
-    [DialogOverlay, '对话', '<DialogOverlay></DialogOverlay>'],
-    [DialogPortal, '对话', '<DialogPortal></DialogPortal>'],
-    [DialogRoot, '对话', '<DialogRoot></DialogRoot>'],
+    [DialogFooter, '对话', '<DialogFooter></DialogFooter>'],
+    [DialogHeader, '对话', '<DialogHeader></DialogHeader>'],
+    [DialogScrollContent, '对话', '<DialogScrollContent></DialogScrollContent>'],
+    [Dialog, '对话', '<Dialog></Dialog>'],
     [DialogTitle, '对话', '<DialogTitle></DialogTitle>'],
     [DialogTrigger, '对话', '<DialogTrigger></DialogTrigger>'],
     [DonutChart, '圆环图', '<DonutChart></DonutChart>'],
