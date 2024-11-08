@@ -354,7 +354,7 @@ import ToastViewport from './ToastViewport.json'
 import Toggle from './Toggle.json'
 
 import ToggleGroupItem from './ToggleGroupItem.json'
-import ToggleGroupRoot from './ToggleGroupRoot.json'
+import ToggleGroup from './ToggleGroup.json'
 import ToolbarButton from './ToolbarButton.json'
 import ToolbarLink from './ToolbarLink.json'
 import ToolbarRoot from './ToolbarRoot.json'
@@ -602,7 +602,7 @@ export function getPropsMap() {
     Sonner,
     Toggle,
     ToggleGroupItem,
-    ToggleGroupRoot,
+    ToggleGroup,
     ToolbarButton,
     ToolbarLink,
     ToolbarRoot,
@@ -987,7 +987,7 @@ export function getComponentMap() {
     [Sonner, '临时显示的简洁消息。', '<Sonner></Sonner>'],
     [Toggle, '一个双状态按钮，可以打开或关闭', '<Toggle></Toggle>'],
     [ToggleGroupItem, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupItem></ToggleGroupItem>'],
-    [ToggleGroupRoot, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupRoot></ToggleGroupRoot>'],
+    [ToggleGroup, '一组可以打开或关闭的双状态按钮。', '<ToggleGroup></ToggleGroup>'],
     [ToolbarButton, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarButton></ToolbarButton>'],
     [ToolbarLink, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarLink></ToolbarLink>'],
     [ToolbarRoot, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarRoot></ToolbarRoot>'],

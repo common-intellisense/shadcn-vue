@@ -29,6 +29,20 @@
       "type": "boolean",
       "description": "When true, prevents the user from interacting with the item.",
       "description_zh": "如果为 true，则阻止用户与项目交互。"
+    },
+    "variant": {
+      "default": "default",
+      "value": "",
+      "type": "default / outline",
+      "description": "The visual variant to apply to the item.",
+      "description_zh": "应用于项目的视觉变体."
+    },
+    "size": {
+      "default": "default",
+      "value": "",
+      "type": "default / sm / lg",
+      "description": "The size of the item.",
+      "description_zh": "项目的大小."
     }
   },
   "events": [],
