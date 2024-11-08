@@ -1,8 +1,8 @@
 {
-  "name": "PaginationListNext",
+  "name": "PaginationEllipsis",
   "props": {
     "as": {
-      "default": "button",
+      "default": "div",
       "value": "",
       "type": "string | Component",
       "description": "The element or component this component should render as. Can be overwrite by asChild",

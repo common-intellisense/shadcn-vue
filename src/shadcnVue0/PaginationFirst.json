@@ -1,5 +1,5 @@
 {
-  "name": "PaginationListFirst",
+  "name": "PaginationFirst",
   "props": {
     "as": {
       "default": "button",

@@ -6,7 +6,8 @@
       "value": "",
       "type": "number",
       "description": "Value for the page",
-      "description_zh": "页面的值"
+      "description_zh": "页面的值",
+      "required": true
     },
     "as": {
       "default": "button",

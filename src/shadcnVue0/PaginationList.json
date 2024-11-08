@@ -14,6 +14,13 @@
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    ":items": {
+      "default": "",
+      "value": "",
+      "type": "({ type: 'ellipsis' } | { type: 'page'; value: number })[]",
+      "description": "An array of pagination items, which can be either ellipsis or page items with a value.",
+      "description_zh": "分页项目的数组,可以是省略号或具有值的页面项目."
     }
   },
   "events": [],

@@ -1,5 +1,5 @@
 {
-  "name": "PaginationListLast",
+  "name": "PaginationNext",
   "props": {
     "as": {
       "default": "button",
@@ -9,7 +9,7 @@
       "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
     },
     "asChild": {
-      "default": "false",
+      "default": "true",
       "value": "",
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",

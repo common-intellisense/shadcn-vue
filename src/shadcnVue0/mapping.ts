@@ -231,14 +231,14 @@ import NumberFieldContent from './NumberFieldContent.json'
 import NumberFieldDecrement from './NumberFieldDecrement.json'
 import NumberFieldIncrement from './NumberFieldIncrement.json'
 import NumberFieldInput from './NumberFieldInput.json'
+import Pagination from './Pagination.json'
+import PaginationEllipsis from './PaginationEllipsis.json'
+import PaginationFirst from './PaginationFirst.json'
+import PaginationLast from './PaginationLast.json'
 import PaginationList from './PaginationList.json'
-import PaginationListEllipsis from './PaginationListEllipsis.json'
-import PaginationListFirst from './PaginationListFirst.json'
 import PaginationListItem from './PaginationListItem.json'
-import PaginationListLast from './PaginationListLast.json'
-import PaginationListNext from './PaginationListNext.json'
-import PaginationListPrev from './PaginationListPrev.json'
-import PaginationRoot from './PaginationRoot.json'
+import PaginationNext from './PaginationNext.json'
+import PaginationPrev from './PaginationPrev.json'
 import PinInputInput from './PinInputInput.json'
 import PinInputRoot from './PinInputRoot.json'
 import PopoverAnchor from './PopoverAnchor.json'
@@ -474,13 +474,13 @@ export function getPropsMap() {
     NumberFieldIncrement,
     NumberFieldInput,
     PaginationList,
-    PaginationListEllipsis,
-    PaginationListFirst,
+    PaginationEllipsis,
+    PaginationFirst,
     PaginationListItem,
-    PaginationListNext,
-    PaginationListLast,
-    PaginationListPrev,
-    PaginationRoot,
+    PaginationNext,
+    PaginationLast,
+    PaginationPrev,
+    Pagination,
     PopoverAnchor,
     PopoverArrow,
     PopoverClose,
@@ -824,13 +824,13 @@ export function getComponentMap() {
     [NumberFieldIncrement, '数字输入', '<NumberFieldIncrement></NumberFieldIncrement>'],
     [NumberFieldInput, '数字输入', '<NumberFieldInput></NumberFieldInput>'],
     [PaginationList, '分页', '<PaginationList></PaginationList>'],
-    [PaginationListEllipsis, '分页', '<PaginationListEllipsis></PaginationListEllipsis>'],
-    [PaginationListFirst, '分页', '<PaginationListFirst></PaginationListFirst>'],
+    [PaginationEllipsis, '分页', '<PaginationEllipsis></PaginationEllipsis>'],
+    [PaginationFirst, '分页', '<PaginationFirst></PaginationFirst>'],
     [PaginationListItem, '分页', '<PaginationListItem></PaginationListItem>'],
-    [PaginationListNext, '分页', '<PaginationListNext></PaginationListNext>'],
-    [PaginationListLast, '分页', '<PaginationListLast></PaginationListLast>'],
-    [PaginationListPrev, '分页', '<PaginationListPrev></PaginationListPrev>'],
-    [PaginationRoot, '分页', '<PaginationRoot></PaginationRoot>'],
+    [PaginationNext, '分页', '<PaginationNext></PaginationNext>'],
+    [PaginationLast, '分页', '<PaginationLast></PaginationLast>'],
+    [PaginationPrev, '分页', '<PaginationPrev></PaginationPrev>'],
+    [Pagination, '分页', '<Pagination></Pagination>'],
     [PopoverAnchor, '弹出框', '<PopoverAnchor></PopoverAnchor>'],
     [PopoverArrow, '弹出框', '<PopoverArrow></PopoverArrow>'],
     [PopoverClose, '弹出框', '<PopoverClose></PopoverClose>'],
