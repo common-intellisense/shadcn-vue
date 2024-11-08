@@ -1,0 +1,18 @@
+{
+  "name": "TableEmpty",
+  "props": {
+    "colspan": {
+      "default": "1",
+      "value": "",
+      "type": "number",
+      "description": "The number of columns that the cell should span.",
+      "description_zh": "单元格应跨越的列数."
+    }
+  },
+  "events": [],
+  "methods": [],
+  "suggestions": [
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/table.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/table.html"
+}

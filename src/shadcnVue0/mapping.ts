@@ -323,6 +323,15 @@ import StepperSeparator from './StepperSeparator.json'
 import StepperTitle from './StepperTitle.json'
 import StepperTrigger from './StepperTrigger.json'
 import Switch from './Switch.json'
+import Table from './Table.json'
+import TableBody from './TableBody.json'
+import TableCaption from './TableCaption.json'
+import TableCell from './TableCell.json'
+import TableEmpty from './TableEmpty.json'
+import TableFooter from './TableFooter.json'
+import TableHead from './TableHead.json'
+import TableHeader from './TableHeader.json'
+import TableRow from './TableRow.json'
 import TabsContent from './TabsContent.json'
 import TabsList from './TabsList.json'
 import TabsRoot from './TabsRoot.json'
@@ -555,6 +564,15 @@ export function getPropsMap() {
     Skeleton,
     Slider,
     Switch,
+    Table,
+    TableBody,
+    TableCaption,
+    TableCell,
+    TableEmpty,
+    TableFooter,
+    TableHead,
+    TableHeader,
+    TableRow,
     TagsInputClear,
     TagsInputInput,
     TagsInputItem,
@@ -924,6 +942,14 @@ export function getComponentMap() {
     [Skeleton, '骨架屏', '<Skeleton></Skeleton>'],
     [Slider, '滑块', '<Slider></Slider>'],
     [Switch, '允许用户在选中和未选中之间切换的控件', '<Switch></Switch>'],
+    [Table, '表格', '<Table></Table>'],
+    [TableBody, '表格', '<TableBody></TableBody>'],
+    [TableCaption, '表格', '<TableCaption></TableCaption>'],
+    [TableCell, '表格', '<TableCell></TableCell>'],
+    [TableEmpty, '表格', '<TableEmpty></TableEmpty>'],
+    [TableFooter, '表格', '<TableFooter></TableFooter>'],
+    [TableHead, '表格', '<TableHead></TableHead>'],
+    [TableRow, '表格', '<TableRow></TableRow>'],
     [TagsInputClear, '标签输入', '<TagsInputClear></TagsInputClear>'],
     [TagsInputInput, '标签输入', '<TagsInputInput></TagsInputInput>'],
     [TagsInputItem, '标签输入', '<TagsInputItem></TagsInputItem>'],
