@@ -36,9 +36,30 @@
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "variant": {
+      "default": "default",
+      "value": "",
+      "type": "default / outline",
+      "description": "The visual variant to apply to the toggle.",
+      "description_zh": "应用于切换开关的视觉变体."
+    },
+    "size": {
+      "default": "default",
+      "value": "",
+      "type": "default / sm / lg",
+      "description": "The size of the toggle.",
+      "description_zh": "切换开关的大小."
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:pressed",
+      "params": "[value: boolean];",
+      "description": "Fires when the toggle is pressed.",
+      "description_zh": "切换开关被按下时触发."
+    }
+  ],
   "methods": [],
   "link": "https://www.radix-vue.com/components/toggle.html#root",
   "link_zh": "https://www.radix-vue.com/components/toggle.html#root"
