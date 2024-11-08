@@ -247,8 +247,7 @@ import Popover from './Popover.json'
 import PopoverContent from './PopoverContent.json'
 import PopoverTrigger from './PopoverTrigger.json'
 import Primitive from './Primitive.json'
-import ProgressIndicator from './ProgressIndicator.json'
-import ProgressRoot from './ProgressRoot.json'
+import Progress from './Progress.json'
 import RadioGroupIndicator from './RadioGroupIndicator.json'
 import RadioGroupItem from './RadioGroupItem.json'
 import RadioGroupRoot from './RadioGroupRoot.json'
@@ -482,8 +481,7 @@ export function getPropsMap() {
     PopoverContent,
     Popover,
     PopoverTrigger,
-    ProgressIndicator,
-    ProgressRoot,
+    Progress,
     PinInputInput,
     PinInput,
     PinInputGroup,
@@ -830,8 +828,7 @@ export function getComponentMap() {
     [PopoverContent, '弹出框', '<PopoverContent></PopoverContent>'],
     [Popover, '弹出框', '<Popover></Popover>'],
     [PopoverTrigger, '弹出框', '<PopoverTrigger></PopoverTrigger>'],
-    [ProgressIndicator, '单选按钮组', '<ProgressIndicator></ProgressIndicator>'],
-    [ProgressRoot, '单选按钮组', '<ProgressRoot></ProgressRoot>'],
+    [Progress, '单选按钮组', '<Progress></Progress>'],
     [PinInputInput, '引脚输入', '<PinInputInput></PinInputInput>'],
     [PinInput, '引脚输入', '<PinInput></PinInput>'],
     [PinInputGroup, '引脚输入', '<PinInputGroup></PinInputGroup>'],

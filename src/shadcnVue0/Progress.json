@@ -1,8 +1,8 @@
 {
-  "name": "ProgressRoot",
+  "name": "Progress",
   "props": {
     ":v-model": {
-      "default": "",
+      "default": "0",
       "value": "",
       "type": "number | null",
       "description": "The progress value.",
@@ -38,7 +38,20 @@
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[value: number];",
+      "description": "Event handler called when the progress value changes.",
+      "description_zh": "进度值更改时调用的事件处理程序."
+    },
+    {
+      "name": "update:max",
+      "params": "[value: number];",
+      "description": "Event handler called when the max value changes.",
+      "description_zh": "最大值更改时调用的事件处理程序."
+    }
+  ],
   "methods": [],
   "suggestions": [
     "ProgressIndicator"
