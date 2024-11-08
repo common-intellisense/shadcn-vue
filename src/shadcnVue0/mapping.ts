@@ -226,6 +226,11 @@ import NavigationMenuLink from './NavigationMenuLink.json'
 import NavigationMenuList from './NavigationMenuList.json'
 import NavigationMenuTrigger from './NavigationMenuTrigger.json'
 import NavigationMenuViewport from './NavigationMenuViewport.json'
+import NumberField from './NumberField.json'
+import NumberFieldContent from './NumberFieldContent.json'
+import NumberFieldDecrement from './NumberFieldDecrement.json'
+import NumberFieldIncrement from './NumberFieldIncrement.json'
+import NumberFieldInput from './NumberFieldInput.json'
 import PaginationList from './PaginationList.json'
 import PaginationListEllipsis from './PaginationListEllipsis.json'
 import PaginationListFirst from './PaginationListFirst.json'
@@ -463,6 +468,11 @@ export function getPropsMap() {
     NavigationMenu,
     NavigationMenuTrigger,
     NavigationMenuViewport,
+    NumberField,
+    NumberFieldContent,
+    NumberFieldDecrement,
+    NumberFieldIncrement,
+    NumberFieldInput,
     PaginationList,
     PaginationListEllipsis,
     PaginationListFirst,
@@ -808,6 +818,11 @@ export function getComponentMap() {
     [NavigationMenu, '导航菜单', '<NavigationMenu></NavigationMenu>'],
     [NavigationMenuTrigger, '导航菜单', '<NavigationMenuTrigger></NavigationMenuTrigger>'],
     [NavigationMenuViewport, '导航菜单', '<NavigationMenuViewport></NavigationMenuViewport>'],
+    [NumberField, '数字输入', '<NumberField></NumberField>'],
+    [NumberFieldContent, '数字输入', '<NumberFieldContent></NumberFieldContent>'],
+    [NumberFieldDecrement, '数字输入', '<NumberFieldDecrement></NumberFieldDecrement>'],
+    [NumberFieldIncrement, '数字输入', '<NumberFieldIncrement></NumberFieldIncrement>'],
+    [NumberFieldInput, '数字输入', '<NumberFieldInput></NumberFieldInput>'],
     [PaginationList, '分页', '<PaginationList></PaginationList>'],
     [PaginationListEllipsis, '分页', '<PaginationListEllipsis></PaginationListEllipsis>'],
     [PaginationListFirst, '分页', '<PaginationListFirst></PaginationListFirst>'],

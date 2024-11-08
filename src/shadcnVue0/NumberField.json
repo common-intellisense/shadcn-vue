@@ -1,0 +1,109 @@
+{
+  "name": "NumberField",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "defaultValue": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The default value of the number field.",
+      "description_zh": "数字字段的默认值."
+    },
+    "modelValue": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The current value of the number field.",
+      "description_zh": "数字字段的当前值."
+    },
+    "min": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The smallest value allowed for the input.",
+      "description_zh": "输入允许的最小值."
+    },
+    "max": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The largest value allowed for the input.",
+      "description_zh": "输入允许的最大值."
+    },
+    "step": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The amount that the input value changes with each increment or decrement 'tick'.",
+      "description_zh": "每次增量或减量\"滴答\"时输入值的变化量."
+    },
+    "formatOptions": {
+      "default": "",
+      "value": "",
+      "type": "Intl.NumberFormatOptions",
+      "description": "Formatting options for the value displayed in the number field. This also affects what characters are allowed to be typed by the user.",
+      "description_zh": "数字字段中显示的值的格式选项。这也会影响用户允许输入的字符."
+    },
+    "locale": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The locale to use for formatting dates.",
+      "description_zh": "用于格式化日期的区域设置."
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, prevents the user from interacting with the Number Field.",
+      "description_zh": "当为`true`时,阻止用户与数字字段交互."
+    },
+    "required": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, indicates that the user must set the value before the owning form can be submitted.",
+      "description_zh": "当为`true`时,表示用户必须设置值才能提交所属表单."
+    },
+    "name": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The name of the number field. Submitted with its owning form as part of a name/value pair.",
+      "description_zh": "数字字段的名称.与其所属表单一起提交，作为名称/值对的一部分."
+    },
+    "id": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "Id of the element.",
+      "description_zh": "元素的ID."
+    }
+  },
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[value: boolean]",
+      "description": "Emitted when the modelValue is updated.",
+      "description_zh": "当 modelValue 更新时发出."
+    }
+  ],
+  "methods": [],
+  "suggestions": [
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/number-field.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/number-field.html"
+}
