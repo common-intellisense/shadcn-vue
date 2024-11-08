@@ -1,5 +1,5 @@
 {
-  "name": "TagsInputRoot",
+  "name": "TagsInput",
   "props": {
     "as": {
       "default": "div",

@@ -332,16 +332,15 @@ import TableFooter from './TableFooter.json'
 import TableHead from './TableHead.json'
 import TableHeader from './TableHeader.json'
 import TableRow from './TableRow.json'
+import Tabs from './Tabs.json'
 import TabsContent from './TabsContent.json'
 import TabsList from './TabsList.json'
-import Tabs from './Tabs.json'
 import TabsTrigger from './TabsTrigger.json'
-import TagsInputClear from './TagsInputClear.json'
+import TagsInput from './TagsInput.json'
 import TagsInputInput from './TagsInputInput.json'
 import TagsInputItem from './TagsInputItem.json'
 import TagsInputItemDelete from './TagsInputItemDelete.json'
 import TagsInputItemText from './TagsInputItemText.json'
-import TagsInputRoot from './TagsInputRoot.json'
 import Toaster from './Toaster.json'
 import Toggle from './Toggle.json'
 
@@ -573,12 +572,11 @@ export function getPropsMap() {
     TableHead,
     TableHeader,
     TableRow,
-    TagsInputClear,
     TagsInputInput,
     TagsInputItem,
     TagsInputItemDelete,
     TagsInputItemText,
-    TagsInputRoot,
+    TagsInput,
     TabsContent,
     TabsList,
     Tabs,
@@ -950,12 +948,11 @@ export function getComponentMap() {
     [TableFooter, '表格', '<TableFooter></TableFooter>'],
     [TableHead, '表格', '<TableHead></TableHead>'],
     [TableRow, '表格', '<TableRow></TableRow>'],
-    [TagsInputClear, '标签输入', '<TagsInputClear></TagsInputClear>'],
     [TagsInputInput, '标签输入', '<TagsInputInput></TagsInputInput>'],
     [TagsInputItem, '标签输入', '<TagsInputItem></TagsInputItem>'],
     [TagsInputItemDelete, '标签输入', '<TagsInputItemDelete></TagsInputItemDelete>'],
     [TagsInputItemText, '标签输入', '<TagsInputItemText></TagsInputItemText>'],
-    [TagsInputRoot, '标签输入', '<TagsInputRoot></TagsInputRoot>'],
+    [TagsInput, '标签输入', '<TagsInput></TagsInput>'],
     [TabsContent, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsContent></TabsContent>'],
     [TabsList, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsList></TabsList>'],
     [Tabs, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<Tabs></Tabs>'],

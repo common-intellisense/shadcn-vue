@@ -20,7 +20,8 @@
       "value": "",
       "type": "string",
       "description": "Value associated with the tags",
-      "description_zh": "与标记相关的值。"
+      "description_zh": "与标记相关的值。",
+      "required": true
     },
     "disabled": {
       "default": "false",
