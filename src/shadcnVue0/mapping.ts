@@ -327,13 +327,7 @@ import TagsInputItem from './TagsInputItem.json'
 import TagsInputItemDelete from './TagsInputItemDelete.json'
 import TagsInputItemText from './TagsInputItemText.json'
 import TagsInputRoot from './TagsInputRoot.json'
-import ToastAction from './ToastAction.json'
-import ToastClose from './ToastClose.json'
-import ToastDescription from './ToastDescription.json'
-import ToastProvider from './ToastProvider.json'
-import ToastRoot from './ToastRoot.json'
-import ToastTitle from './ToastTitle.json'
-import ToastViewport from './ToastViewport.json'
+import Toaster from './Toaster.json'
 import Toggle from './Toggle.json'
 
 import ToggleGroupItem from './ToggleGroupItem.json'
@@ -566,13 +560,7 @@ export function getPropsMap() {
     TabsList,
     TabsRoot,
     TabsTrigger,
-    ToastAction,
-    ToastClose,
-    ToastDescription,
-    ToastProvider,
-    ToastRoot,
-    ToastTitle,
-    ToastViewport,
+    Toaster,
     Toggle,
     ToggleGroupItem,
     ToggleGroupRoot,
@@ -935,13 +923,7 @@ export function getComponentMap() {
     [TabsList, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsList></TabsList>'],
     [TabsRoot, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsRoot></TabsRoot>'],
     [TabsTrigger, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsTrigger></TabsTrigger>'],
-    [ToastAction, '临时显示的简洁消息。', '<ToastAction></ToastAction>'],
-    [ToastClose, '临时显示的简洁消息。', '<ToastClose></ToastClose>'],
-    [ToastDescription, '临时显示的简洁消息。', '<ToastDescription></ToastDescription>'],
-    [ToastProvider, '临时显示的简洁消息。', '<ToastProvider></ToastProvider>'],
-    [ToastRoot, '临时显示的简洁消息。', '<ToastRoot></ToastRoot>'],
-    [ToastTitle, '临时显示的简洁消息。', '<ToastTitle></ToastTitle>'],
-    [ToastViewport, '临时显示的简洁消息。', '<ToastViewport></ToastViewport>'],
+    [Toaster, '临时显示的简洁消息。', '<Toaster></Toaster>'],
     [Toggle, '一个双状态按钮，可以打开或关闭', '<Toggle></Toggle>'],
     [ToggleGroupItem, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupItem></ToggleGroupItem>'],
     [ToggleGroupRoot, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupRoot></ToggleGroupRoot>'],
