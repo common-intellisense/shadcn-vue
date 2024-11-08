@@ -1,0 +1,94 @@
+{
+  "name": "SheetContent",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "side": {
+      "default": "right",
+      "value": "",
+      "type": "top / right / bottom / left",
+      "description": "The side of the sheet this content should be placed on.",
+      "description_zh": "此内容应放置在的侧面."
+    },
+    "forceMount": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Used to force mounting when more control is needed. Useful when controlling transition with Vue native transition or other animation libraries.",
+      "description_zh": "在需要更多控制时用于强制挂载. 在使用 Vue 原生过渡或其他动画库控制过渡时很有用."
+    },
+    "trapFocus": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, focus cannot escape the `Content` via keyboard, pointer, or a programmatic focus.",
+      "description_zh": "当为 `true` 时,焦点无法通过键盘、指针或编程焦点逃离 `Content`."
+    },
+    "disableOutsidePointerEvents": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, hover/focus/click interactions will be disabled on elements outside the `DismissableLayer`. Users will need to click twice on outside elements to interact with them: once to close the `DismissableLayer`, and again to trigger the element.",
+      "description_zh": "当为 `true` 时, 将禁用 `DismissableLayer` 外部元素的悬停/聚焦/点击交互.用户需要点击外部元素两次才能与之交互:一次关闭 `DismissableLayer`,一次触发元素."
+    }
+  },
+  "events": [
+    {
+      "name": "openAutoFocus",
+      "description": "Event handler called when auto-focusing on open. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: Event];"
+    },
+    {
+      "name": "closeAutoFocus",
+      "description": "Event handler called when auto-focusing on close. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: Event];"
+    },
+    {
+      "name": "escapeKeyDown",
+      "description": "Event handler called when the escape key is down. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: KeyboardEvent];"
+    },
+    {
+      "name": "pointerDownOutside",
+      "description": "Event handler called when a `pointerdown` event happens outside of the `DismissableLayer`. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: PointerDownOutsideEvent];"
+    },
+    {
+      "name": "focusOutside",
+      "description": "Event handler called when the focus moves outside of the `DismissableLayer`. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: FocusOutsideEvent];"
+    },
+    {
+      "name": "interactOutside",
+      "description": "Event handler called when an interaction happens outside the `DismissableLayer`. Specifically, when a `pointerdown` event happens outside or focus moves outside of it. Can be prevented.",
+      "default": "",
+      "value": "",
+      "params": "[event: PointerDownOutsideEvent | FocusOutsideEvent];"
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sheet.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sheet.html"
+}

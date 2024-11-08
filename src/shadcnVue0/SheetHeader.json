@@ -1,0 +1,8 @@
+{
+  "name": "SheetHeader",
+  "props": {},
+  "events": [],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sheet.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sheet.html"
+}

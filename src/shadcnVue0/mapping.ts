@@ -279,7 +279,14 @@ import SelectSeparator from './SelectSeparator.json'
 import SelectTrigger from './SelectTrigger.json'
 import SelectValue from './SelectValue.json'
 import Separator from './Separator.json'
-
+import Sheet from './Sheet.json'
+import SheetClose from './SheetClose.json'
+import SheetContent from './SheetContent.json'
+import SheetDescription from './SheetDescription.json'
+import SheetFooter from './SheetFooter.json'
+import SheetHeader from './SheetHeader.json'
+import SheetTitle from './SheetTitle.json'
+import SheetTrigger from './SheetTrigger.json'
 import SliderRange from './SliderRange.json'
 import SliderRoot from './SliderRoot.json'
 import SliderThumb from './SliderThumb.json'
@@ -493,6 +500,14 @@ export function getPropsMap() {
     SelectTrigger,
     SelectValue,
     Separator,
+    Sheet,
+    SheetClose,
+    SheetContent,
+    SheetDescription,
+    SheetFooter,
+    SheetHeader,
+    SheetTitle,
+    SheetTrigger,
     SliderRange,
     SliderRoot,
     SliderThumb,
@@ -833,6 +848,14 @@ export function getComponentMap() {
     [SelectTrigger, '选择', '<SelectTrigger></SelectTrigger>'],
     [SelectValue, '选择', '<SelectValue></SelectValue>'],
     [Separator, '分隔符', '<Separator></Separator>'],
+    [Sheet, '表格', '<Sheet></Sheet>'],
+    [SheetClose, '表格', '<SheetClose></SheetClose>'],
+    [SheetContent, '表格', '<SheetContent></SheetContent>'],
+    [SheetDescription, '表格', '<SheetDescription></SheetDescription>'],
+    [SheetFooter, '表格', '<SheetFooter></SheetFooter>'],
+    [SheetHeader, '表格', '<SheetHeader></SheetHeader>'],
+    [SheetTitle, '表格', '<SheetTitle></SheetTitle>'],
+    [SheetTrigger, '表格', '<SheetTrigger></SheetTrigger>'],
     [SliderRange, '滑块', '<SliderRange></SliderRange>'],
     [SliderRoot, '滑块', '<SliderRoot></SliderRoot>'],
     [SliderThumb, '滑块', '<SliderThumb></SliderThumb>'],

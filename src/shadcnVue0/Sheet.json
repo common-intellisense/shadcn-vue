@@ -1,0 +1,35 @@
+{
+  "name": "Sheet",
+  "props": {
+    "open": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "The controlled open state of the dialog. Can be binded as `v-model:open`.",
+      "description_zh": "对话框的受控打开状态.可以绑定为 `v-model:open`."
+    },
+    "defaultOpen": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "The open state of the dialog when it is initially rendered. Use when you do not need to control its open state.",
+      "description_zh": "对话框初始渲染时的打开状态.当您不需要控制其打开状态时使用."
+    },
+    "modal": {
+      "default": "",
+      "value": "",
+      "type": "boolean",
+      "description": "The modality of the dialog. When set to `true`, interaction with outside elements will be disabled and only dialog content will be visible to screen readers.",
+      "description_zh": "对话框的模态.当设置为 `true` 时,与外部元素的交互将被禁用,并且只有对话框内容对屏幕阅读器可见."
+    }
+  },
+  "events": [
+    {
+      "name": "update:open",
+      "description": "Event handler called when the open state of the dialog changes."
+    }
+  ],
+  "methods": [],
+  "link": "https://www.shadcn-vue.com/docs/components/sheet.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sheet.html"
+}
