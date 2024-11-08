@@ -1,5 +1,5 @@
 {
-  "name": "RadioGroupRoot",
+  "name": "RadioGroup",
   "props": {
     "defaultValue": {
       "default": "",
@@ -38,13 +38,12 @@
       "description_zh": "如果为 true，则指示用户必须先检查单选项目，然后才能提交所属表单。"
     },
     "orientation": {
-      "default": "undefined",
+      "default": "",
       "value": [
         "horizontal",
-        "vertical",
-        "undefined"
+        "vertical"
       ],
-      "type": "horizontal / vertical / undefined",
+      "type": "horizontal / vertical",
       "description": "The orientation of the component.",
       "description_zh": "组件的方向。"
     },
@@ -80,7 +79,14 @@
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[payload: string]",
+      "description": "Event handler called when the radio group value changes",
+      "description_zh": "单选组值更改时调用的事件处理程序"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "RadioGroupItem"

@@ -248,10 +248,8 @@ import PopoverContent from './PopoverContent.json'
 import PopoverTrigger from './PopoverTrigger.json'
 import Primitive from './Primitive.json'
 import Progress from './Progress.json'
-import RadioGroupIndicator from './RadioGroupIndicator.json'
+import RadioGroup from './RadioGroup.json'
 import RadioGroupItem from './RadioGroupItem.json'
-import RadioGroupRoot from './RadioGroupRoot.json'
-
 import RangeCalendarCell from './RangeCalendarCell.json'
 import RangeCalendarCellTrigger from './RangeCalendarCellTrigger.json'
 import RangeCalendarGrid from './RangeCalendarGrid.json'
@@ -562,9 +560,8 @@ export function getPropsMap() {
     DropdownMenuRadioGroup,
     DropdownMenuRadioItem,
     DropdownMenuSeparator,
-    RadioGroupIndicator,
     RadioGroupItem,
-    RadioGroupRoot,
+    RadioGroup,
     CalendarCell,
     CalendarCellTrigger,
     CalendarGrid,
@@ -897,9 +894,8 @@ export function getComponentMap() {
     [ConfigProvider, '包装应用以提供全局配置', '<ConfigProvider></ConfigProvider>'],
     [VisuallyHidden, '以可访问的方式从屏幕上隐藏内容', '<VisuallyHidden></VisuallyHidden>'],
     [Primitive, '将 Radix 的功能组合到替代元素类型或你自己的 Vue 组件上', '<Primitive></Primitive>'],
-    [RadioGroupIndicator, '将 Radix 的功能组合到替代元素类型或你自己的 Vue 组件上', '<RadioGroupIndicator></RadioGroupIndicator>'],
     [RadioGroupItem, '一组可检查的按钮（称为单选按钮），一次只能选中一个按钮', '<RadioGroupItem></RadioGroupItem>'],
-    [RadioGroupRoot, '一组可检查的按钮()称为单选按钮),一次只能选中一个按钮', '<RadioGroupRoot></RadioGroupRoot>'],
+    [RadioGroup, '一组可检查的按钮()称为单选按钮),一次只能选中一个按钮', '<RadioGroup></RadioGroup>'],
     [CalendarCell, '显示日期和星期几,促进与日期相关的交互.', '<CalendarCell></CalendarCell>'],
     [CalendarCellTrigger, '显示日期和星期几,促进与日期相关的交互.', '<CalendarCellTrigger></CalendarCellTrigger>'],
     [CalendarGrid, '显示日期和星期几,促进与日期相关的交互.', '<CalendarGrid></CalendarGrid>'],
