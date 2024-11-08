@@ -14,6 +14,13 @@
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "for": {
+      "default": "",
+      "value": "",
+      "type": "string",
+      "description": "The id of the element that the label is for.",
+      "description_zh": "标签所对应的元素的 id."
     }
   },
   "events": [],

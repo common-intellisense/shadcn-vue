@@ -267,22 +267,17 @@ import ResizablePanel from './ResizablePanel.json'
 import ResizablePanelGroup from './ResizablePanelGroup.json'
 import ScrollArea from './ScrollArea.json'
 import ScrollBar from './ScrollBar.json'
-import SelectArrow from './SelectArrow.json'
+import Select from './Select.json'
 import SelectContent from './SelectContent.json'
 import SelectGroup from './SelectGroup.json'
-import SelectIcon from './SelectIcon.json'
 import SelectItem from './SelectItem.json'
-import SelectItemIndicator from './SelectItemIndicator.json'
 import SelectItemText from './SelectItemText.json'
 import SelectLabel from './SelectLabel.json'
-import SelectPortal from './SelectPortal.json'
-import SelectRoot from './SelectRoot.json'
 import SelectScrollDownButton from './SelectScrollDownButton.json'
 import SelectScrollUpButton from './SelectScrollUpButton.json'
 import SelectSeparator from './SelectSeparator.json'
 import SelectTrigger from './SelectTrigger.json'
 import SelectValue from './SelectValue.json'
-import SelectViewport from './SelectViewport.json'
 import Separator from './Separator.json'
 
 import SliderRange from './SliderRange.json'
@@ -486,22 +481,17 @@ export function getPropsMap() {
     PinInputSeparator,
     ScrollArea,
     ScrollBar,
-    SelectArrow,
     SelectContent,
     SelectGroup,
-    SelectIcon,
     SelectItem,
-    SelectItemIndicator,
     SelectItemText,
     SelectLabel,
-    SelectPortal,
-    SelectRoot,
+    Select,
     SelectScrollDownButton,
     SelectScrollUpButton,
     SelectSeparator,
     SelectTrigger,
     SelectValue,
-    SelectViewport,
     Separator,
     SliderRange,
     SliderRoot,
@@ -831,22 +821,17 @@ export function getComponentMap() {
     [PinInputSeparator, '引脚输入', '<PinInputSeparator></PinInputSeparator>'],
     [ScrollArea, '滚动区域', '<ScrollArea></ScrollArea>'],
     [ScrollBar, '滚动区域', '<ScrollBar></ScrollBar>'],
-    [SelectArrow, '选择', '<SelectArrow></SelectArrow>'],
     [SelectContent, '选择', '<SelectContent></SelectContent>'],
     [SelectGroup, '选择', '<SelectGroup></SelectGroup>'],
-    [SelectIcon, '选择', '<SelectIcon></SelectIcon>'],
     [SelectItem, '选择', '<SelectItem></SelectItem>'],
-    [SelectItemIndicator, '选择', '<SelectItemIndicator></SelectItemIndicator>'],
     [SelectItemText, '选择', '<SelectItemText></SelectItemText>'],
     [SelectLabel, '选择', '<SelectLabel></SelectLabel>'],
-    [SelectPortal, '选择', '<SelectPortal></SelectPortal>'],
-    [SelectRoot, '选择', '<SelectRoot></SelectRoot>'],
+    [Select, '选择', '<Select></Select>'],
     [SelectScrollDownButton, '选择', '<SelectScrollDownButton></SelectScrollDownButton>'],
     [SelectScrollUpButton, '选择', '<SelectScrollUpButton></SelectScrollUpButton>'],
     [SelectSeparator, '选择', '<SelectSeparator></SelectSeparator>'],
     [SelectTrigger, '选择', '<SelectTrigger></SelectTrigger>'],
     [SelectValue, '选择', '<SelectValue></SelectValue>'],
-    [SelectViewport, '选择', '<SelectViewport></SelectViewport>'],
     [Separator, '分隔符', '<Separator></Separator>'],
     [SliderRange, '滑块', '<SliderRange></SliderRange>'],
     [SliderRoot, '滑块', '<SliderRoot></SliderRoot>'],

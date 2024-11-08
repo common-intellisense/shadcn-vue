@@ -1,5 +1,5 @@
 {
-  "name": "SelectRoot",
+  "name": "Select",
   "props": {
     "defaultValue": {
       "default": "",
@@ -16,14 +16,14 @@
       "description_zh": "Select 的受控值应与 v-model 绑定。",
       "required": true
     },
-    "defaultOpen": {
+    ":defaultOpen": {
       "default": "",
       "value": "",
       "type": "boolean",
       "description": "The open state of the select when it is initially rendered. Use when you do not need to control its open state.",
       "description_zh": "最初呈现选择时的打开状态。在不需要控制其打开状态时使用。"
     },
-    "open": {
+    ":open": {
       "default": "",
       "value": "",
       "type": "boolean",
@@ -62,7 +62,20 @@
       "description_zh": "如果为 true，则指示用户必须先选择一个值，然后才能提交所属表单。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "(value: string) => void",
+      "description": "Event handler called when the value changes",
+      "description_zh": "值更改时调用的事件处理程序"
+    },
+    {
+      "name": "update:open",
+      "params": "(value: boolean) => void",
+      "description": "Event handler called when the open state of the context menu changes",
+      "description_zh": "上下文菜单的打开状态更改时调用的事件处理程序"
+    }
+  ],
   "methods": [],
   "suggestions": [
     "SelectTrigger",
