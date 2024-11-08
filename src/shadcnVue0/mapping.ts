@@ -315,6 +315,13 @@ import Slider from './Slider.json'
 import SplitterGroup from './SplitterGroup.json'
 import SplitterPanel from './SplitterPanel.json'
 import SplitterResizeHandle from './SplitterResizeHandle.json'
+import Stepper from './Stepper.json'
+import StepperDescription from './StepperDescription.json'
+import StepperIndicator from './StepperIndicator.json'
+import StepperItem from './StepperItem.json'
+import StepperSeparator from './StepperSeparator.json'
+import StepperTitle from './StepperTitle.json'
+import StepperTrigger from './StepperTrigger.json'
 import SwitchRoot from './SwitchRoot.json'
 import SwitchThumb from './SwitchThumb.json'
 import TabsContent from './TabsContent.json'
@@ -694,6 +701,13 @@ export function getPropsMap() {
     SplitterGroup,
     SplitterPanel,
     SplitterResizeHandle,
+    Stepper,
+    StepperDescription,
+    StepperIndicator,
+    StepperItem,
+    StepperSeparator,
+    StepperTitle,
+    StepperTrigger,
   ]
 }
 
@@ -1045,5 +1059,12 @@ export function getComponentMap() {
     [SplitterGroup, '将布局划分为可调整大小的部分的组件', '<SplitterGroup></SplitterGroup>'],
     [SplitterPanel, '将布局划分为可调整大小的部分的组件', '<SplitterPanel></SplitterPanel>'],
     [SplitterResizeHandle, '将布局划分为可调整大小的部分的组件', '<SplitterResizeHandle></SplitterResizeHandle>'],
+    [Stepper, '步骤', '<Stepper></Stepper>'],
+    [StepperDescription, '步骤描述', '<StepperDescription></StepperDescription>'],
+    [StepperIndicator, '步骤指示器', '<StepperIndicator></StepperIndicator>'],
+    [StepperItem, '步骤项', '<StepperItem></StepperItem>'],
+    [StepperSeparator, '步骤分隔符', '<StepperSeparator></StepperSeparator>'],
+    [StepperTitle, '步骤标题', '<StepperTitle></StepperTitle>'],
+    [StepperTrigger, '步骤触发器', '<StepperTrigger></StepperTrigger>'],
   ]
 }

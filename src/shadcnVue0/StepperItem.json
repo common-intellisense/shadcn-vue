@@ -1,0 +1,54 @@
+{
+  "name": "StepperItem",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "invert": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "A boolean to invert the stepper item.",
+      "description_zh": "一个布尔值,用于反转步进器项目."
+    },
+    "step": {
+      "default": 0,
+      "value": "",
+      "type": "number",
+      "description": "A unique value that associates the stepper item with an index.",
+      "description_zh": "一个唯一的值,将步进器项目与索引关联."
+    },
+    "disabled": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "When `true`, prevents the user from interacting with the step.",
+      "description_zh": "当为 `true` 时,防止用户与步骤交互."
+    },
+    "completed": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Shows whether the step is completed.",
+      "description_zh": "显示步骤是否完成."
+    }
+  },
+  "events": [
+  ],
+  "methods": [],
+  "suggestions": [
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/stepper.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/stepper.html"
+}
