@@ -312,6 +312,7 @@ import SidebarSeparator from './SidebarSeparator.json'
 import SidebarTrigger from './SidebarTrigger.json'
 import Skeleton from './Skeleton.json'
 import Slider from './Slider.json'
+import Sonner from './Sonner.json'
 import SplitterGroup from './SplitterGroup.json'
 import SplitterPanel from './SplitterPanel.json'
 import SplitterResizeHandle from './SplitterResizeHandle.json'
@@ -342,7 +343,14 @@ import TagsInputItem from './TagsInputItem.json'
 import TagsInputItemDelete from './TagsInputItemDelete.json'
 import TagsInputItemText from './TagsInputItemText.json'
 import Textarea from './Textarea.json'
+import Toast from './Toast.json'
+import ToastAction from './ToastAction.json'
+import ToastClose from './ToastClose.json'
+import ToastDescription from './ToastDescription.json'
 import Toaster from './Toaster.json'
+import ToastProvider from './ToastProvider.json'
+import ToastTitle from './ToastTitle.json'
+import ToastViewport from './ToastViewport.json'
 import Toggle from './Toggle.json'
 
 import ToggleGroupItem from './ToggleGroupItem.json'
@@ -578,12 +586,20 @@ export function getPropsMap() {
     TagsInputItemDelete,
     TagsInputItemText,
     Textarea,
+    Toast,
+    ToastAction,
+    ToastClose,
+    ToastDescription,
+    Toaster,
+    ToastProvider,
+    ToastTitle,
+    ToastViewport,
     TagsInput,
     TabsContent,
     TabsList,
     Tabs,
     TabsTrigger,
-    Toaster,
+    Sonner,
     Toggle,
     ToggleGroupItem,
     ToggleGroupRoot,
@@ -955,12 +971,20 @@ export function getComponentMap() {
     [TagsInputItemDelete, '标签输入', '<TagsInputItemDelete></TagsInputItemDelete>'],
     [TagsInputItemText, '标签输入', '<TagsInputItemText></TagsInputItemText>'],
     [Textarea, '文本输入', '<Textarea></Textarea>'],
+    [Toast, '临时显示的简洁消息', '<Toast></Toast>'],
+    [ToastAction, '临时显示的简洁消息', '<ToastAction></ToastAction>'],
+    [ToastClose, '临时显示的简洁消息', '<ToastClose></ToastClose>'],
+    [ToastDescription, '临时显示的简洁消息', '<ToastDescription></ToastDescription>'],
+    [Toaster, '临时显示的简洁消息', '<Toaster></Toaster>'],
+    [ToastProvider, '临时显示的简洁消息', '<ToastProvider></ToastProvider>'],
+    [ToastTitle, '临时显示的简洁消息', '<ToastTitle></ToastTitle>'],
+    [ToastViewport, '临时显示的简洁消息', '<ToastViewport></ToastViewport>'],
     [TagsInput, '标签输入', '<TagsInput></TagsInput>'],
     [TabsContent, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsContent></TabsContent>'],
     [TabsList, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsList></TabsList>'],
     [Tabs, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<Tabs></Tabs>'],
     [TabsTrigger, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsTrigger></TabsTrigger>'],
-    [Toaster, '临时显示的简洁消息。', '<Toaster></Toaster>'],
+    [Sonner, '临时显示的简洁消息。', '<Sonner></Sonner>'],
     [Toggle, '一个双状态按钮，可以打开或关闭', '<Toggle></Toggle>'],
     [ToggleGroupItem, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupItem></ToggleGroupItem>'],
     [ToggleGroupRoot, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupRoot></ToggleGroupRoot>'],

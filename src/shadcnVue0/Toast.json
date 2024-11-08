@@ -1,0 +1,37 @@
+{
+  "name": "Toast",
+  "props": {
+    "variant": {
+      "default": "default",
+      "value": "",
+      "type": "default / destructive",
+      "description": "Sets the color scheme of the toaster.",
+      "description_zh": "设置烤面包机的配色方案."
+    },
+    "onOpenChange": {
+      "default": "",
+      "value": "",
+      "type": "function",
+      "description": "Callback function that is called when the toaster is opened or closed.",
+      "description_zh": "当烤面包机打开或关闭时调用的回调函数."
+    }
+  },
+  "events": [
+    {
+      "name": "update:open",
+      "params": "[value: boolean];",
+      "description": "Emitted when the toaster is opened or closed.",
+      "description_zh": "当烤面包机打开或关闭时发出."
+    },
+    {
+      "name": "close",
+      "params": "[]",
+      "description": "Emitted when the toaster is closed.",
+      "description_zh": "当烤面包机关闭时发出."
+    }
+  ],
+  "methods": [],
+  "suggestions": [],
+  "link": "https://www.shadcn-vue.com/docs/components/toast.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/toast.html"
+}

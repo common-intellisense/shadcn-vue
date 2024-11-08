@@ -1,0 +1,20 @@
+{
+  "name": "ToastProvider",
+  "props": {
+    "invert": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Inverts the color scheme of the toaster.",
+      "description_zh": "反转烤面包机的配色方案."
+    }
+  },
+  "events": [
+
+  ],
+  "methods": [],
+  "suggestions": [
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/toast.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/toast.html"
+}

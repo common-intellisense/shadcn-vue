@@ -1,138 +1,38 @@
 {
   "name": "Toaster",
   "props": {
-    "invert": {
-      "default": "false",
-      "value": "",
-      "type": "boolean",
-      "description": "Inverts the color scheme of the toaster.",
-      "description_zh": "反转烤面包机的配色方案."
-    },
-    "theme": {
-      "default": "",
-      "value": "",
-      "type": "light / dark / system",
-      "description": "Specifies the theme of the toaster.",
-      "description_zh": "指定烤面包机的主题."
-    },
-    "position": {
-      "default": "",
-      "value": "",
-      "type": "top-left / top-right / bottom-left / bottom-right / top-center / bottom-center",
-      "description": "Sets the position of the toaster on the screen.",
-      "description_zh": "设置烤面包机在屏幕上的位置."
-    },
-    "hotkey": {
-      "default": "[]",
-      "value": "",
-      "type": "string[]",
-      "description": "Defines hotkeys for the toaster.",
-      "description_zh": "定义烤面包机的热键."
-    },
-    "richColors": {
-      "default": "false",
-      "value": "",
-      "type": "boolean",
-      "description": "Enables rich colors for the toaster.",
-      "description_zh": "为烤面包机启用丰富的颜色."
-    },
-    "expand": {
-      "default": "false",
-      "value": "",
-      "type": "boolean",
-      "description": "Allows the toaster to expand.",
-      "description_zh": "允许烤面包机扩展."
-    },
-    "duration": {
-      "default": "0",
-      "value": "",
-      "type": "number",
-      "description": "Sets the duration for which the toast is visible.",
-      "description_zh": "设置烤面包可见的持续时间."
-    },
-    "gap": {
-      "default": "0",
-      "value": "",
-      "type": "number",
-      "description": "Specifies the gap between toasts.",
-      "description_zh": "指定烤面包之间的间隙."
-    },
-    "visibleToasts": {
-      "default": "0",
-      "value": "",
-      "type": "number",
-      "description": "Sets the number of visible toasts.",
-      "description_zh": "设置可见烤面包的数量."
-    },
-    "closeButton": {
-      "default": "false",
-      "value": "",
-      "type": "boolean",
-      "description": "Enables the close button on the toaster.",
-      "description_zh": "在烤面包机上启用关闭按钮."
-    },
-    "toastOptions": {
-      "default": "",
-      "value": "",
-      "type": "ToastOptions",
-      "description": "Specifies options for individual toasts.",
-      "description_zh": "指定单个烤面包的选项."
-    },
-    "offset": {
-      "default": "",
-      "value": "",
-      "type": "string | number",
-      "description": "Specifies the offset for the toaster.",
-      "description_zh": "指定烤面包机的偏移量."
-    },
-    "dir": {
-      "default": "'auto'",
-      "value": "",
-      "type": "rtl / ltr / auto",
-      "description": "Sets the text direction for the toaster.",
-      "description_zh": "设置烤面包机的文本方向."
-    },
-    "icons": {
-      "default": "",
-      "value": "",
-      "type": "ToastIcons",
-      "description": "Specifies icons for the toaster.",
-      "description_zh": "指定烤面包机的图标."
-    },
-    "containerAriaLabel": {
-      "default": "",
+    "label": {
+      "default": "Notification",
       "value": "",
       "type": "string",
-      "description": "ARIA label for the toaster container.",
-      "description_zh": "烤面包机容器的 ARIA 标签."
+      "description": "An author-localized label for each toast. Used to help screen reader users associate the interruption with a toast.",
+      "description_zh": "每个吐司的作者本地化标签.用于帮助屏幕阅读器用户将中断与吐司关联起来."
     },
-    "pauseWhenPageIsHidden": {
-      "default": "false",
+    "duration": {
+      "default": 5000,
       "value": "",
-      "type": "boolean",
-      "description": "Pauses the toaster when the page is hidden.",
-      "description_zh": "当页面隐藏时暂停烤面包机."
+      "type": "number",
+      "description": "Time in milliseconds that each toast should remain visible for.",
+      "description_zh": "每个吐司应保持可见的时间()以毫秒为单位)."
     },
-    "cn": {
-      "default": "",
+    "swipeDirection": {
+      "default": "right",
       "value": "",
-      "type": "CnFunction",
-      "description": "Function for conditional class names.",
-      "description_zh": "条件类名的函数."
+      "type": "up / down / left / right",
+      "description": "Direction of pointer swipe that should close the toast.",
+      "description_zh": "应关闭吐司的指针滑动方向."
+    },
+    "swipeThreshold": {
+      "default": 50,
+      "value": "",
+      "type": "number",
+      "description": "Distance in pixels that the swipe must pass before a close is triggered.",
+      "description_zh": "滑动必须经过的距离()以像素为单位),然后才会触发关闭."
     }
   },
-  "events": [
-    {
-      "name": "update:modelValue",
-      "params": "[value: boolean]",
-      "description": "Fires when the value of the menu changes.",
-      "description_zh": "当菜单的值更改时触发。"
-    }
-  ],
+  "events": [],
   "methods": [],
-  "suggestions": [
-    "MenubarMenu"
-  ],
-  "link": "https://www.radix-vue.com/components/menubar.html#root",
-  "link_zh": "https://www.radix-vue.com/components/menubar.html#root"
+  "suggestions": [],
+  "link": "https://www.shadcn-vue.com/docs/components/toast.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/toast.html"
 }
