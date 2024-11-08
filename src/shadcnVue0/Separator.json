@@ -2,7 +2,7 @@
   "name": "Separator",
   "props": {
     "orientation": {
-      "default": "\"horizontal\"",
+      "default": "horizontal",
       "value": [
         "horizontal",
         "vertical"
