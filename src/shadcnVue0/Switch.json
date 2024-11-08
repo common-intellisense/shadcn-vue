@@ -1,5 +1,5 @@
 {
-  "name": "SwitchRoot",
+  "name": "Switch",
   "props": {
     "defaultChecked": {
       "default": "",
@@ -59,7 +59,14 @@
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:checked",
+      "params": "[payload: boolean]",
+      "description": "Callback when the state of the switch changes.",
+      "description_zh": "开关状态更改时的回调."
+    }
+  ],
   "methods": [],
   "suggestions": [
     "SwitchThumb"

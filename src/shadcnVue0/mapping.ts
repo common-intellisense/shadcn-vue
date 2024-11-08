@@ -322,8 +322,7 @@ import StepperItem from './StepperItem.json'
 import StepperSeparator from './StepperSeparator.json'
 import StepperTitle from './StepperTitle.json'
 import StepperTrigger from './StepperTrigger.json'
-import SwitchRoot from './SwitchRoot.json'
-import SwitchThumb from './SwitchThumb.json'
+import Switch from './Switch.json'
 import TabsContent from './TabsContent.json'
 import TabsList from './TabsList.json'
 import TabsRoot from './TabsRoot.json'
@@ -555,8 +554,7 @@ export function getPropsMap() {
     SidebarTrigger,
     Skeleton,
     Slider,
-    SwitchRoot,
-    SwitchThumb,
+    Switch,
     TagsInputClear,
     TagsInputInput,
     TagsInputItem,
@@ -925,8 +923,7 @@ export function getComponentMap() {
     [SidebarTrigger, '侧边栏', '<SidebarTrigger></SidebarTrigger>'],
     [Skeleton, '骨架屏', '<Skeleton></Skeleton>'],
     [Slider, '滑块', '<Slider></Slider>'],
-    [SwitchRoot, '允许用户在选中和未选中之间切换的控件', '<SwitchRoot></SwitchRoot>'],
-    [SwitchThumb, '允许用户在选中和未选中之间切换的控件', '<SwitchThumb></SwitchThumb>'],
+    [Switch, '允许用户在选中和未选中之间切换的控件', '<Switch></Switch>'],
     [TagsInputClear, '标签输入', '<TagsInputClear></TagsInputClear>'],
     [TagsInputInput, '标签输入', '<TagsInputInput></TagsInputInput>'],
     [TagsInputItem, '标签输入', '<TagsInputItem></TagsInputItem>'],
