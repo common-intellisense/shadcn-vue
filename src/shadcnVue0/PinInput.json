@@ -1,5 +1,5 @@
 {
-  "name": "PinInputRoot",
+  "name": "PinInput",
   "props": {
     "as": {
       "default": "div",
@@ -55,7 +55,7 @@
     "type": {
       "default": "text",
       "value": "",
-      "type": "text | number",
+      "type": "text / number",
       "description": "Input type for the inputs.",
       "description_zh": "输入的输入类型。"
     },

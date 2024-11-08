@@ -239,8 +239,10 @@ import PaginationList from './PaginationList.json'
 import PaginationListItem from './PaginationListItem.json'
 import PaginationNext from './PaginationNext.json'
 import PaginationPrev from './PaginationPrev.json'
+import PinInput from './PinInput.json'
+import PinInputGroup from './PinInputGroup.json'
 import PinInputInput from './PinInputInput.json'
-import PinInputRoot from './PinInputRoot.json'
+import PinInputSeparator from './PinInputSeparator.json'
 import PopoverAnchor from './PopoverAnchor.json'
 import PopoverArrow from './PopoverArrow.json'
 import PopoverClose from './PopoverClose.json'
@@ -491,7 +493,9 @@ export function getPropsMap() {
     ProgressIndicator,
     ProgressRoot,
     PinInputInput,
-    PinInputRoot,
+    PinInput,
+    PinInputGroup,
+    PinInputSeparator,
     ScrollAreaCorner,
     ScrollAreaRoot,
     ScrollAreaScrollbar,
@@ -841,7 +845,9 @@ export function getComponentMap() {
     [ProgressIndicator, '单选按钮组', '<ProgressIndicator></ProgressIndicator>'],
     [ProgressRoot, '单选按钮组', '<ProgressRoot></ProgressRoot>'],
     [PinInputInput, '引脚输入', '<PinInputInput></PinInputInput>'],
-    [PinInputRoot, '引脚输入', '<PinInputRoot></PinInputRoot>'],
+    [PinInput, '引脚输入', '<PinInput></PinInput>'],
+    [PinInputGroup, '引脚输入', '<PinInputGroup></PinInputGroup>'],
+    [PinInputSeparator, '引脚输入', '<PinInputSeparator></PinInputSeparator>'],
     [ScrollAreaCorner, '滚动区域', '<ScrollAreaCorner></ScrollAreaCorner>'],
     [ScrollAreaRoot, '滚动区域', '<ScrollAreaRoot></ScrollAreaRoot>'],
     [ScrollAreaScrollbar, '滚动区域', '<ScrollAreaScrollbar></ScrollAreaScrollbar>'],

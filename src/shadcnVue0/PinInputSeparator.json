@@ -1,5 +1,5 @@
 {
-  "name": "PinInputInput",
+  "name": "PinInputSeparator",
   "props": {
     "as": {
       "default": "div",
@@ -14,21 +14,6 @@
       "type": "boolean",
       "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
-    },
-    ":index": {
-      "default": "",
-      "value": "",
-      "type": "number",
-      "description": "Position of the value this input bind to.",
-      "description_zh": "此输入绑定到的值的位置。",
-      "required": true
-    },
-    "disabled": {
-      "default": "false",
-      "value": "",
-      "type": "boolean",
-      "description": "When true, the input will be disabled.",
-      "description_zh": "为真时，输入将被禁用。"
     }
   },
   "events": [],
