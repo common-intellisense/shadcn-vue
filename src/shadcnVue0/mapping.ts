@@ -265,11 +265,8 @@ import RangeCalendarPrevButton from './RangeCalendarPrevButton.json'
 import ResizableHandle from './ResizableHandle.json'
 import ResizablePanel from './ResizablePanel.json'
 import ResizablePanelGroup from './ResizablePanelGroup.json'
-import ScrollAreaCorner from './ScrollAreaCorner.json'
-import ScrollAreaRoot from './ScrollAreaRoot.json'
-import ScrollAreaScrollbar from './ScrollAreaScrollbar.json'
-import ScrollAreaThumb from './ScrollAreaThumb.json'
-import ScrollAreaViewport from './ScrollAreaViewport.json'
+import ScrollArea from './ScrollArea.json'
+import ScrollBar from './ScrollBar.json'
 import SelectArrow from './SelectArrow.json'
 import SelectContent from './SelectContent.json'
 import SelectGroup from './SelectGroup.json'
@@ -487,12 +484,8 @@ export function getPropsMap() {
     PinInput,
     PinInputGroup,
     PinInputSeparator,
-    ScrollAreaCorner,
-    ScrollAreaRoot,
-    ScrollAreaScrollbar,
-    ScrollAreaThumb,
-    ScrollAreaViewport,
-    ScrollAreaCorner,
+    ScrollArea,
+    ScrollBar,
     SelectArrow,
     SelectContent,
     SelectGroup,
@@ -836,12 +829,8 @@ export function getComponentMap() {
     [PinInput, '引脚输入', '<PinInput></PinInput>'],
     [PinInputGroup, '引脚输入', '<PinInputGroup></PinInputGroup>'],
     [PinInputSeparator, '引脚输入', '<PinInputSeparator></PinInputSeparator>'],
-    [ScrollAreaCorner, '滚动区域', '<ScrollAreaCorner></ScrollAreaCorner>'],
-    [ScrollAreaRoot, '滚动区域', '<ScrollAreaRoot></ScrollAreaRoot>'],
-    [ScrollAreaScrollbar, '滚动区域', '<ScrollAreaScrollbar></ScrollAreaScrollbar>'],
-    [ScrollAreaThumb, '滚动区域', '<ScrollAreaThumb></ScrollAreaThumb>'],
-    [ScrollAreaViewport, '滚动区域', '<ScrollAreaViewport></ScrollAreaViewport>'],
-    [ScrollAreaCorner, '滚动区域', '<ScrollAreaCorner></ScrollAreaCorner>'],
+    [ScrollArea, '滚动区域', '<ScrollArea></ScrollArea>'],
+    [ScrollBar, '滚动区域', '<ScrollBar></ScrollBar>'],
     [SelectArrow, '选择', '<SelectArrow></SelectArrow>'],
     [SelectContent, '选择', '<SelectContent></SelectContent>'],
     [SelectGroup, '选择', '<SelectGroup></SelectGroup>'],

@@ -1,8 +1,8 @@
 {
-  "name": "ScrollAreaRoot",
+  "name": "ScrollArea",
   "props": {
     "type": {
-      "default": "\"hover\"",
+      "default": "hover",
       "value": [
         "auto",
         "always",
