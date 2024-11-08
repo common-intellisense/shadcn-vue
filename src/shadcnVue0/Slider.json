@@ -1,5 +1,5 @@
 {
-  "name": "SliderRoot",
+  "name": "Slider",
   "props": {
     ":defaultValue": {
       "default": "",
@@ -101,7 +101,20 @@
       "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
     }
   },
-  "events": [],
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "[payload: number[] | undefined];",
+      "description": "Event handler called when the slider value changes.",
+      "description_zh": "滑块值更改时调用的事件处理程序."
+    },
+    {
+      "name": "valueCommit",
+      "params": "[payload: number[]];",
+      "description": "Event handler called when the value changes at the end of an interaction. Useful when you only need to capture a final value e.g. to update a backend service.",
+      "description_zh": "在交互结束时值更改时调用的事件处理程序。 当您只需要捕获最终值时很有用，例如更新后端服务."
+    }
+  ],
   "methods": [],
   "suggestions": [
     "SliderTrack",

@@ -311,10 +311,7 @@ import SidebarRail from './SidebarRail.json'
 import SidebarSeparator from './SidebarSeparator.json'
 import SidebarTrigger from './SidebarTrigger.json'
 import Skeleton from './Skeleton.json'
-import SliderRange from './SliderRange.json'
-import SliderRoot from './SliderRoot.json'
-import SliderThumb from './SliderThumb.json'
-import SliderTrack from './SliderTrack.json'
+import Slider from './Slider.json'
 import SplitterGroup from './SplitterGroup.json'
 import SplitterPanel from './SplitterPanel.json'
 import SplitterResizeHandle from './SplitterResizeHandle.json'
@@ -556,10 +553,7 @@ export function getPropsMap() {
     SidebarSeparator,
     SidebarTrigger,
     Skeleton,
-    SliderRange,
-    SliderRoot,
-    SliderThumb,
-    SliderTrack,
+    Slider,
     SwitchRoot,
     SwitchThumb,
     TagsInputClear,
@@ -928,10 +922,7 @@ export function getComponentMap() {
     [SidebarSeparator, '侧边栏', '<SidebarSeparator></SidebarSeparator>'],
     [SidebarTrigger, '侧边栏', '<SidebarTrigger></SidebarTrigger>'],
     [Skeleton, '骨架屏', '<Skeleton></Skeleton>'],
-    [SliderRange, '滑块', '<SliderRange></SliderRange>'],
-    [SliderRoot, '滑块', '<SliderRoot></SliderRoot>'],
-    [SliderThumb, '滑块', '<SliderThumb></SliderThumb>'],
-    [SliderTrack, '滑块', '<SliderTrack></SliderTrack>'],
+    [Slider, '滑块', '<Slider></Slider>'],
     [SwitchRoot, '允许用户在选中和未选中之间切换的控件', '<SwitchRoot></SwitchRoot>'],
     [SwitchThumb, '允许用户在选中和未选中之间切换的控件', '<SwitchThumb></SwitchThumb>'],
     [TagsInputClear, '标签输入', '<TagsInputClear></TagsInputClear>'],
