@@ -334,7 +334,7 @@ import TableHeader from './TableHeader.json'
 import TableRow from './TableRow.json'
 import TabsContent from './TabsContent.json'
 import TabsList from './TabsList.json'
-import TabsRoot from './TabsRoot.json'
+import Tabs from './Tabs.json'
 import TabsTrigger from './TabsTrigger.json'
 import TagsInputClear from './TagsInputClear.json'
 import TagsInputInput from './TagsInputInput.json'
@@ -581,7 +581,7 @@ export function getPropsMap() {
     TagsInputRoot,
     TabsContent,
     TabsList,
-    TabsRoot,
+    Tabs,
     TabsTrigger,
     Toaster,
     Toggle,
@@ -958,7 +958,7 @@ export function getComponentMap() {
     [TagsInputRoot, '标签输入', '<TagsInputRoot></TagsInputRoot>'],
     [TabsContent, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsContent></TabsContent>'],
     [TabsList, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsList></TabsList>'],
-    [TabsRoot, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsRoot></TabsRoot>'],
+    [Tabs, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<Tabs></Tabs>'],
     [TabsTrigger, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsTrigger></TabsTrigger>'],
     [Toaster, '临时显示的简洁消息。', '<Toaster></Toaster>'],
     [Toggle, '一个双状态按钮，可以打开或关闭', '<Toggle></Toggle>'],
