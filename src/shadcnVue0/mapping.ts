@@ -109,48 +109,6 @@ import ContextMenuSub from './ContextMenuSub.json'
 import ContextMenuSubContent from './ContextMenuSubContent.json'
 import ContextMenuSubTrigger from './ContextMenuSubTrigger.json'
 import ContextMenuTrigger from './ContextMenuTrigger.json'
-import DateFieldAnchor from './DateFieldAnchor.json'
-import DateFieldInput from './DateFieldInput.json'
-import DateFieldRoot from './DateFieldRoot.json'
-import DatePickerArrow from './DatePickerArrow.json'
-import DatePickerCalendar from './DatePickerCalendar.json'
-import DatePickerCell from './DatePickerCell.json'
-import DatePickerCellTrigger from './DatePickerCellTrigger.json'
-import DatePickerClose from './DatePickerClose.json'
-import DatePickerContent from './DatePickerContent.json'
-import DatePickerField from './DatePickerField.json'
-import DatePickerGrid from './DatePickerGrid.json'
-import DatePickerGridBody from './DatePickerGridBody.json'
-import DatePickerGridHead from './DatePickerGridHead.json'
-import DatePickerGridRow from './DatePickerGridRow.json'
-import DatePickerHeadCell from './DatePickerHeadCell.json'
-import DatePickerHeader from './DatePickerHeader.json'
-import DatePickerHeading from './DatePickerHeading.json'
-import DatePickerInput from './DatePickerInput.json'
-import DatePickerNext from './DatePickerNext.json'
-import DatePickerPrev from './DatePickerPrev.json'
-import DatePickerRoot from './DatePickerRoot.json'
-import DatePickerTrigger from './DatePickerTrigger.json'
-import DateRangePickerAnchor from './DateRangePickerAnchor.json'
-import DateRangePickerArrow from './DateRangePickerArrow.json'
-import DateRangePickerCalendar from './DateRangePickerCalendar.json'
-import DateRangePickerCell from './DateRangePickerCell.json'
-import DateRangePickerCellTrigger from './DateRangePickerCellTrigger.json'
-import DateRangePickerClose from './DateRangePickerClose.json'
-import DateRangePickerContent from './DateRangePickerContent.json'
-import DateRangePickerField from './DateRangePickerField.json'
-import DateRangePickerGrid from './DateRangePickerGrid.json'
-import DateRangePickerGridBody from './DateRangePickerGridBody.json'
-import DateRangePickerGridHead from './DateRangePickerGridHead.json'
-import DateRangePickerGridRow from './DateRangePickerGridRow.json'
-import DateRangePickerHeadCell from './DateRangePickerHeadCell.json'
-import DateRangePickerHeader from './DateRangePickerHeader.json'
-import DateRangePickerHeading from './DateRangePickerHeading.json'
-import DateRangePickerInput from './DateRangePickerInput.json'
-import DateRangePickerNext from './DateRangePickerNext.json'
-import DateRangePickerPrev from './DateRangePickerPrev.json'
-import DateRangePickerRoot from './DateRangePickerRoot.json'
-import DateRangePickerTrigger from './DateRangePickerTrigger.json'
 import Dialog from './Dialog.json'
 import DialogClose from './DialogClose.json'
 import DialogContent from './DialogContent.json'
@@ -183,13 +141,6 @@ import DropdownMenuRadioItem from './DropdownMenuRadioItem.json'
 import DropdownMenuSeparator from './DropdownMenuSeparator.json'
 import DropdownMenuShortcut from './DropdownMenuShortcut.json'
 import DropdownMenuTrigger from './DropdownMenuTrigger.json'
-import EditableArea from './EditableArea.json'
-import EditableCancelTrigger from './EditableCancelTrigger.json'
-import EditableEditTrigger from './EditableEditTrigger.json'
-import EditableInput from './EditableInput.json'
-import EditablePreview from './EditablePreview.json'
-import EditableRoot from './EditableRoot.json'
-import EditableSubmitTrigger from './EditableSubmitTrigger.json'
 import Form from './Form.json'
 import FormControl from './FormControl.json'
 import FormDescription from './FormDescription.json'
@@ -365,7 +316,6 @@ import Tooltip from './Tooltip.json'
 import TooltipContent from './TooltipContent.json'
 import TooltipProvider from './TooltipProvider.json'
 import TooltipTrigger from './TooltipTrigger.json'
-import VisuallyHidden from './VisuallyHidden.json'
 
 export function getPropsMap() {
   return [
@@ -612,7 +562,6 @@ export function getPropsMap() {
     Tooltip,
     TooltipTrigger,
     ConfigProvider,
-    VisuallyHidden,
     Primitive,
     DropdownMenuContent,
     DropdownMenuTrigger,
@@ -655,55 +604,6 @@ export function getPropsMap() {
     ChartSingleTooltip,
     ChartTooltip,
     Calendar,
-    DateFieldAnchor,
-    DateFieldInput,
-    DateFieldRoot,
-    DatePickerArrow,
-    DatePickerCalendar,
-    DatePickerCell,
-    DatePickerCellTrigger,
-    DatePickerClose,
-    DatePickerContent,
-    DatePickerField,
-    DatePickerGridBody,
-    DatePickerGridHead,
-    DatePickerGridRow,
-    DatePickerHeadCell,
-    DatePickerHeader,
-    DatePickerHeading,
-    DatePickerInput,
-    DatePickerNext,
-    DatePickerPrev,
-    DatePickerRoot,
-    DatePickerTrigger,
-    DatePickerGrid,
-    DateRangePickerAnchor,
-    DateRangePickerArrow,
-    DateRangePickerCalendar,
-    DateRangePickerCell,
-    DateRangePickerCellTrigger,
-    DateRangePickerClose,
-    DateRangePickerContent,
-    DateRangePickerField,
-    DateRangePickerGrid,
-    DateRangePickerGridBody,
-    DateRangePickerGridHead,
-    DateRangePickerGridRow,
-    DateRangePickerHeadCell,
-    DateRangePickerHeader,
-    DateRangePickerHeading,
-    DateRangePickerInput,
-    DateRangePickerNext,
-    DateRangePickerPrev,
-    DateRangePickerRoot,
-    DateRangePickerTrigger,
-    EditableArea,
-    EditableCancelTrigger,
-    EditableEditTrigger,
-    EditableInput,
-    EditablePreview,
-    EditableRoot,
-    EditableSubmitTrigger,
     FormControl,
     FormDescription,
     FormItem,
@@ -995,7 +895,6 @@ export function getComponentMap() {
     [Tooltip, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<Tooltip></Tooltip>'],
     [TooltipTrigger, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipTrigger></TooltipTrigger>'],
     [ConfigProvider, '包装应用以提供全局配置', '<ConfigProvider></ConfigProvider>'],
-    [VisuallyHidden, '以可访问的方式从屏幕上隐藏内容', '<VisuallyHidden></VisuallyHidden>'],
     [Primitive, '将 Radix 的功能组合到替代元素类型或你自己的 Vue 组件上', '<Primitive></Primitive>'],
     [RadioGroupItem, '一组可检查的按钮（称为单选按钮），一次只能选中一个按钮', '<RadioGroupItem></RadioGroupItem>'],
     [RadioGroup, '一组可检查的按钮()称为单选按钮),一次只能选中一个按钮', '<RadioGroup></RadioGroup>'],
@@ -1026,55 +925,6 @@ export function getComponentMap() {
     [ChartSingleTooltip, '图表', '<ChartSingleTooltip></ChartSingleTooltip>'],
     [ChartTooltip, '图表', '<ChartTooltip></ChartTooltip>'],
     [Calendar, '显示日期和星期几,促进与日期相关的交互.', '<Calendar></Calendar>'],
-    [DateFieldAnchor, '使用户能够在指定字段中输入特定日期.', '<DateFieldAnchor></DateFieldAnchor>'],
-    [DateFieldInput, '使用户能够在指定字段中输入特定日期.', '<DateFieldInput></DateFieldInput>'],
-    [DateFieldRoot, '使用户能够在指定字段中输入特定日期.', '<DateFieldRoot></DateFieldRoot>'],
-    [DatePickerArrow, '通过输入和基于日历的界面方便选择日期.', '<DatePickerArrow></DatePickerArrow>'],
-    [DatePickerCalendar, '通过输入和基于日历的界面方便选择日期.', '<DatePickerCalendar></DatePickerCalendar>'],
-    [DatePickerCell, '通过输入和基于日历的界面方便选择日期.', '<DatePickerCell></DatePickerCell>'],
-    [DatePickerCellTrigger, '通过输入和基于日历的界面方便选择日期.', '<DatePickerCellTrigger></DatePickerCellTrigger>'],
-    [DatePickerClose, '通过输入和基于日历的界面方便选择日期.', '<DatePickerClose></DatePickerClose>'],
-    [DatePickerContent, '通过输入和基于日历的界面方便选择日期.', '<DatePickerContent></DatePickerContent>'],
-    [DatePickerField, '通过输入和基于日历的界面方便选择日期.', '<DatePickerField></DatePickerField>'],
-    [DatePickerGridBody, '通过输入和基于日历的界面方便选择日期.', '<DatePickerGridBody></DatePickerGridBody>'],
-    [DatePickerGridHead, '通过输入和基于日历的界面方便选择日期.', '<DatePickerGridHead></DatePickerGridHead>'],
-    [DatePickerGridRow, '通过输入和基于日历的界面方便选择日期.', '<DatePickerGridRow></DatePickerGridRow>'],
-    [DatePickerHeadCell, '通过输入和基于日历的界面方便选择日期.', '<DatePickerHeadCell></DatePickerHeadCell>'],
-    [DatePickerHeader, '通过输入和基于日历的界面方便选择日期.', '<DatePickerHeader></DatePickerHeader>'],
-    [DatePickerHeading, '通过输入和基于日历的界面方便选择日期.', '<DatePickerHeading></DatePickerHeading>'],
-    [DatePickerInput, '通过输入和基于日历的界面方便选择日期.', '<DatePickerInput></DatePickerInput>'],
-    [DatePickerNext, '通过输入和基于日历的界面方便选择日期.', '<DatePickerNext></DatePickerNext>'],
-    [DatePickerPrev, '通过输入和基于日历的界面方便选择日期.', '<DatePickerPrev></DatePickerPrev>'],
-    [DatePickerRoot, '通过输入和基于日历的界面方便选择日期.', '<DatePickerRoot></DatePickerRoot>'],
-    [DatePickerTrigger, '通过输入和基于日历的界面方便选择日期.', '<DatePickerTrigger></DatePickerTrigger>'],
-    [DatePickerGrid, '通过输入和基于日历的界面方便选择日期.', '<DatePickerGrid></DatePickerGrid>'],
-    [DateRangePickerAnchor, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerAnchor></DateRangePickerAnchor>'],
-    [DateRangePickerArrow, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerArrow></DateRangePickerArrow>'],
-    [DateRangePickerCalendar, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerCalendar></DateRangePickerCalendar>'],
-    [DateRangePickerCell, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerCell></DateRangePickerCell>'],
-    [DateRangePickerCellTrigger, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerCellTrigger></DateRangePickerCellTrigger>'],
-    [DateRangePickerClose, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerClose></DateRangePickerClose>'],
-    [DateRangePickerContent, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerContent></DateRangePickerContent>'],
-    [DateRangePickerField, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerField></DateRangePickerField>'],
-    [DateRangePickerGrid, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerGrid></DateRangePickerGrid>'],
-    [DateRangePickerGridBody, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerGridBody></DateRangePickerGridBody>'],
-    [DateRangePickerGridHead, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerGridHead></DateRangePickerGridHead>'],
-    [DateRangePickerGridRow, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerGridRow></DateRangePickerGridRow>'],
-    [DateRangePickerHeadCell, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerHeadCell></DateRangePickerHeadCell>'],
-    [DateRangePickerHeader, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerHeader></DateRangePickerHeader>'],
-    [DateRangePickerHeading, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerHeading></DateRangePickerHeading>'],
-    [DateRangePickerInput, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerInput></DateRangePickerInput>'],
-    [DateRangePickerNext, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerNext></DateRangePickerNext>'],
-    [DateRangePickerPrev, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerPrev></DateRangePickerPrev>'],
-    [DateRangePickerRoot, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerRoot></DateRangePickerRoot>'],
-    [DateRangePickerTrigger, '通过输入和基于日历的界面方便选择日期范围', '<DateRangePickerTrigger></DateRangePickerTrigger>'],
-    [EditableArea, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableArea></EditableArea>'],
-    [EditableCancelTrigger, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableCancelTrigger></EditableCancelTrigger>'],
-    [EditableEditTrigger, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableEditTrigger></EditableEditTrigger>'],
-    [EditableInput, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableInput></EditableInput>'],
-    [EditablePreview, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditablePreview></EditablePreview>'],
-    [EditableRoot, '显示用于编辑单行文本的输入字段，在加载时呈现为静态文本。当触发编辑交互时，它会转换为文本输入字段', '<EditableRoot></EditableRoot>'],
-    [EditableSubmitTrigger, '显示用于编辑单行文本的输入字段,在加载时呈现为静态文本.当触发编辑交互时,它会转换为文本输入字段', '<EditableSubmitTrigger></EditableSubmitTrigger>'],
     [Form, '表单', '<Form></Form>'],
     [FormControl, '表单', '<FormControl></FormControl>'],
     [FormDescription, '表单', '<FormDescription></FormDescription>'],
