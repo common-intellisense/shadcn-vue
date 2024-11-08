@@ -287,6 +287,29 @@ import SheetFooter from './SheetFooter.json'
 import SheetHeader from './SheetHeader.json'
 import SheetTitle from './SheetTitle.json'
 import SheetTrigger from './SheetTrigger.json'
+import Sidebar from './Sidebar.json'
+import SidebarContent from './SidebarContent.json'
+import SidebarFooter from './SidebarFooter.json'
+import SidebarGroup from './SidebarGroup.json'
+import SidebarGroupAction from './SidebarGroupAction.json'
+import SidebarGroupContent from './SidebarGroupContent.json'
+import SidebarGroupLabel from './SidebarGroupLabel.json'
+import SidebarHeader from './SidebarHeader.json'
+import SidebarInput from './SidebarInput.json'
+import SidebarInset from './SidebarInset.json'
+import SidebarMenu from './SidebarMenu.json'
+import SidebarMenuAction from './SidebarMenuAction.json'
+import SidebarMenuBadge from './SidebarMenuBadge.json'
+import SidebarMenuButton from './SidebarMenuButton.json'
+import SidebarMenuItem from './SidebarMenuItem.json'
+import SidebarMenuSkeleton from './SidebarMenuSkeleton.json'
+import SidebarMenuSub from './SidebarMenuSub.json'
+import SidebarMenuSubButton from './SidebarMenuSubButton.json'
+import SidebarMenuSubItem from './SidebarMenuSubItem.json'
+import SidebarProvider from './SidebarProvider.json'
+import SidebarRail from './SidebarRail.json'
+import SidebarSeparator from './SidebarSeparator.json'
+import SidebarTrigger from './SidebarTrigger.json'
 import SliderRange from './SliderRange.json'
 import SliderRoot from './SliderRoot.json'
 import SliderThumb from './SliderThumb.json'
@@ -508,6 +531,29 @@ export function getPropsMap() {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
+    Sidebar,
+    SidebarContent,
+    SidebarFooter,
+    SidebarGroup,
+    SidebarGroupAction,
+    SidebarGroupContent,
+    SidebarGroupLabel,
+    SidebarHeader,
+    SidebarInput,
+    SidebarInset,
+    SidebarMenu,
+    SidebarMenuAction,
+    SidebarMenuBadge,
+    SidebarMenuButton,
+    SidebarMenuItem,
+    SidebarMenuSkeleton,
+    SidebarMenuSub,
+    SidebarMenuSubButton,
+    SidebarMenuSubItem,
+    SidebarProvider,
+    SidebarRail,
+    SidebarSeparator,
+    SidebarTrigger,
     SliderRange,
     SliderRoot,
     SliderThumb,
@@ -856,6 +902,29 @@ export function getComponentMap() {
     [SheetHeader, '表格', '<SheetHeader></SheetHeader>'],
     [SheetTitle, '表格', '<SheetTitle></SheetTitle>'],
     [SheetTrigger, '表格', '<SheetTrigger></SheetTrigger>'],
+    [Sidebar, '侧边栏', '<Sidebar></Sidebar>'],
+    [SidebarContent, '侧边栏', '<SidebarContent></SidebarContent>'],
+    [SidebarFooter, '侧边栏', '<SidebarFooter></SidebarFooter>'],
+    [SidebarGroup, '侧边栏', '<SidebarGroup></SidebarGroup>'],
+    [SidebarGroupAction, '侧边栏', '<SidebarGroupAction></SidebarGroupAction>'],
+    [SidebarGroupContent, '侧边栏', '<SidebarGroupContent></SidebarGroupContent>'],
+    [SidebarGroupLabel, '侧边栏', '<SidebarGroupLabel></SidebarGroupLabel>'],
+    [SidebarHeader, '侧边栏', '<SidebarHeader></SidebarHeader>'],
+    [SidebarInput, '侧边栏', '<SidebarInput></SidebarInput>'],
+    [SidebarInset, '侧边栏', '<SidebarInset></SidebarInset>'],
+    [SidebarMenu, '侧边栏', '<SidebarMenu></SidebarMenu>'],
+    [SidebarMenuAction, '侧边栏', '<SidebarMenuAction></SidebarMenuAction>'],
+    [SidebarMenuBadge, '侧边栏', '<SidebarMenuBadge></SidebarMenuBadge>'],
+    [SidebarMenuButton, '侧边栏', '<SidebarMenuButton></SidebarMenuButton>'],
+    [SidebarMenuItem, '侧边栏', '<SidebarMenuItem></SidebarMenuItem>'],
+    [SidebarMenuSkeleton, '侧边栏', '<SidebarMenuSkeleton></SidebarMenuSkeleton>'],
+    [SidebarMenuSub, '侧边栏', '<SidebarMenuSub></SidebarMenuSub>'],
+    [SidebarMenuSubButton, '侧边栏', '<SidebarMenuSubButton></SidebarMenuSubButton>'],
+    [SidebarMenuSubItem, '侧边栏', '<SidebarMenuSubItem></SidebarMenuSubItem>'],
+    [SidebarProvider, '侧边栏', '<SidebarProvider></SidebarProvider>'],
+    [SidebarRail, '侧边栏', '<SidebarRail></SidebarRail>'],
+    [SidebarSeparator, '侧边栏', '<SidebarSeparator></SidebarSeparator>'],
+    [SidebarTrigger, '侧边栏', '<SidebarTrigger></SidebarTrigger>'],
     [SliderRange, '滑块', '<SliderRange></SliderRange>'],
     [SliderRoot, '滑块', '<SliderRoot></SliderRoot>'],
     [SliderThumb, '滑块', '<SliderThumb></SliderThumb>'],
