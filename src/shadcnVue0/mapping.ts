@@ -243,12 +243,8 @@ import PinInput from './PinInput.json'
 import PinInputGroup from './PinInputGroup.json'
 import PinInputInput from './PinInputInput.json'
 import PinInputSeparator from './PinInputSeparator.json'
-import PopoverAnchor from './PopoverAnchor.json'
-import PopoverArrow from './PopoverArrow.json'
-import PopoverClose from './PopoverClose.json'
+import Popover from './Popover.json'
 import PopoverContent from './PopoverContent.json'
-import PopoverPortal from './PopoverPortal.json'
-import PopoverRoot from './PopoverRoot.json'
 import PopoverTrigger from './PopoverTrigger.json'
 import Primitive from './Primitive.json'
 import ProgressIndicator from './ProgressIndicator.json'
@@ -483,12 +479,8 @@ export function getPropsMap() {
     PaginationLast,
     PaginationPrev,
     Pagination,
-    PopoverAnchor,
-    PopoverArrow,
-    PopoverClose,
     PopoverContent,
-    PopoverPortal,
-    PopoverRoot,
+    Popover,
     PopoverTrigger,
     ProgressIndicator,
     ProgressRoot,
@@ -835,12 +827,8 @@ export function getComponentMap() {
     [PaginationLast, '分页', '<PaginationLast></PaginationLast>'],
     [PaginationPrev, '分页', '<PaginationPrev></PaginationPrev>'],
     [Pagination, '分页', '<Pagination></Pagination>'],
-    [PopoverAnchor, '弹出框', '<PopoverAnchor></PopoverAnchor>'],
-    [PopoverArrow, '弹出框', '<PopoverArrow></PopoverArrow>'],
-    [PopoverClose, '弹出框', '<PopoverClose></PopoverClose>'],
     [PopoverContent, '弹出框', '<PopoverContent></PopoverContent>'],
-    [PopoverPortal, '弹出框', '<PopoverPortal></PopoverPortal>'],
-    [PopoverRoot, '弹出框', '<PopoverRoot></PopoverRoot>'],
+    [Popover, '弹出框', '<Popover></Popover>'],
     [PopoverTrigger, '弹出框', '<PopoverTrigger></PopoverTrigger>'],
     [ProgressIndicator, '单选按钮组', '<ProgressIndicator></ProgressIndicator>'],
     [ProgressRoot, '单选按钮组', '<ProgressRoot></ProgressRoot>'],

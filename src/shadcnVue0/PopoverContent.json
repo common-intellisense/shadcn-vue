@@ -9,7 +9,7 @@
       "description_zh": "用于在需要更多控制时强制安装。在使用 Vue.js 动画库控制动画时很有用。"
     },
     "side": {
-      "default": "\"bottom\"",
+      "default": "bottom",
       "value": [
         "top",
         "right",
@@ -39,7 +39,7 @@
       "description_zh": "与触发器的首选对齐方式。发生碰撞时可能会发生变化。"
     },
     ":alignOffset": {
-      "default": "0",
+      "default": "4",
       "value": "",
       "type": "number",
       "description": "An offset in pixels from the \"start\" or \"end\" alignment options.",
@@ -109,36 +109,43 @@
     {
       "name": "openAutoFocus",
       "params": "(event: Event) => void",
-      "description": "",
-      "description_zh": "",
+      "description": "Event handler called when auto-focusing on open. Can be prevented.",
+      "description_zh": "在打开时自动聚焦时调用的事件处理程序.可以被阻止.",
       "value": ""
     },
     {
       "name": "closeAutoFocus",
       "params": "(event: Event) => void",
-      "description": "",
-      "description_zh": "",
+      "description": "Event handler called when auto-focusing on close. Can be prevented.",
+      "description_zh": "在关闭时自动聚焦时调用的事件处理程序.可以被阻止.",
       "value": ""
     },
     {
       "name": "escapeKeyDown",
       "params": "(event: KeyboardEvent) => void",
-      "description": "",
-      "description_zh": "",
+      "description": "Event handler called when the escape key is down. Can be prevented.",
+      "description_zh": "按下 escape 键时调用的事件处理程序.可以被阻止.",
       "value": ""
     },
     {
       "name": "pointerDownOutside",
       "params": "(event: PointerDownOutsideEvent) => void",
-      "description": "",
-      "description_zh": "",
+      "description": "Event handler called when a `pointerdown` event happens outside of the `DismissableLayer`. Can be prevented.",
+      "description_zh": "`pointerdown` 事件发生在 `DismissableLayer` 之外时调用的事件处理程序.可以被阻止.",
+      "value": ""
+    },
+    {
+      "name": "focusOutside",
+      "params": "(event: FocusOutsideEvent) => void",
+      "description": "Event handler called when the focus moves outside of the `DismissableLayer`. Can be prevented.",
+      "description_zh": "焦点移到 `DismissableLayer` 之外时调用的事件处理程序.可以被阻止.",
       "value": ""
     },
     {
       "name": "interactOutside",
-      "params": "(event: FocusEvent | MouseEvent | TouchEvent) => void",
-      "description": "",
-      "description_zh": "",
+      "params": "(event: PointerDownOutsideEvent | FocusOutsideEvent) => void",
+      "description": "Event handler called when an interaction happens outside the `DismissableLayer`. Specifically, when a `pointerdown` event happens outside or focus moves outside of it. Can be prevented.",
+      "description_zh": "在 `DismissableLayer` 之外发生交互时调用的事件处理程序。具体来说,当 `pointerdown` 事件发生在外部或焦点移到外部时。可以被阻止.",
       "value": ""
     }
   ],
