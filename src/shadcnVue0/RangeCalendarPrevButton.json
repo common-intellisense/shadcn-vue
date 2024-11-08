@@ -1,5 +1,5 @@
 {
-  "name": "RangeCalendarNext",
+  "name": "RangeCalendarPrevButton",
   "props": {
     "as": {
       "default": "button",
@@ -21,6 +21,13 @@
       "type": "month | year",
       "description": "The calendar unit to go forward\n",
       "description_zh": "要前进的日历单位"
+    },
+    "prevPage": {
+      "default": "",
+      "value": "",
+      "type": "(placeholder: DateValue) => DateValue",
+      "description": "The function to be used for the prev page. Overwrites the `prevPage` function set on the `RangeCalendarRoot`.",
+      "description_zh": "用于上一页的函数.覆盖在 `RangeCalendarRoot` 上设置的 `prevPage` 函数."
     }
   },
   "events": [],

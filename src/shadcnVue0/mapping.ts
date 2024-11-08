@@ -250,6 +250,7 @@ import Primitive from './Primitive.json'
 import Progress from './Progress.json'
 import RadioGroup from './RadioGroup.json'
 import RadioGroupItem from './RadioGroupItem.json'
+import RangeCalendar from './RangeCalendar.json'
 import RangeCalendarCell from './RangeCalendarCell.json'
 import RangeCalendarCellTrigger from './RangeCalendarCellTrigger.json'
 import RangeCalendarGrid from './RangeCalendarGrid.json'
@@ -259,9 +260,8 @@ import RangeCalendarGridRow from './RangeCalendarGridRow.json'
 import RangeCalendarHeadCell from './RangeCalendarHeadCell.json'
 import RangeCalendarHeader from './RangeCalendarHeader.json'
 import RangeCalendarHeading from './RangeCalendarHeading.json'
-import RangeCalendarNext from './RangeCalendarNext.json'
-import RangeCalendarPrev from './RangeCalendarPrev.json'
-import RangeCalendarRoot from './RangeCalendarRoot.json'
+import RangeCalendarNextButton from './RangeCalendarNextButton.json'
+import RangeCalendarPrevButton from './RangeCalendarPrevButton.json'
 import ScrollAreaCorner from './ScrollAreaCorner.json'
 import ScrollAreaRoot from './ScrollAreaRoot.json'
 import ScrollAreaScrollbar from './ScrollAreaScrollbar.json'
@@ -654,9 +654,9 @@ export function getPropsMap() {
     RangeCalendarGridRow,
     RangeCalendarHeadCell,
     RangeCalendarHeader,
-    RangeCalendarNext,
-    RangeCalendarPrev,
-    RangeCalendarRoot,
+    RangeCalendarNextButton,
+    RangeCalendarPrevButton,
+    RangeCalendar,
     SplitterGroup,
     SplitterPanel,
     SplitterResizeHandle,
@@ -988,9 +988,9 @@ export function getComponentMap() {
     [RangeCalendarGridRow, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarGridRow></RangeCalendarGridRow>'],
     [RangeCalendarHeadCell, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarHeadCell></RangeCalendarHeadCell>'],
     [RangeCalendarHeader, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarHeader></RangeCalendarHeader>'],
-    [RangeCalendarNext, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarNext></RangeCalendarNext>'],
-    [RangeCalendarPrev, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarPrev></RangeCalendarPrev>'],
-    [RangeCalendarRoot, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarRoot></RangeCalendarRoot>'],
+    [RangeCalendarNextButton, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarNextButton></RangeCalendarNextButton>'],
+    [RangeCalendarPrevButton, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarPrevButton></RangeCalendarPrevButton>'],
+    [RangeCalendar, '提供专为选择日期范围而定制的日历视图', '<RangeCalendar></RangeCalendar>'],
     [SplitterGroup, '将布局划分为可调整大小的部分的组件', '<SplitterGroup></SplitterGroup>'],
     [SplitterPanel, '将布局划分为可调整大小的部分的组件', '<SplitterPanel></SplitterPanel>'],
     [SplitterResizeHandle, '将布局划分为可调整大小的部分的组件', '<SplitterResizeHandle></SplitterResizeHandle>'],
