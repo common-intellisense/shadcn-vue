@@ -1,0 +1,31 @@
+{
+  "name": "Textarea",
+  "props": {
+    "defaultValue": {
+      "default": "",
+      "value": "",
+      "type": "string | number",
+      "description": "The default value of the textarea.",
+      "description_zh": "文本区域的默认值."
+    },
+    ":v-model": {
+      "default": "",
+      "value": "",
+      "type": "string | number",
+      "description": "The current value of the textarea.",
+      "description_zh": "文本区域的当前值."
+    }
+  },
+  "events": [
+    {
+      "name": "update:modelValue",
+      "params": "(e: 'update:modelValue', payload: string | number): void",
+      "description": "Fires when the value of the textarea changes.",
+      "description_zh": "当文本区域的值发生变化时触发."
+    }
+  ],
+  "methods": [],
+  "suggestions": [],
+  "link": "https://www.shadcn-vue.com/docs/components/textarea.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/textarea.html"
+}

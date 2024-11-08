@@ -341,6 +341,7 @@ import TagsInputInput from './TagsInputInput.json'
 import TagsInputItem from './TagsInputItem.json'
 import TagsInputItemDelete from './TagsInputItemDelete.json'
 import TagsInputItemText from './TagsInputItemText.json'
+import Textarea from './Textarea.json'
 import Toaster from './Toaster.json'
 import Toggle from './Toggle.json'
 
@@ -576,6 +577,7 @@ export function getPropsMap() {
     TagsInputItem,
     TagsInputItemDelete,
     TagsInputItemText,
+    Textarea,
     TagsInput,
     TabsContent,
     TabsList,
@@ -952,6 +954,7 @@ export function getComponentMap() {
     [TagsInputItem, '标签输入', '<TagsInputItem></TagsInputItem>'],
     [TagsInputItemDelete, '标签输入', '<TagsInputItemDelete></TagsInputItemDelete>'],
     [TagsInputItemText, '标签输入', '<TagsInputItemText></TagsInputItemText>'],
+    [Textarea, '文本输入', '<Textarea></Textarea>'],
     [TagsInput, '标签输入', '<TagsInput></TagsInput>'],
     [TabsContent, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsContent></TabsContent>'],
     [TabsList, '一组分层的内容部分（称为选项卡面板），一次显示一个。', '<TabsList></TabsList>'],
