@@ -1,0 +1,61 @@
+{
+  "name": "ResizablePanelGroup",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    "autoSaveId": {
+      "default": "",
+      "value": "",
+      "type": "string | null",
+      "description": "Unique id used to auto-save group arrangement via `localStorage`.",
+      "description_zh": "用于通过`localStorage`自动保存组排列的唯一ID."
+    },
+    "direction": {
+      "default": "",
+      "value": "",
+      "type": "horizontal / vertical",
+      "description": "The group orientation of splitter.",
+      "description_zh": "分割器的组方向."
+    },
+    "keyboardResizeBy": {
+      "default": "",
+      "value": "",
+      "type": "number | null",
+      "description": "Step size when arrow key was pressed.",
+      "description_zh": "按下箭头键时的步长."
+    },
+    "storage": {
+      "default": "",
+      "value": "",
+      "type": "PanelGroupStorage",
+      "description": "Custom storage API; defaults to localStorage.",
+      "description_zh": "自定义存储API;默认为localStorage."
+    }
+  },
+  "events": [
+    {
+      "name": "layout",
+      "params": "[val: number[]]",
+      "description": "Event handler called when group layout changes",
+      "description_zh": "组布局更改时调用的事件处理程序",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "suggestions": [
+  ],
+  "link": "https://www.shadcn-vue.com/docs/components/resizable.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/resizable.html"
+}

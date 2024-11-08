@@ -262,6 +262,9 @@ import RangeCalendarHeader from './RangeCalendarHeader.json'
 import RangeCalendarHeading from './RangeCalendarHeading.json'
 import RangeCalendarNextButton from './RangeCalendarNextButton.json'
 import RangeCalendarPrevButton from './RangeCalendarPrevButton.json'
+import ResizableHandle from './ResizableHandle.json'
+import ResizablePanel from './ResizablePanel.json'
+import ResizablePanelGroup from './ResizablePanelGroup.json'
 import ScrollAreaCorner from './ScrollAreaCorner.json'
 import ScrollAreaRoot from './ScrollAreaRoot.json'
 import ScrollAreaScrollbar from './ScrollAreaScrollbar.json'
@@ -656,6 +659,9 @@ export function getPropsMap() {
     RangeCalendarHeader,
     RangeCalendarNextButton,
     RangeCalendarPrevButton,
+    ResizableHandle,
+    ResizablePanelGroup,
+    ResizablePanel,
     RangeCalendar,
     SplitterGroup,
     SplitterPanel,
@@ -990,6 +996,9 @@ export function getComponentMap() {
     [RangeCalendarHeader, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarHeader></RangeCalendarHeader>'],
     [RangeCalendarNextButton, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarNextButton></RangeCalendarNextButton>'],
     [RangeCalendarPrevButton, '提供专为选择日期范围而定制的日历视图', '<RangeCalendarPrevButton></RangeCalendarPrevButton>'],
+    [ResizableHandle, '可调整大小的手柄', '<ResizableHandle></ResizableHandle>'],
+    [ResizablePanelGroup, '可调整大小的面板组', '<ResizablePanelGroup></ResizablePanelGroup>'],
+    [ResizablePanel, '可调整大小的面板', '<ResizablePanel></ResizablePanel>'],
     [RangeCalendar, '提供专为选择日期范围而定制的日历视图', '<RangeCalendar></RangeCalendar>'],
     [SplitterGroup, '将布局划分为可调整大小的部分的组件', '<SplitterGroup></SplitterGroup>'],
     [SplitterPanel, '将布局划分为可调整大小的部分的组件', '<SplitterPanel></SplitterPanel>'],

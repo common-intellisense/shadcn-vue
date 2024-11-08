@@ -1,0 +1,116 @@
+{
+  "name": "ResizablePanel",
+  "props": {
+    "as": {
+      "default": "div",
+      "value": "",
+      "type": "string | Component",
+      "description": "The element or component this component should render as. Can be overwrite by asChild",
+      "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
+    },
+    "asChild": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Change the default rendered element for the one passed as a child, merging their props and behavior.",
+      "description_zh": "更改作为子元素传递的默认渲染元素，合并其道具和行为。"
+    },
+    ":collapse": {
+      "default": "",
+      "value": "",
+      "type": "() => void",
+      "description": "If panel is `collapsible`, collapse it fully.",
+      "description_zh": "如果面板是可折叠的,则完全折叠它."
+    },
+    ":expand": {
+      "default": "",
+      "value": "",
+      "type": "() => void",
+      "description": "If panel is currently collapsed, expand it to its most recent size.",
+      "description_zh": "如果面板当前已折叠,请将其展开到最近的大小."
+    },
+    ":getSize": {
+      "default": "",
+      "value": "",
+      "type": "() => number",
+      "description": "Gets the current size of the panel as a percentage (1 - 100).",
+      "description_zh": "获取面板的当前大小,百分比()1 - 100)."
+    },
+    ":resize": {
+      "default": "",
+      "value": "",
+      "type": "(size: number) => void",
+      "description": "Resize panel to the specified percentage (1 - 100).",
+      "description_zh": "将面板调整为指定的百分比()1 - 100）。"
+    },
+    ":isCollapsed": {
+      "default": "",
+      "value": "",
+      "type": "import('vue').ComputedRef<boolean>",
+      "description": "Returns `true` if the panel is currently collapsed.",
+      "description_zh": "如果面板当前已折叠,则返回 `true`."
+    },
+    ":isExpanded": {
+      "default": "",
+      "value": "",
+      "type": "import('vue').ComputedRef<boolean>",
+      "description": "Returns `true` if the panel is currently not collapsed.",
+      "description_zh": "如果面板当前未折叠,则返回 `true`."
+    },
+    ":collapsedSize": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The size of panel when it is collapsed.",
+      "description_zh": "面板折叠时的大小."
+    },
+    ":collapsible": {
+      "default": "false",
+      "value": "",
+      "type": "boolean",
+      "description": "Should panel collapse when resized beyond its `minSize`. When `true`, it will be collapsed to `collapsedSize`.",
+      "description_zh": "当面板调整大小超过其 `minSize` 时是否应折叠.当 `true` 时,它将折叠到 `collapsedSize`."
+    },
+    ":defaultSize": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "Initial size of panel (numeric value between 1-100).",
+      "description_zh": "面板的初始大小()1-100 之间的数值)."
+    },
+    ":maxSize": {
+      "default": "100",
+      "value": "",
+      "type": "number",
+      "description": "The maximum allowable size of panel (numeric value between 1-100); defaults to `100`.",
+      "description_zh": "面板的最大允许大小（1-100 之间的数值);默认为 `100`."
+    },
+    ":minSize": {
+      "default": "10",
+      "value": "",
+      "type": "number",
+      "description": "The minimum allowable size of panel (numeric value between 1-100); defaults to `10`.",
+      "description_zh": "面板的最小允许大小（1-100 之间的数值);默认为 `10`."
+    },
+    ":order": {
+      "default": "",
+      "value": "",
+      "type": "number",
+      "description": "The order of panel within group; required for groups with conditionally rendered panels.",
+      "description_zh": "组内面板的顺序；对于有条件渲染面板的组是必需的."
+    }
+  },
+  "events": [
+    {
+      "name": "closeAutoFocus",
+      "params": "(event: Event) => void",
+      "description": "",
+      "description_zh": "",
+      "value": ""
+    }
+  ],
+  "methods": [],
+  "suggestions": [],
+  "link": "https://www.shadcn-vue.com/docs/components/resizable.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/resizable.html"
+}
