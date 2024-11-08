@@ -114,14 +114,14 @@
   },
   "events": [
     {
-      "name": "escape-key-down",
+      "name": "escapeKeyDown",
       "params": "(event: KeyboardEvent) => void",
       "description": "",
       "description_zh": "",
       "value": ""
     },
     {
-      "name": "pointer-down-outside",
+      "name": "pointerDownOutside",
       "params": "(event: KeyboardEvent) => void",
       "description": "",
       "description_zh": "",

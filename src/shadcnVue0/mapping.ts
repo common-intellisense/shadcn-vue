@@ -353,19 +353,17 @@ import ToastTitle from './ToastTitle.json'
 import ToastViewport from './ToastViewport.json'
 import Toggle from './Toggle.json'
 
-import ToggleGroupItem from './ToggleGroupItem.json'
 import ToggleGroup from './ToggleGroup.json'
+import ToggleGroupItem from './ToggleGroupItem.json'
 import ToolbarButton from './ToolbarButton.json'
 import ToolbarLink from './ToolbarLink.json'
 import ToolbarRoot from './ToolbarRoot.json'
 import ToolbarSeparator from './ToolbarSeparator.json'
 import ToolbarToggleGroup from './ToolbarToggleGroup.json'
 import ToolbarToggleItem from './ToolbarToggleItem.json'
-import TooltipArrow from './TooltipArrow.json'
+import Tooltip from './Tooltip.json'
 import TooltipContent from './TooltipContent.json'
-import TooltipPortal from './TooltipPortal.json'
 import TooltipProvider from './TooltipProvider.json'
-import TooltipRoot from './TooltipRoot.json'
 import TooltipTrigger from './TooltipTrigger.json'
 import VisuallyHidden from './VisuallyHidden.json'
 
@@ -609,11 +607,9 @@ export function getPropsMap() {
     ToolbarSeparator,
     ToolbarToggleGroup,
     ToolbarToggleItem,
-    TooltipArrow,
     TooltipContent,
-    TooltipPortal,
     TooltipProvider,
-    TooltipRoot,
+    Tooltip,
     TooltipTrigger,
     ConfigProvider,
     VisuallyHidden,
@@ -994,11 +990,9 @@ export function getComponentMap() {
     [ToolbarSeparator, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarSeparator></ToolbarSeparator>'],
     [ToolbarToggleGroup, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarToggleGroup></ToolbarToggleGroup>'],
     [ToolbarToggleItem, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarToggleItem></ToolbarToggleItem>'],
-    [TooltipArrow, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipArrow></TooltipArrow>'],
     [TooltipContent, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipContent></TooltipContent>'],
-    [TooltipPortal, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipPortal></TooltipPortal>'],
     [TooltipProvider, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipProvider></TooltipProvider>'],
-    [TooltipRoot, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipRoot></TooltipRoot>'],
+    [Tooltip, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<Tooltip></Tooltip>'],
     [TooltipTrigger, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipTrigger></TooltipTrigger>'],
     [ConfigProvider, '包装应用以提供全局配置', '<ConfigProvider></ConfigProvider>'],
     [VisuallyHidden, '以可访问的方式从屏幕上隐藏内容', '<VisuallyHidden></VisuallyHidden>'],
