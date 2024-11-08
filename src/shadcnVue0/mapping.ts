@@ -310,6 +310,7 @@ import SidebarProvider from './SidebarProvider.json'
 import SidebarRail from './SidebarRail.json'
 import SidebarSeparator from './SidebarSeparator.json'
 import SidebarTrigger from './SidebarTrigger.json'
+import Skeleton from './Skeleton.json'
 import SliderRange from './SliderRange.json'
 import SliderRoot from './SliderRoot.json'
 import SliderThumb from './SliderThumb.json'
@@ -554,6 +555,7 @@ export function getPropsMap() {
     SidebarRail,
     SidebarSeparator,
     SidebarTrigger,
+    Skeleton,
     SliderRange,
     SliderRoot,
     SliderThumb,
@@ -925,6 +927,7 @@ export function getComponentMap() {
     [SidebarRail, '侧边栏', '<SidebarRail></SidebarRail>'],
     [SidebarSeparator, '侧边栏', '<SidebarSeparator></SidebarSeparator>'],
     [SidebarTrigger, '侧边栏', '<SidebarTrigger></SidebarTrigger>'],
+    [Skeleton, '骨架屏', '<Skeleton></Skeleton>'],
     [SliderRange, '滑块', '<SliderRange></SliderRange>'],
     [SliderRoot, '滑块', '<SliderRoot></SliderRoot>'],
     [SliderThumb, '滑块', '<SliderThumb></SliderThumb>'],
