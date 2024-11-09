@@ -47,7 +47,7 @@
   "events": [],
   "methods": [],
   "suggestions": [
-    "AccordionHeader",
+    "AccordionTrigger",
     "AccordionContent"
   ],
   "link": "https://www.radix-vue.com/components/accordion.html",

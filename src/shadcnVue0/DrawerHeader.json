@@ -4,7 +4,8 @@
   "events": [],
   "methods": [],
   "suggestions": [
-    "HoverCardArrow"
+    "DrawerTitle",
+    "DrawerDescription"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/drawer.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/drawer.html"

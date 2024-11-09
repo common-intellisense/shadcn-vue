@@ -11,6 +11,10 @@
   },
   "events": [],
   "methods": [],
+  "suggestions": [
+    "AlertTitle",
+    "AlertDescription"
+  ],
   "link": "https://www.radix-vue.com/components/alert.html",
   "link_zh": "https://www.radix-vue.com/components/alert.html"
 }

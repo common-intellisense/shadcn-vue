@@ -48,6 +48,8 @@
   ],
   "methods": [],
   "suggestions": [
+    "StepperTrigger",
+    "StepperSeparator"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/stepper.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/stepper.html"

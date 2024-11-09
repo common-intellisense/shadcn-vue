@@ -168,6 +168,10 @@
     }
   ],
   "methods": [],
+  "suggestions": [
+    "CommandGroup",
+    "CommandEmpty"
+  ],
   "link": "https://www.shadcn-vue.com/docs/components/command.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/command.html"
 }

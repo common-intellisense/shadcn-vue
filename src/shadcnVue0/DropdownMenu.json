@@ -46,7 +46,7 @@
   "methods": [],
   "suggestions": [
     "DropdownMenuTrigger",
-    "DropdownMenuPortal"
+    "DropdownMenuContent"
   ],
   "link": "https://www.radix-vue.com/components/dropdown-menu.html#root",
   "link_zh": "https://www.radix-vue.com/components/dropdown-menu.html#root"

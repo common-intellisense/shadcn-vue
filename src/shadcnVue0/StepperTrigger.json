@@ -20,6 +20,7 @@
   ],
   "methods": [],
   "suggestions": [
+    "StepperIndicator"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/stepper.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/stepper.html"

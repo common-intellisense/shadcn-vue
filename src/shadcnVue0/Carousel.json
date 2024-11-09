@@ -75,6 +75,11 @@
       "description_zh": "滚动到上一张幻灯片。"
     }
   ],
+  "suggestions": [
+    "CarouselContent",
+    "CarouselPrevious",
+    "CarouselNext"
+  ],
   "link": "https://www.shadcn-vue.com/docs/components/carousel.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/carousel.html"
 }

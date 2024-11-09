@@ -70,20 +70,6 @@ import Checkbox from './Checkbox.json'
 import Collapsible from './Collapsible.json'
 import CollapsibleContent from './CollapsibleContent.json'
 import CollapsibleTrigger from './CollapsibleTrigger.json'
-import ComboboxAnchor from './ComboboxAnchor.json'
-import ComboboxArrow from './ComboboxArrow.json'
-import ComboboxCancel from './ComboboxCancel.json'
-import ComboboxContent from './ComboboxContent.json'
-import ComboboxGroup from './ComboboxGroup.json'
-import ComboboxInput from './ComboboxInput.json'
-import ComboboxItem from './ComboboxItem.json'
-import ComboboxItemIndicator from './ComboboxItemIndicator.json'
-import ComboboxLabel from './ComboboxLabel.json'
-import ComboboxPortal from './ComboboxPortal.json'
-import ComboboxRoot from './ComboboxRoot.json'
-import ComboboxSeparator from './ComboboxSeparator.json'
-import ComboboxTrigger from './ComboboxTrigger.json'
-import ComboboxViewport from './ComboboxViewport.json'
 import Command from './Command.json'
 import CommandDialog from './CommandDialog.json'
 import CommandEmpty from './CommandEmpty.json'
@@ -306,12 +292,6 @@ import Toggle from './Toggle.json'
 
 import ToggleGroup from './ToggleGroup.json'
 import ToggleGroupItem from './ToggleGroupItem.json'
-import ToolbarButton from './ToolbarButton.json'
-import ToolbarLink from './ToolbarLink.json'
-import ToolbarRoot from './ToolbarRoot.json'
-import ToolbarSeparator from './ToolbarSeparator.json'
-import ToolbarToggleGroup from './ToolbarToggleGroup.json'
-import ToolbarToggleItem from './ToolbarToggleItem.json'
 import Tooltip from './Tooltip.json'
 import TooltipContent from './TooltipContent.json'
 import TooltipProvider from './TooltipProvider.json'
@@ -364,20 +344,6 @@ export function getPropsMap() {
     CollapsibleContent,
     Collapsible,
     CollapsibleTrigger,
-    ComboboxAnchor,
-    ComboboxArrow,
-    ComboboxCancel,
-    ComboboxContent,
-    ComboboxGroup,
-    ComboboxInput,
-    ComboboxItem,
-    ComboboxItemIndicator,
-    ComboboxLabel,
-    ComboboxPortal,
-    ComboboxRoot,
-    ComboboxSeparator,
-    ComboboxTrigger,
-    ComboboxViewport,
     Command,
     CommandDialog,
     CommandEmpty,
@@ -551,12 +517,6 @@ export function getPropsMap() {
     Toggle,
     ToggleGroupItem,
     ToggleGroup,
-    ToolbarButton,
-    ToolbarLink,
-    ToolbarRoot,
-    ToolbarSeparator,
-    ToolbarToggleGroup,
-    ToolbarToggleItem,
     TooltipContent,
     TooltipProvider,
     Tooltip,
@@ -686,20 +646,6 @@ export function getComponentMap() {
     [CollapsibleContent, '折叠面板', '<CollapsibleContent></CollapsibleContent>'],
     [Collapsible, '折叠面板', '<Collapsible></Collapsible>'],
     [CollapsibleTrigger, '折叠面板', '<CollapsibleTrigger></CollapsibleTrigger>'],
-    [ComboboxAnchor, '组合框', '<ComboboxAnchor></ComboboxAnchor>'],
-    [ComboboxArrow, '组合框', '<ComboboxArrow></ComboboxArrow>'],
-    [ComboboxCancel, '组合框', '<ComboboxCancel></ComboboxCancel>'],
-    [ComboboxContent, '组合框', '<ComboboxContent></ComboboxContent>'],
-    [ComboboxGroup, '组合框', '<ComboboxGroup></ComboboxGroup>'],
-    [ComboboxInput, '组合框', '<ComboboxInput></ComboboxInput>'],
-    [ComboboxItem, '组合框', '<ComboboxItem></ComboboxItem>'],
-    [ComboboxItemIndicator, '组合框', '<ComboboxItemIndicator></ComboboxItemIndicator>'],
-    [ComboboxLabel, '组合框', '<ComboboxLabel></ComboboxLabel>'],
-    [ComboboxPortal, '组合框', '<ComboboxPortal></ComboboxPortal>'],
-    [ComboboxRoot, '组合框', '<ComboboxRoot></ComboboxRoot>'],
-    [ComboboxSeparator, '组合框', '<ComboboxSeparator></ComboboxSeparator>'],
-    [ComboboxTrigger, '组合框', '<ComboboxTrigger></ComboboxTrigger>'],
-    [ComboboxViewport, '组合框', '<ComboboxViewport></ComboboxViewport>'],
     [Command, '命令', '<Command></Command>'],
     [CommandDialog, '命令', '<CommandDialog></CommandDialog>'],
     [CommandEmpty, '命令', '<CommandEmpty></CommandEmpty>'],
@@ -884,12 +830,6 @@ export function getComponentMap() {
     [Toggle, '一个双状态按钮，可以打开或关闭', '<Toggle></Toggle>'],
     [ToggleGroupItem, '一组可以打开或关闭的双状态按钮。', '<ToggleGroupItem></ToggleGroupItem>'],
     [ToggleGroup, '一组可以打开或关闭的双状态按钮。', '<ToggleGroup></ToggleGroup>'],
-    [ToolbarButton, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarButton></ToolbarButton>'],
-    [ToolbarLink, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarLink></ToolbarLink>'],
-    [ToolbarRoot, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarRoot></ToolbarRoot>'],
-    [ToolbarSeparator, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarSeparator></ToolbarSeparator>'],
-    [ToolbarToggleGroup, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarToggleGroup></ToolbarToggleGroup>'],
-    [ToolbarToggleItem, '用于对一组控件（如按钮、工具栏组或下拉菜单）进行分组的容器。', '<ToolbarToggleItem></ToolbarToggleItem>'],
     [TooltipContent, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipContent></TooltipContent>'],
     [TooltipProvider, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipProvider></TooltipProvider>'],
     [Tooltip, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<Tooltip></Tooltip>'],

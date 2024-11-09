@@ -16,7 +16,7 @@
       "description": "The name of the form field",
       "description_zh": "表单字段的名称"
     },
-    "rules": {
+    ":rules": {
       "type": "RuleExpression<unknown>",
       "default": "",
       "value": "",
@@ -117,6 +117,9 @@
   },
   "events": [],
   "methods": [],
+  "suggestions": [
+    "FormItem"
+  ],
   "link": "https://www.shadcn-vue.com/docs/components/form.html",
   "link_zh": "https://www.shadcn-vue.com/docs/components/form.html"
 }

@@ -76,8 +76,7 @@
   ],
   "methods": [],
   "suggestions": [
-    "DialogTitle",
-    "DialogDescription",
+    "DialogHeader",
     "DialogClose"
   ],
   "link": "https://www.radix-vue.com/components/dialog.html",

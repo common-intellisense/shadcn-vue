@@ -40,6 +40,10 @@
     }
   ],
   "methods": [],
+  "suggestions": [
+    "AlertDialogContent",
+    "AlertDialogTrigger"
+  ],
   "link": "https://www.radix-vue.com/components/alert-dialog.html",
   "link_zh": "https://www.radix-vue.com/components/alert-dialog.html"
 }

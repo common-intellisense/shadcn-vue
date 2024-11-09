@@ -26,8 +26,6 @@
   ],
   "methods": [],
   "suggestions": [
-    "AlertDialogTitle",
-    "AlertDialogDescription",
     "AlertDialogCancel",
     "AlertDialogAction"
   ],
