@@ -66,5 +66,6 @@
     "NavigationMenuSub"
   ],
   "link": "https://www.radix-vue.com/components/navigation-menu.html#root",
-  "link_zh": "https://www.radix-vue.com/components/navigation-menu.html#root"
+  "link_zh": "https://www.radix-vue.com/components/navigation-menu.html#root",
+  "dynamicLib": "@/components/ui/navigation-menu"
 }

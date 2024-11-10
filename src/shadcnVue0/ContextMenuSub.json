@@ -31,5 +31,6 @@
     "ContextMenuPortal"
   ],
   "link": "https://www.radix-vue.com/components/context-menu.html",
-  "link_zh": "https://www.radix-vue.com/components/context-menu.html"
+  "link_zh": "https://www.radix-vue.com/components/context-menu.html",
+  "dynamicLib": "@/components/ui/context-menu"
 }

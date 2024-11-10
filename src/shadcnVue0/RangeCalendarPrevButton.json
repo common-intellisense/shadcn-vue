@@ -4,7 +4,7 @@
     "as": {
       "default": "button",
       "value": "",
-      "type": "AsTag | Component",
+      "type": "AsTag / Component",
       "description": "The element or component this component should render as. Can be overwrite by asChild\n",
       "description_zh": "此组件应呈现为的元素或组件。可以被 asChild 覆盖"
     },
@@ -18,7 +18,7 @@
     "step": {
       "default": "",
       "value": "",
-      "type": "month | year",
+      "type": "month / year",
       "description": "The calendar unit to go forward\n",
       "description_zh": "要前进的日历单位"
     },
@@ -33,5 +33,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/range-calendar.html",
-  "link_zh": "https://www.radix-vue.com/components/range-calendar.html"
+  "link_zh": "https://www.radix-vue.com/components/range-calendar.html",
+  "dynamicLib": "@/components/ui/range-calendar"
 }

@@ -31,5 +31,6 @@
     "HoverCardArrow"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/drawer.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/drawer.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/drawer.html",
+  "dynamicLib": "@/components/ui/drawer"
 }

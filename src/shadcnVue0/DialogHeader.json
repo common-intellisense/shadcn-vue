@@ -8,5 +8,6 @@
     "DialogDescription"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/dialog.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/dialog.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/dialog.html",
+  "dynamicLib": "@/components/ui/dialog"
 }

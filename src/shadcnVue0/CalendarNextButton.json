@@ -33,5 +33,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.radix-vue.com/components/calendar.html#nextbutton",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#nextbutton"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#nextbutton",
+  "dynamicLib": "@/components/ui/calendar"
 }

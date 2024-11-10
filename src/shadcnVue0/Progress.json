@@ -57,5 +57,6 @@
     "ProgressIndicator"
   ],
   "link": "https://www.radix-vue.com/components/progress.html#root",
-  "link_zh": "https://www.radix-vue.com/components/progress.html#root"
+  "link_zh": "https://www.radix-vue.com/components/progress.html#root",
+  "dynamicLib": "@/components/ui/progress"
 }

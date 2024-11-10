@@ -113,5 +113,6 @@
     "TagsInputClear"
   ],
   "link": "https://www.radix-vue.com/utilities/tags-input.html",
-  "link_zh": "https://www.radix-vue.com/utilities/tags-input.html"
+  "link_zh": "https://www.radix-vue.com/utilities/tags-input.html",
+  "dynamicLib": "@/components/ui/tags-input"
 }

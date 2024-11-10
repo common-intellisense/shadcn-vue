@@ -28,5 +28,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.radix-vue.com/components/calendar.html#cell",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#cell"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#cell",
+  "dynamicLib": "@/components/ui/calendar"
 }

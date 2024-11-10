@@ -106,5 +106,6 @@
     "ToggleGroupItem"
   ],
   "link": "https://www.radix-vue.com/components/toggle-group.html",
-  "link_zh": "https://www.radix-vue.com/components/toggle-group.html"
+  "link_zh": "https://www.radix-vue.com/components/toggle-group.html",
+  "dynamicLib": "@/components/ui/toggle"
 }

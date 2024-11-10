@@ -25,6 +25,7 @@
     }
   ],
   "methods": [],
-  "link": "https://www.radix-vue.com/components/dialog.html",
-  "link_zh": "https://www.radix-vue.com/components/dialog.html"
+  "link": "https://www.shadcn-vue.com/docs/components/input.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/input.html",
+  "dynamicLib": "@/components/ui/input"
 }

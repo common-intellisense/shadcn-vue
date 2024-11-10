@@ -26,5 +26,6 @@
   "methods": [],
   "suggestions": [],
   "link": "https://www.shadcn-vue.com/docs/components/toast.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/toast.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/toast.html",
+  "dynamicLib": "@/components/ui/toast"
 }

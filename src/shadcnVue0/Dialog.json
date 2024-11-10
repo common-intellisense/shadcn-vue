@@ -37,5 +37,6 @@
     "DialogPortal"
   ],
   "link": "https://www.radix-vue.com/components/dialog.html",
-  "link_zh": "https://www.radix-vue.com/components/dialog.html"
+  "link_zh": "https://www.radix-vue.com/components/dialog.html",
+  "dynamicLib": "@/components/ui/dialog"
 }

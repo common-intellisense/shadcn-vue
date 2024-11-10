@@ -81,5 +81,6 @@
     "CarouselNext"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/carousel.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/carousel.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/carousel.html",
+  "dynamicLib": "@/components/ui/carousel"
 }

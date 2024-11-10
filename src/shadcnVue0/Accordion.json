@@ -76,6 +76,7 @@
   },
   "events": [],
   "methods": [],
+  "dynamicLib": "@/components/ui/accordion",
   "suggestions": [
     "AccordionItem"
   ],

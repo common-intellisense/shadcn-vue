@@ -27,5 +27,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.radix-vue.com/components/calendar.html#prev-button",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#prev-button"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#prev-button",
+  "dynamicLib": "@/components/ui/calendar"
 }

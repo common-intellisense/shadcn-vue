@@ -20,5 +20,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.radix-vue.com/components/calendar.html#grid-body",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#grid-body"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#grid-body",
+  "dynamicLib": "@/components/ui/calendar"
 }

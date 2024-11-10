@@ -16,5 +16,6 @@
     "AvatarFallback"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/badge.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/badge.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/badge.html",
+  "dynamicLib": "@/components/ui/badge"
 }

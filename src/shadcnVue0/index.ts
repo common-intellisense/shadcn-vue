@@ -13,6 +13,7 @@ export function shadcnVue0Components() {
     map: getComponentMap(),
     isSeperatorByHyphen: false,
     prefix: '',
+    isReact: true,
     lib: 'shadcn-vue',
   }
 }

@@ -19,5 +19,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/range-calendar.html",
-  "link_zh": "https://www.radix-vue.com/components/range-calendar.html"
+  "link_zh": "https://www.radix-vue.com/components/range-calendar.html",
+  "dynamicLib": "@/components/ui/range-calendar"
 }

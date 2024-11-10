@@ -62,5 +62,6 @@
   ],
   "methods": [],
   "link": "https://www.radix-vue.com/components/toggle.html#root",
-  "link_zh": "https://www.radix-vue.com/components/toggle.html#root"
+  "link_zh": "https://www.radix-vue.com/components/toggle.html#root",
+  "dynamicLib": "@/components/ui/toggle"
 }

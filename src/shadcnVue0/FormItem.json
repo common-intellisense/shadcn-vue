@@ -11,5 +11,6 @@
     "FormLabel"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/form.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/form.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/form.html",
+  "dynamicLib": "@/components/ui/form"
 }

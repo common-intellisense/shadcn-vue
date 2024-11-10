@@ -22,5 +22,6 @@
     "BreadcrumbList"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/breadcrumb.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/breadcrumb.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/breadcrumb.html",
+  "dynamicLib": "@/components/ui/breadcrumb"
 }

@@ -106,5 +106,6 @@
     "NumberFieldContent"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/number-field.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/number-field.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/number-field.html",
+  "dynamicLib": "@/components/ui/number-field"
 }

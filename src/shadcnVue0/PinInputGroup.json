@@ -22,5 +22,6 @@
     "PinInput"
   ],
   "link": "https://www.radix-vue.com/utilities/pin-input.html",
-  "link_zh": "https://www.radix-vue.com/utilities/pin-input.html"
+  "link_zh": "https://www.radix-vue.com/utilities/pin-input.html",
+  "dynamicLib": "@/components/ui/pin-input"
 }

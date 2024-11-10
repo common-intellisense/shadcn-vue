@@ -151,5 +151,6 @@
   ],
   "methods": [],
   "link": "https://www.radix-vue.com/components/popover.html",
-  "link_zh": "https://www.radix-vue.com/components/popover.html"
+  "link_zh": "https://www.radix-vue.com/components/popover.html",
+  "dynamicLib": "@/components/ui/popover"
 }

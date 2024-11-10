@@ -135,5 +135,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.shadcn-vue.com/docs/charts.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/charts.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/charts.html",
+  "dynamicLib": "@/components/charts/chart-area"
 }

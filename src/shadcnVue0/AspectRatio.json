@@ -27,5 +27,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/aspect-ratio.html",
-  "link_zh": "https://www.radix-vue.com/components/aspect-ratio.html"
+  "link_zh": "https://www.radix-vue.com/components/aspect-ratio.html",
+  "dynamicLib": "@/components/ui/aspect-ratio"
 }

@@ -26,5 +26,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/collapsible.html",
-  "link_zh": "https://www.radix-vue.com/components/collapsible.html"
+  "link_zh": "https://www.radix-vue.com/components/collapsible.html",
+  "dynamicLib": "@/components/ui/collapsible"
 }

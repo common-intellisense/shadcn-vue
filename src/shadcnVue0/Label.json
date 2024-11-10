@@ -26,5 +26,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/label.html#root",
-  "link_zh": "https://www.radix-vue.com/components/label.html#root"
+  "link_zh": "https://www.radix-vue.com/components/label.html#root",
+  "dynamicLib": "@/components/ui/label"
 }

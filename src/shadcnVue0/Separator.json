@@ -36,5 +36,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/separator.html",
-  "link_zh": "https://www.radix-vue.com/components/separator.html"
+  "link_zh": "https://www.radix-vue.com/components/separator.html",
+  "dynamicLib": "@/components/ui/separator"
 }

@@ -133,6 +133,7 @@
   "suggestions": [
     "MenubarMenu"
   ],
-  "link": "https://www.radix-vue.com/components/menubar.html#root",
-  "link_zh": "https://www.radix-vue.com/components/menubar.html#root"
+  "link": "https://www.shadcn-vue.com/docs/components/sonner.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sonner.html",
+  "dynamicLib": "@/components/ui/sonner"
 }

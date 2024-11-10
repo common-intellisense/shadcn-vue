@@ -25,5 +25,6 @@
   ],
   "methods": [],
   "link": "https://www.shadcn-vue.com/docs/components/sidebar.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/sidebar.html",
+  "dynamicLib": "@/components/ui/sidebar"
 }

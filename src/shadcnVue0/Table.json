@@ -9,5 +9,6 @@
     "TableFooter"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/table.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/table.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/table.html",
+  "dynamicLib": "@/components/ui/table"
 }

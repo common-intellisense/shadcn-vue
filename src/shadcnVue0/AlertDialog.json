@@ -45,5 +45,6 @@
     "AlertDialogTrigger"
   ],
   "link": "https://www.radix-vue.com/components/alert-dialog.html",
-  "link_zh": "https://www.radix-vue.com/components/alert-dialog.html"
+  "link_zh": "https://www.radix-vue.com/components/alert-dialog.html",
+  "dynamicLib": "@/components/ui/alert-dialog"
 }

@@ -41,5 +41,6 @@
   ],
   "methods": [],
   "link": "https://www.shadcn-vue.com/docs/components/auto-form.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/auto-form.html",
+  "dynamicLib": "@/components/ui/auto-form"
 }

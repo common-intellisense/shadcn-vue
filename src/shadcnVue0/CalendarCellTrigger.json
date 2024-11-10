@@ -41,5 +41,6 @@
   "methods": [],
   "slots": [],
   "link": "https://www.radix-vue.com/components/calendar.html#cell-trigger",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#cell-trigger"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#cell-trigger",
+  "dynamicLib": "@/components/ui/calendar"
 }

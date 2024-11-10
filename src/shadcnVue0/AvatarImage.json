@@ -43,5 +43,6 @@
   ],
   "methods": [],
   "link": "https://www.radix-vue.com/components/avatar.html",
-  "link_zh": "https://www.radix-vue.com/components/avatar.html"
+  "link_zh": "https://www.radix-vue.com/components/avatar.html",
+  "dynamicLib": "@/components/ui/avatar"
 }

@@ -79,7 +79,6 @@ import CommandItem from './CommandItem.json'
 import CommandList from './CommandList.json'
 import CommandSeparator from './CommandSeparator.json'
 import CommandShortcut from './CommandShortcut.json'
-import ConfigProvider from './ConfigProvider.json'
 import ContextMenu from './ContextMenu.json'
 import ContextMenuCheckboxItem from './ContextMenuCheckboxItem.json'
 import ContextMenuContent from './ContextMenuContent.json'
@@ -183,7 +182,6 @@ import PinInputSeparator from './PinInputSeparator.json'
 import Popover from './Popover.json'
 import PopoverContent from './PopoverContent.json'
 import PopoverTrigger from './PopoverTrigger.json'
-import Primitive from './Primitive.json'
 import Progress from './Progress.json'
 import RadioGroup from './RadioGroup.json'
 import RadioGroupItem from './RadioGroupItem.json'
@@ -250,9 +248,6 @@ import SidebarTrigger from './SidebarTrigger.json'
 import Skeleton from './Skeleton.json'
 import Slider from './Slider.json'
 import Sonner from './Sonner.json'
-import SplitterGroup from './SplitterGroup.json'
-import SplitterPanel from './SplitterPanel.json'
-import SplitterResizeHandle from './SplitterResizeHandle.json'
 import Stepper from './Stepper.json'
 import StepperDescription from './StepperDescription.json'
 import StepperIndicator from './StepperIndicator.json'
@@ -521,8 +516,6 @@ export function getPropsMap() {
     TooltipProvider,
     Tooltip,
     TooltipTrigger,
-    ConfigProvider,
-    Primitive,
     DropdownMenuContent,
     DropdownMenuTrigger,
     DropdownMenuPortal,
@@ -586,9 +579,6 @@ export function getPropsMap() {
     ResizablePanelGroup,
     ResizablePanel,
     RangeCalendar,
-    SplitterGroup,
-    SplitterPanel,
-    SplitterResizeHandle,
     Stepper,
     StepperDescription,
     StepperIndicator,
@@ -834,8 +824,6 @@ export function getComponentMap() {
     [TooltipProvider, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipProvider></TooltipProvider>'],
     [Tooltip, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<Tooltip></Tooltip>'],
     [TooltipTrigger, '当元素获得键盘焦点或鼠标悬停在元素上时显示与元素相关的信息的弹出窗口', '<TooltipTrigger></TooltipTrigger>'],
-    [ConfigProvider, '包装应用以提供全局配置', '<ConfigProvider></ConfigProvider>'],
-    [Primitive, '将 Radix 的功能组合到替代元素类型或你自己的 Vue 组件上', '<Primitive></Primitive>'],
     [RadioGroupItem, '一组可检查的按钮（称为单选按钮），一次只能选中一个按钮', '<RadioGroupItem></RadioGroupItem>'],
     [RadioGroup, '一组可检查的按钮()称为单选按钮),一次只能选中一个按钮', '<RadioGroup></RadioGroup>'],
     [CalendarCell, '显示日期和星期几,促进与日期相关的交互.', '<CalendarCell></CalendarCell>'],
@@ -887,9 +875,6 @@ export function getComponentMap() {
     [ResizablePanelGroup, '可调整大小的面板组', '<ResizablePanelGroup></ResizablePanelGroup>'],
     [ResizablePanel, '可调整大小的面板', '<ResizablePanel></ResizablePanel>'],
     [RangeCalendar, '提供专为选择日期范围而定制的日历视图', '<RangeCalendar></RangeCalendar>'],
-    [SplitterGroup, '将布局划分为可调整大小的部分的组件', '<SplitterGroup></SplitterGroup>'],
-    [SplitterPanel, '将布局划分为可调整大小的部分的组件', '<SplitterPanel></SplitterPanel>'],
-    [SplitterResizeHandle, '将布局划分为可调整大小的部分的组件', '<SplitterResizeHandle></SplitterResizeHandle>'],
     [Stepper, '步骤', '<Stepper></Stepper>'],
     [StepperDescription, '步骤描述', '<StepperDescription></StepperDescription>'],
     [StepperIndicator, '步骤指示器', '<StepperIndicator></StepperIndicator>'],

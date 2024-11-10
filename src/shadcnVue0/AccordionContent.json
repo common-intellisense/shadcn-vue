@@ -26,5 +26,6 @@
   "events": [],
   "methods": [],
   "link": "https://www.radix-vue.com/components/accordion.html",
-  "link_zh": "https://www.radix-vue.com/components/accordion.html"
+  "link_zh": "https://www.radix-vue.com/components/accordion.html",
+  "dynamicLib": "@/components/ui/accordion"
 }

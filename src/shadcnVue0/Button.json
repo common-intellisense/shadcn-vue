@@ -36,6 +36,7 @@
     "AvatarImage",
     "AvatarFallback"
   ],
-  "link": "https://www.shadcn-vue.com/docs/components/badge.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/badge.html"
+  "link": "https://www.shadcn-vue.com/docs/components/button.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/components/button.html",
+  "dynamicLib": "@/components/ui/button"
 }

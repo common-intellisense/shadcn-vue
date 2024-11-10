@@ -45,5 +45,6 @@
     "HoverCardPortal"
   ],
   "link": "https://www.radix-vue.com/components/hover-card.html",
-  "link_zh": "https://www.radix-vue.com/components/hover-card.html"
+  "link_zh": "https://www.radix-vue.com/components/hover-card.html",
+  "dynamicLib": "@/components/ui/hover-card"
 }

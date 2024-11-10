@@ -66,5 +66,6 @@
     "PaginationList"
   ],
   "link": "https://www.radix-vue.com/components/pagination.html#root",
-  "link_zh": "https://www.radix-vue.com/components/pagination.html#root"
+  "link_zh": "https://www.radix-vue.com/components/pagination.html#root",
+  "dynamicLib": "@/components/ui/pagination"
 }

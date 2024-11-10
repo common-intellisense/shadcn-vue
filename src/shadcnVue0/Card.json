@@ -10,5 +10,6 @@
     "CardFooter"
   ],
   "link": "https://www.shadcn-vue.com/docs/components/card.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/card.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/card.html",
+  "dynamicLib": "@/components/ui/card"
 }

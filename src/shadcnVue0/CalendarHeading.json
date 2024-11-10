@@ -26,5 +26,6 @@
     }
   ],
   "link": "https://www.radix-vue.com/components/calendar.html#heading",
-  "link_zh": "https://www.radix-vue.com/components/calendar.html#heading"
+  "link_zh": "https://www.radix-vue.com/components/calendar.html#heading",
+  "dynamicLib": "@/components/ui/calendar"
 }

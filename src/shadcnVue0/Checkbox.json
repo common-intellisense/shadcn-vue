@@ -71,5 +71,6 @@
   "suggestions": [
   ],
   "link": "https://www.radix-vue.com/components/checkbox.html",
-  "link_zh": "https://www.radix-vue.com/components/checkbox.html"
+  "link_zh": "https://www.radix-vue.com/components/checkbox.html",
+  "dynamicLib": "@/components/ui/checkbox"
 }

@@ -22,5 +22,6 @@
   "suggestions": [
   ],
   "link": "https://www.shadcn-vue.com/docs/components/stepper.html",
-  "link_zh": "https://www.shadcn-vue.com/docs/components/stepper.html"
+  "link_zh": "https://www.shadcn-vue.com/docs/components/stepper.html",
+  "dynamicLib": "@/components/ui/stepper"
 }
