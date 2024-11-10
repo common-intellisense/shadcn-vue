@@ -34,7 +34,7 @@
       "description": "Rounded bar corners",
       "description_zh": "圆角条形图"
     },
-    "data": {
+    ":data": {
       "type": "T[]",
       "required": true,
       "default": "",
@@ -42,7 +42,7 @@
       "description": "The source data, in which each entry is a dictionary.",
       "description_zh": "源数据，其中每个条目都是一个字典。"
     },
-    "categories": {
+    ":categories": {
       "type": "KeyOf<T>[]",
       "required": true,
       "default": "",
@@ -54,7 +54,7 @@
       "type": "KeyOf<T>",
       "required": true,
       "default": "",
-      "value": "",
+      "value": "name",
       "description": "Sets the key to map the data to the axis.",
       "description_zh": "设置将数据映射到轴的键。"
     },
@@ -138,7 +138,7 @@
     }
   ],
   "methods": [],
-  "link": "https://www.radix-vue.com/components/dialog.html",
-  "link_zh": "https://www.radix-vue.com/components/dialog.html",
+  "link": "https://www.shadcn-vue.com/docs/charts/bar.html",
+  "link_zh": "https://www.shadcn-vue.com/docs/charts/bar.html",
   "dynamicLib": "@/components/ui/chart-bar"
 }

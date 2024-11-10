@@ -71,7 +71,7 @@
       "description": "When `true`, overrides the side and align preferences to prevent collisions with boundary edges.",
       "description_zh": "当 `true` 时，覆盖侧面和对齐偏好,以防止与边界边缘发生碰撞."
     },
-    "collisionBoundary": {
+    ":collisionBoundary": {
       "default": "[]",
       "value": "",
       "type": "Element | null | Array<Element | null>",

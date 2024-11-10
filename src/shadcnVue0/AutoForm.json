@@ -9,21 +9,21 @@
       "description_zh": "用于验证表单的模式。",
       "required": true
     },
-    "form": {
+    ":form": {
       "default": "",
       "value": "",
       "type": "FormContext<GenericObject>",
       "description": "The form context to use.",
       "description_zh": "要使用的表单上下文。"
     },
-    "fieldConfig": {
+    ":fieldConfig": {
       "default": "",
       "value": "",
       "type": "Config<z.infer<T>>",
       "description": "The field configuration.",
       "description_zh": "字段配置。"
     },
-    "dependencies": {
+    ":dependencies": {
       "default": "",
       "value": "",
       "type": "Dependency<z.infer<T>>[]",

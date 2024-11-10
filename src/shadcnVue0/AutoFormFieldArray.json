@@ -16,14 +16,14 @@
       "description": "Whether the field is required.",
       "description_zh": "字段是否必填。"
     },
-    "config": {
+    ":config": {
       "default": "",
       "value": "",
       "type": "Config<T>",
       "description": "The field configuration.",
       "description_zh": "字段配置。"
     },
-    "schema": {
+    ":schema": {
       "default": "",
       "value": "",
       "type": "z.ZodArray<T>",

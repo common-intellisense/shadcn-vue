@@ -29,7 +29,7 @@
       "description": "When true, overrides the side and align preferences to prevent collisions with boundary edges.",
       "description_zh": "如果为 true，则覆盖侧和对齐首选项，以防止与边界边发生冲突。"
     },
-    "collisionBoundary": {
+    ":collisionBoundary": {
       "default": "[]",
       "value": "",
       "type": "Element | null | Array<Element | null>",

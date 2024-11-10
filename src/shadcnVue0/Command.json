@@ -22,7 +22,7 @@
       "description": "The controlled value of the Combobox. Can be binded-with with `v-model`.",
       "description_zh": "Combobox 的受控值。可以用 `v-model` 绑定。"
     },
-    "defaultValue": {
+    ":defaultValue": {
       "default": "",
       "value": "",
       "type": "T | Array<T>",
@@ -85,7 +85,7 @@
       "description": "The reading direction of the combobox when applicable. If omitted, inherits globally from `ConfigProvider` or assumes LTR (left-to-right) reading mode.",
       "description_zh": "Combobox 的阅读方向（如果适用）。如果省略，则全局继承自 `ConfigProvider` 或假定为 LTR（从左到右）阅读模式。"
     },
-    "filterFunction": {
+    ":filterFunction": {
       "default": "",
       "value": "",
       "type": "(val: ArrayOrWrapped<T>, term: string) => ArrayOrWrapped<T>",

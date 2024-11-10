@@ -16,14 +16,14 @@
       "description": "Indicates if the field is required.",
       "description_zh": "指示字段是否为必填项。"
     },
-    "config": {
+    ":config": {
       "default": "",
       "value": "",
       "type": "Config<T>",
       "description": "Configuration object for the field.",
       "description_zh": "字段的配置对象。"
     },
-    "schema": {
+    ":schema": {
       "default": "",
       "value": "",
       "type": "ZodObject<T>",
